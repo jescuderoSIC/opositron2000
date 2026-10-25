@@ -1,0 +1,1443 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿De acuerdo con el artículo 53 de la Constitución Española, cómo pueden alegarse los Principios Rectores de la Política Social y Económica ante la jurisdicción ordinaria?",
+    "opciones": {
+      "A": "Directamente en cualquier momento, ya que gozan de la máxima protección constitucional y del recurso de amparo",
+      "B": "Solo podrán ser alegados de acuerdo con lo que dispongan las leyes que los desarrollen",
+      "C": "Solo vinculan a los poderes públicos estatales, pero no a las Comunidades Autónomas ni a la administración local",
+      "D": "Requieren la autorización previa del Consejo de Gobierno para poder ser invocados en un juicio"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 2,
+    "pregunta": "Conforme a lo establecido en el artículo 2.1 de la Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo, ¿cuál de las siguientes afirmaciones es CORRECTA respecto a su mandato o elección?",
+    "opciones": {
+      "A": "Será elegido para un periodo de cuatro años, coincidiendo con la legislatura de las Cortes Generales",
+      "B": "Podrá ser elegido Defensor del Pueblo cualquier español de cualquier edad que se encuentre en pleno disfrute de sus derechos civiles y políticos",
+      "C": "Será elegido para un periodo de cinco años",
+      "D": "Será elegido para un periodo de tres años, sin posibilidad de reelección"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 3,
+    "pregunta": "De conformidad con el artículo 137 de la Constitución Española, el Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan. Todas estas entidades gozan de:",
+    "opciones": {
+      "A": "Autonomía para la gestión de sus respectivos intereses",
+      "B": "Soberanía originaria y plena para el desarrollo de sus competencias",
+      "C": "Autonomía legislativa, reglamentaria y de ejecución en sus propios ámbitos",
+      "D": "Independencia administrativa bajo la tutela del Gobierno de la Nación"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 4,
+    "pregunta": "Conforme al artículo 287 del Tratado de Funcionamiento de la Unión Europea (TFUE), el Tribunal de Cuentas, como institución oficial de la Unión Europea:",
+    "opciones": {
+      "A": "Fijará los tipos de interés oficiales y controlará la inflación dentro de la eurozona",
+      "B": "Examinará la legalidad y regularidad de los ingresos y gastos y garantizará una buena gestión financiera",
+      "C": "Juzgará los delitos de fraude fiscal internacional cometidos por empresas multinacionales dentro del territorio comunitario",
+      "D": "Elaborará y aprobará de forma exclusiva el presupuesto general anual de la Unión Europea"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 5,
+    "pregunta": "De conformidad con lo dispuesto en el artículo 16 de la Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía, ¿cuál de los siguientes órganos tiene la consideración legal de órgano directivo central?",
+    "opciones": {
+      "A": "La Consejería",
+      "B": "La Jefatura de Servicio",
+      "C": "La Secretaría General Técnica",
+      "D": "El Consejo de Gobierno"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 6,
+    "pregunta": "De conformidad con el artículo 105 del Estatuto de Autonomía para Andalucía, la ley electoral, que regulará la convocatoria de elecciones, el procedimiento y el sistema electoral, requerirá para su aprobación:",
+    "opciones": {
+      "A": "Las tres quintas partes de los miembros del Parlamento de Andalucía",
+      "B": "Mayoría simple de los diputados presentes",
+      "C": "Mayoría absoluta",
+      "D": "Dos tercios de los miembros de la Cámara en primera votación"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 7,
+    "pregunta": "Según el artículo 138.8 del Reglamento del Parlamento de Andalucía, una vez realizada la elección del Presidente o Presidenta de la Junta de Andalucía, el Presidente o Presidenta del Parlamento lo comunicará:",
+    "opciones": {
+      "A": "Al Rey, a los efectos del consiguiente nombramiento",
+      "B": "Al Presidente del Gobierno de la Nación, para su inserción en el Boletín Oficial del Estado",
+      "C": "Al Consejo de Gobierno, a efectos de su cese e inicio del traspaso de poderes",
+      "D": "Al Boletín Oficial de la Junta de Andalucía, para la publicación del Decreto de nombramiento"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 8,
+    "pregunta": "Conforme al artículo 24.3 del Reglamento del Parlamento de Andalucía, ¿en qué condiciones podrá un Diputado o Diputada no Adscrito retornar al Grupo Parlamentario al que hubiese pertenecido?",
+    "opciones": {
+      "A": "En cualquier momento, siempre que medien el consentimiento y la firma de su Portavoz",
+      "B": "Únicamente durante los primeros quince días de cada período ordinario de sesiones",
+      "C": "Siempre que lo autorice de forma unánime la Mesa del Parlamento, oída la Junta de Portavoces",
+      "D": "Queda totalmente prohibido el retorno de un Diputado no Adscrito al grupo del que causó baja"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 9,
+    "pregunta": "De conformidad con el artículo 21.3 del Reglamento del Parlamento de Andalucía, una vez constituido el grupo parlamentario, ¿de qué plazo dispone para comunicar a la Mesa del Parlamento su Normativa Interna?",
+    "opciones": {
+      "A": "Cinco días",
+      "B": "Quince días",
+      "C": "Un mes",
+      "D": "Dos meses"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 10,
+    "pregunta": "Conforme al artículo 114.4 del Reglamento del Parlamento de Andalucía, contra el acuerdo de calificación y admisión a trámite de enmiendas adoptado por la Mesa de una Comisión, cabe interponer:",
+    "opciones": {
+      "A": "Una reclamación ante el Pleno de la Cámara en el plazo de cinco días, la cual producirá efectos suspensivos en la tramitación del proyecto de ley",
+      "B": "Una reclamación ante la Mesa de la Cámara dentro de los dos días siguientes a la notificación del acuerdo, sin que dicha reclamación produzca efectos suspensivos",
+      "C": "Una solicitud de reconsideración ante la propia Mesa de la Comisión en el plazo de tres días, que suspenderá el debate de las enmiendas hasta su resolución",
+      "D": "Los acuerdos de las Mesas de las Comisiones sobre calificación de enmiendas son firmes y no pueden ser objeto de reclamación ante otros órganos parlamentarios"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 11,
+    "pregunta": "Según el artículo 165.6 del Reglamento del Parlamento de Andalucía, en relación con las preguntas de iniciativa ciudadana, en cada sesión plenaria solo podrá formularse un máximo de:",
+    "opciones": {
+      "A": "Dos preguntas, y su inclusión en el orden del día respectivo consume cupo",
+      "B": "Cuatro preguntas, y su inclusión en el orden del día respectivo consume cupo",
+      "C": "Cuatro preguntas, y su inclusión en el orden del día respectivo no consume cupo",
+      "D": "Dos preguntas, y su inclusión en el orden del día respectivo no consume cupo"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 12,
+    "pregunta": "Según el artículo 157.6 del Reglamento del Parlamento de Andalucía, en caso de que una moción, consecuencia de una interpelación, prospere, si el Consejo de Gobierno incumpliese la realización de la moción o no diese cuenta a la Comisión correspondiente, el asunto se incluirá en el orden del día:",
+    "opciones": {
+      "A": "De la próxima sesión de la Comisión de Reglamento",
+      "B": "De la próxima sesión plenaria",
+      "C": "De la próxima sesión de la Mesa de la Cámara, para la apertura de un procedimiento sancionador",
+      "D": "De la próxima sesión de la Diputación Permanente, si el Parlamento se encontrase en periodo de vacaciones"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 13,
+    "pregunta": "Según el artículo 23 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, constituye motivo de abstención por razón de parentesco:",
+    "opciones": {
+      "A": "El parentesco de consanguinidad dentro del tercer grado o de afinidad dentro del segundo",
+      "B": "El parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo",
+      "C": "El parentesco de consanguinidad dentro del segundo grado o de afinidad dentro del tercer grado",
+      "D": "El parentesco de consanguinidad dentro del segundo grado o de afinidad dentro del cuarto"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 14,
+    "pregunta": "Según el artículo 35 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, cuál de los siguientes actos administrativos debe ser motivado:",
+    "opciones": {
+      "A": "Los actos que admitan pruebas propuestas por los interesados",
+      "B": "Todo acto favorable para el interesado",
+      "C": "El acto que se separe del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos",
+      "D": "Los actos que reconozcan derechos subjetivos o intereses legítimos"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 15,
+    "pregunta": "Conforme al artículo 76 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, los interesados pueden aducir alegaciones y aportar documentos u otros elementos de juicio:",
+    "opciones": {
+      "A": "Exclusivamente durante el trámite de audiencia",
+      "B": "En cualquier momento del procedimiento anterior a la propuesta de resolución",
+      "C": "En cualquier momento del procedimiento anterior al trámite de audiencia",
+      "D": "En todo momento antes de la resolución definitiva"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 16,
+    "pregunta": "Según el artículo 90 Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, la suspensión firme impuesta como sanción disciplinaria no podrá exceder de:",
+    "opciones": {
+      "A": "Tres años",
+      "B": "Cuatro años",
+      "C": "Cinco años",
+      "D": "Seis años"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 17,
+    "pregunta": "Según el artículo 190 del Estatuto de Autonomía para Andalucía, el proyecto de Ley del Presupuesto y su documentación anexa deben presentarse al Parlamento al menos con:",
+    "opciones": {
+      "A": "Tres meses antes de la expiración del presupuesto corriente",
+      "B": "Tres meses antes de la expiración del presupuesto anterior",
+      "C": "Dos meses antes de la expiración del presupuesto corriente",
+      "D": "Dos meses antes de la expiración del presupuesto anterior"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 18,
+    "pregunta": "De acuerdo con el artículo 9 de la Ley 12/2007, para la promoción de la igualdad de género en Andalucía, las Administraciones públicas de Andalucía:",
+    "opciones": {
+      "A": "Promoverán preferentemente el uso no sexista del lenguaje en sus disposiciones normativas",
+      "B": "Garantizarán un uso no sexista del lenguaje y un tratamiento igualitario en los contenidos e imágenes que utilicen en el desarrollo de sus políticas",
+      "C": "Garantizarán el lenguaje no sexista exclusivamente en documentos dirigidos a la ciudadanía",
+      "D": "Aplicarán obligatoriamente el desdoblamiento de género en todos los documentos administrativos"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 19,
+    "pregunta": "Conforme al artículo 5 del Reglamento General de Protección de Datos, la minimización de datos exige que estos sean:",
+    "opciones": {
+      "A": "Exactos, actualizados y conservados durante un máximo de cinco años",
+      "B": "Adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados",
+      "C": "Exclusivamente los imprescindibles para identificar al interesado",
+      "D": "Recogidos únicamente cuando exista consentimiento expreso del interesado"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cuál es la principal ventaja de la memoria ECC frente a la RAM convencional en un servidor?",
+    "opciones": {
+      "A": "Detecta y corrige errores de bit en los datos almacenados",
+      "B": "Menor consumo energético en reposo",
+      "C": "Es bastante más barata al tener menos demanda y ser soportada por todos los procesadores",
+      "D": "Mayor velocidad de transferencia de datos"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 21,
+    "pregunta": "En una placa base de servidor moderno, ¿qué interfaz se emplea habitualmente para conectar unidades de almacenamiento NVMe de alto rendimiento?",
+    "opciones": {
+      "A": "SATA III",
+      "B": "PCIe",
+      "C": "IDE/PATA",
+      "D": "SATA II"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué tecnología sería más apropiada usar en caso de querer convertir un texto manuscrito a texto digital?",
+    "opciones": {
+      "A": "OMR",
+      "B": "HCR",
+      "C": "OCR",
+      "D": "ICR"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál es la velocidad máxima teórica del estándar Wi-Fi 6 (802.11ax)?",
+    "opciones": {
+      "A": "Hasta 9.6 Gbps",
+      "B": "Hasta 1 Gbps",
+      "C": "Hasta 5.4 Gbps",
+      "D": "Hasta 600 Mbps"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 24,
+    "pregunta": "En Active Directory, ¿qué objeto se utiliza para aplicar configuraciones de seguridad de forma centralizada a usuarios y equipos?",
+    "opciones": {
+      "A": "Directiva de Grupo para usuarios y Directivas de Dominio para equipos",
+      "B": "Unidad Organizativa",
+      "C": "Directiva de Grupo",
+      "D": "Esquema del Dominio"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué comando de Windows permite lanzar una ventana del símbolo del sistema con privilegios elevados de administrador desde la línea de comandos?",
+    "opciones": {
+      "A": "cmd /user:Administrador",
+      "B": "cmd -U Administrador --elevated",
+      "C": "No es posible",
+      "D": "runas /user:Administrador cmd"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué combinación de teclas permite arrancar un Mac con procesador Intel en modo de recuperación (Recovery Mode)?",
+    "opciones": {
+      "A": "Comando + R al encender el equipo",
+      "B": "Opción + F2 al encender al equipo",
+      "C": "Comando + I al encender el equipo",
+      "D": "No existen Mac con procesador Intel"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué comando de Terminal en macOS permite verificar la estructura de un disco?",
+    "opciones": {
+      "A": "diskutil /verify",
+      "B": "diskutil verifyDisk",
+      "C": "chkdsk /F",
+      "D": "fschk"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué tipo de solución permite la gestión y aprovisionamiento remoto de dispositivos móviles corporativos iOS?",
+    "opciones": {
+      "A": "Apple DCM",
+      "B": "iManager",
+      "C": "Apple Care",
+      "D": "Apple MDM"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 29,
+    "pregunta": "En iOS, ¿qué modo permite restaurar un dispositivo a estado de fábrica cuando este se encuentra completamente bloqueado?",
+    "opciones": {
+      "A": "Modo Device Firm Update",
+      "B": "Modo Low Level Recovery",
+      "C": "Modo Access Device Boot",
+      "D": "Modo iBoot"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué elemento de Microsoft Teams almacena automáticamente sus archivos en una biblioteca de SharePoint?",
+    "opciones": {
+      "A": "No está permitido. Esa función solo la realiza OneDrive",
+      "B": "La biblioteca de cada chat personal",
+      "C": "Los canales de un equipo",
+      "D": "El calendario compartido"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué herramienta permite crear una imagen maestra de un sistema operativo Windows configurado para desplegarla en múltiples equipos?",
+    "opciones": {
+      "A": "DISM",
+      "B": "sysprep",
+      "C": "Mozilla",
+      "D": "fdisk"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué herramienta de Microsoft permite distribuir de forma centralizada las actualizaciones de Windows en una organización?",
+    "opciones": {
+      "A": "WUPD",
+      "B": "WSUS",
+      "C": "SMB 3.0",
+      "D": "DISM"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué es una CMDB en el contexto de la gestión de activos TI?",
+    "opciones": {
+      "A": "Una base de datos que almacena los elementos de configuración (CIs) y sus relaciones",
+      "B": "Un protocolo de comunicación de red",
+      "C": "Un lenguaje de programación",
+      "D": "Un almacén de incidencias diarias"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 34,
+    "pregunta": "En la gestión de incidencias según ITIL, ¿cuál es la diferencia principal entre un 'incidente' y un 'problema'?",
+    "opciones": {
+      "A": "No hay diferencia, son términos sinónimos",
+      "B": "El incidente es una interrupción puntual del servicio; el problema es la causa raíz que puede generar incidentes recurrentes",
+      "C": "El problema siempre es de hardware y el incidente siempre de software",
+      "D": "El término 'problema' no existe en ITIL solo 'incidente'"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 35,
+    "pregunta": "Según el Lenguaje de Modelado Unificado (UML, Unified Modeling Language) en su versión 2.5, ¿cuál de los siguientes es un diagrama de estructura?",
+    "opciones": {
+      "A": "Diagrama de componentes",
+      "B": "Diagrama de secuencia",
+      "C": "Diagrama de jerarquía",
+      "D": "Diagrama de casos de uso"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 36,
+    "pregunta": "Si en BPMN 2.0 quisiera representar una elección de alternativas donde solo una de ellas pudiera ser elegida, tendría que hacer uso de una:",
+    "opciones": {
+      "A": "Condición (condition)",
+      "B": "Compuerta exclusiva (exclusive gateway)",
+      "C": "Condición exclusiva (exclusive condition)",
+      "D": "Compuerta única (unique gateway)"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 37,
+    "pregunta": "En el contexto de la construcción del software, ¿cuál de estas herramientas permite generación automática de código mediante IA?",
+    "opciones": {
+      "A": "Django",
+      "B": "Codeium",
+      "C": "Spring Boot",
+      "D": "Code Master Writer"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 38,
+    "pregunta": "En el contexto de la construcción del software, ¿cuál de los siguientes se puede considerar un repositorio de artefactos?",
+    "opciones": {
+      "A": "GitFlow",
+      "B": "Little Artifactory",
+      "C": "Sonatype Nexus",
+      "D": "Flask Repository"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 39,
+    "pregunta": "Según se indica en el libro Refactoring: Improving the Design of Existing Code (1999), escrito por Martin Fowler junto a Ken Beck, ¿en qué consiste la refactorización del código fuente?",
+    "opciones": {
+      "A": "En una secuencia de pequeñas transformaciones estructuradas, seguida de pruebas, asegurando que el comportamiento externo del código nunca se rompa",
+      "B": "En realizar un buen diseño y luego escribir el código",
+      "C": "En realizar el diseño de pruebas unitarias, coherentes con el comportamiento externo esperado. Una vez escritas, implementar el código que pase esas pruebas",
+      "D": "En restructurar los componentes del código de manera que se aumente la cohesión y se reduzca el acoplamiento sin modificar internamente los componentes que integran la aplicación"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 40,
+    "pregunta": "De las siguientes estrategias de despliegue, ¿cuál de ellas mantiene dos entornos idénticos de manera que se conmuta al entorno nuevo una vez este ha sido validado?",
+    "opciones": {
+      "A": "Canary Deployment",
+      "B": "Blue-Green Deployment",
+      "C": "Two-Steps Deployment",
+      "D": "Switch Deployment"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 41,
+    "pregunta": "Si dentro de una estrategia de integración, entrega y despliegue continuos hablamos de pruebas SAST y DAST, estaremos aplicando la filosofía y las prácticas:",
+    "opciones": {
+      "A": "De DevOps",
+      "B": "De DevTestOps",
+      "C": "Del ciclo de vida de prototipos",
+      "D": "De DevSecOps"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 42,
+    "pregunta": "Si queremos disponer de una aplicación web que siga los preceptos del diseño web adaptivo, necesitaremos:",
+    "opciones": {
+      "A": "Un diseño único para todo dispositivo",
+      "B": "Varios diseños predefinidos y específicos, uno para cada rango de dispositivos",
+      "C": "Solo dos diseños: uno específico para dispositivos móviles y otro general para tablets y equipos de sobremesa con pantalla de cualquier tamaño",
+      "D": "Aplicar los principios de Lamarck de adaptación al medio"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 43,
+    "pregunta": "De las siguientes, ¿qué definición describe el concepto Diseño mobile-first?",
+    "opciones": {
+      "A": "Metodología de análisis que se enfoca en la priorización del diseño y el desarrollo para dispositivos móviles por encima del diseño y desarrollo para pantallas de escritorio",
+      "B": "Enfoque de desarrollo y diseño web que se enfoca en la priorización del diseño y el desarrollo responsive orientado a cualquier dispositivo de visualización",
+      "C": "Estrategia que persigue el diseño más usable y eficiente, pero solo para aplicaciones móviles que no se vayan a ejecutar en entornos de escritorio",
+      "D": "Enfoque de desarrollo y diseño web que se centra en la priorización del diseño y el desarrollo para dispositivos móviles por encima del diseño y desarrollo para pantallas de escritorio"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿A qué generación de lenguajes de programación pertenecerían los lenguajes ensamblador?",
+    "opciones": {
+      "A": "Primera Generación (1GL)",
+      "B": "Segunda Generación (2GL)",
+      "C": "Tercera Generación (3GL)",
+      "D": "Cuarta Generación (4GL)"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Cuáles son las principales características de un lenguaje de scripting?",
+    "opciones": {
+      "A": "Simple, interpretado en tiempo real, y que cuenta con tipado dinámico",
+      "B": "Simple, compilado, y que cuenta con tipado estático",
+      "C": "Simple, compilado, y de ejecución más rápida y eficiente que los lenguajes interpretados",
+      "D": "Simple, interpretado en tiempo real, pero que solo se puede ejecutar en entornos Unix/Linux"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 46,
+    "pregunta": "Si hablamos de los conceptos Editor (Publisher) y Abonado (Subscriber), estamos ante una programación:",
+    "opciones": {
+      "A": "Estructurada",
+      "B": "Orientada a aspectos",
+      "C": "Reactiva",
+      "D": "Funcional"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 47,
+    "pregunta": "En el lenguaje Python, ¿qué es un decorador?",
+    "opciones": {
+      "A": "Funciones que modifican el comportamiento de otras funciones y que se indican mediante el carácter #",
+      "B": "Funciones que modifican el comportamiento de otras funciones y que se indican mediante el carácter @",
+      "C": "Metainformación que se añade a una clase o tipo y que se indica mediante el carácter #",
+      "D": "Metainformación que se añade a una clase o tipo y que se indica mediante el carácter @"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 48,
+    "pregunta": "De los siguientes, ¿cuál es un framework para persistencia de datos?",
+    "opciones": {
+      "A": "MongoDB",
+      "B": "React ORM",
+      "C": "Hibernate",
+      "D": "PDPE (Power Data Persistence Engine)"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 49,
+    "pregunta": "En un contexto web, si nos piden programar una aplicación que exponga, mediante un API, datos leídos de una base de datos, estamos ante:",
+    "opciones": {
+      "A": "Un desarrollo full-stack",
+      "B": "La capa de acceso a los datos del servidor dentro de una arquitectura cliente-servidor",
+      "C": "Un desarrollo back-end",
+      "D": "Un desarrollo front-end"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 50,
+    "pregunta": "Si queremos realizar un diseño multiplataforma para una aplicación móvil que funcione tanto para Android como para iOS, se utilizaría:",
+    "opciones": {
+      "A": "Android Studio como IDE y Kotlin como lenguaje de programación",
+      "B": "Xcode como IDE y Swift como lenguaje",
+      "C": "Visual Studio Code como IDE y Flutter como SDK",
+      "D": "Django Mobile Studio como IDE y Python como lenguaje"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 51,
+    "pregunta": "De acuerdo con la Guía básica de anonimización de la Agencia Española de Protección de Datos, una técnica básica de anonimización de datos es:",
+    "opciones": {
+      "A": "El enmascaramiento de caracteres",
+      "B": "La encriptación de datos sensibles",
+      "C": "La discretización",
+      "D": "El uso de siglas"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 52,
+    "pregunta": "De acuerdo con la Guía de Protección de Datos por defecto de la Agencia Española de Protección de Datos, la aplicación de las medidas descritas se centra en las siguientes estrategias:",
+    "opciones": {
+      "A": "Anticipar, configurar, y restringir",
+      "B": "Optimizar, respaldar, y restringir",
+      "C": "Optimizar, configurar, y securizar",
+      "D": "Optimizar, configurar, y restringir"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 53,
+    "pregunta": "En el diseño y gestión de bases de datos, ¿qué división propone la arquitectura ANSI/X3/SPARC?",
+    "opciones": {
+      "A": "Nivel externo, nivel conceptual, nivel interno",
+      "B": "Nivel de frontal, nivel conceptual, nivel de datos",
+      "C": "Capa externa, capa intermedia, capa interna",
+      "D": "Nivel externo, nivel intermedio, nivel interno"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Qué elemento gráfico se utiliza en el diagrama entidad/relación extendido para representar una jerarquía?",
+    "opciones": {
+      "A": "Triángulo / Jerarquía (Opción A)",
+      "B": "Rectángulo / Entidad (Opción B)",
+      "C": "Óvalo / Atributo (Opción C)",
+      "D": "Rombo / Relación (Opción D)"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 55,
+    "pregunta": "Los elementos fundamentales del formato LDIF (LDAP Data Interchange Format) son:",
+    "opciones": {
+      "A": "El dn (distinguished name) y los pares atributo-valor",
+      "B": "El en (entry name) y los pares atributo-valor",
+      "C": "El dn (distinguished name) y las ternas nombre, tipo y valor",
+      "D": "El en (entry name) y las ternas nombre, tipo y valor"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Cuál es la principal diferencia entre un EDR y un antivirus tradicional?",
+    "opciones": {
+      "A": "Ambos hacen exactamente lo mismo, antiguamente se llamaban antivirus y ahora por temas comerciales EDR",
+      "B": "El EDR detecta sobre todo amenazas conocidas por firmas, mientras que el antivirus también supervisa el comportamiento para detectar ataques más avanzados y responder a ellos",
+      "C": "El antivirus funciona sin supervisión en el equipo, mientras que el EDR sí necesita supervisión",
+      "D": "El antivirus detecta sobre todo amenazas conocidas por firmas, mientras que el EDR también supervisa el comportamiento para detectar ataques más avanzados y responder a ellos"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Cuál de estas afirmaciones diferencia mejor EDR de XDR?",
+    "opciones": {
+      "A": "EDR se centra en endpoints, mientras que XDR correlaciona señales de múltiples capas como correo, identidad, nube y red",
+      "B": "EDR protege solo el correo electrónico y XDR solo los servidores",
+      "C": "XDR es simplemente un antivirus con otro nombre",
+      "D": "EDR y XDR son exactamente lo mismo, solo cambia la interfaz"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Cuál de las siguientes distribuciones es compatible a nivel binario con Rocky Linux?",
+    "opciones": {
+      "A": "Debian",
+      "B": "Red Hat",
+      "C": "Ubuntu",
+      "D": "Guadalinex"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Cuál de estas novedades es característica de Red Hat Enterprise Linux 10/10.2?",
+    "opciones": {
+      "A": "La incorporación de un asistente de línea de comandos con IA llamado goose",
+      "B": "La eliminación completa de systemd en favor de SysVinit",
+      "C": "La compatibilidad con aplicaciones de macOS",
+      "D": "El soporte exclusivo para integrar kernels de Windows"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 60,
+    "pregunta": "Si estamos usando macOS en un Mac con Apple Silicon, ¿cómo se llama la herramienta que permite ejecutar aplicaciones Intel?",
+    "opciones": {
+      "A": "Rosetta 2",
+      "B": "Boot Camp",
+      "C": "Time Machine",
+      "D": "Finder"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 61,
+    "pregunta": "Un servidor tiene conectado directamente una cabina de disco mediante un puerto SAS, ¿qué tipo de almacenamiento representa esta conexión?",
+    "opciones": {
+      "A": "SAN",
+      "B": "NAS",
+      "C": "DAS",
+      "D": "TAS"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Cuál de los siguientes NO es un programa de backup?",
+    "opciones": {
+      "A": "Veeam Backup",
+      "B": "Nakivo",
+      "C": "Bacula",
+      "D": "GetDataBack"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Qué topología de red se caracteriza porque los dispositivos están interconectados entre sí mediante múltiples enlaces, proporcionando rutas alternativas y una mayor tolerancia a fallos?",
+    "opciones": {
+      "A": "Malla",
+      "B": "Estrella",
+      "C": "Anillo",
+      "D": "Bus"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Qué dispositivo se encarga de encaminar paquetes entre distintas redes?",
+    "opciones": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Router",
+      "D": "Repetidor"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿En cuál de las siguientes categorías cloud encuadraría el producto Office 365?",
+    "opciones": {
+      "A": "PaaS",
+      "B": "IaaS",
+      "C": "SaaS",
+      "D": "CaaS"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Cuál de los siguientes protocolos o estándares se utiliza habitualmente para realizar el etiquetado de VLAN en tramas Ethernet?",
+    "opciones": {
+      "A": "IEEE 802.1Q",
+      "B": "IEEE 802.1D",
+      "C": "IEEE 802.3",
+      "D": "IEEE 802.11"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué protocolo se usa para evitar bucles de capa 2 en una red conmutada?",
+    "opciones": {
+      "A": "STP",
+      "B": "DHCP",
+      "C": "TCP",
+      "D": "IP"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Cómo interpreta STP un enlace agregado con LACP?",
+    "opciones": {
+      "A": "Como varios enlaces independientes",
+      "B": "Como un único enlace lógico",
+      "C": "Como una red inalámbrica",
+      "D": "Como un servidor de acceso"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Qué afirmación es CORRECTA sobre DNS?",
+    "opciones": {
+      "A": "Usa solo TCP en todas sus consultas",
+      "B": "Usa UDP y TCP, y el puerto habitual es el 53",
+      "C": "Funciona únicamente en UDP puerto 53",
+      "D": "Se usa para sincronizar la hora en servidores"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 70,
+    "pregunta": "Señale cuál de los siguientes NO es un producto de hiperconvergencia nativa:",
+    "opciones": {
+      "A": "VMware vSAN",
+      "B": "Nutanix",
+      "C": "VirtualBox",
+      "D": "Dell VxRail"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Qué integra una infraestructura hiperconvergente?",
+    "opciones": {
+      "A": "Solo servidores y virtualización",
+      "B": "Cómputo, almacenamiento y redes en un sistema unificado",
+      "C": "Únicamente redes inalámbricas y seguridad",
+      "D": "Solo máquinas virtuales sin almacenamiento"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Cuál de los siguientes elementos NO es un componente o elemento de infraestructura de VMware vSphere?",
+    "opciones": {
+      "A": "Datastore",
+      "B": "VMkernel Port",
+      "C": "Distributed switch",
+      "D": "Data File"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Cuál es la función principal de DRS en un clúster VMware?",
+    "opciones": {
+      "A": "Detectar fallos físicos del disco y repararlos",
+      "B": "Redistribuir dinámicamente las VMs para equilibrar recursos",
+      "C": "Crear copias de seguridad automáticas",
+      "D": "Sustituir a ESXi en la virtualización"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Cuál de los siguientes es un modelo de lenguaje de gran tamaño (LLM)?",
+    "opciones": {
+      "A": "Ollama",
+      "B": "LM Studio",
+      "C": "Llama",
+      "D": "OpenCode"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Cuál de las siguientes afirmaciones describe lo que es un agent harness en el contexto de la IA?",
+    "opciones": {
+      "A": "Es un modelo fundacional especializado en generar código sin herramientas externas",
+      "B": "Es un sistema de entrenamiento que sustituye la memoria y el estado en el modelo",
+      "C": "Es la capa de software que rodea al modelo y gestiona herramientas, memoria, estado y ejecución",
+      "D": "Es una base de datos vectorial que usa la IA para guardar embeddings"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 76,
+    "pregunta": "Se nos indica que en un equipo de escritorio del Parlamento el procesador viene defectuoso y es necesario cambiarlo. Al comprobar el número de serie vemos que el procesador que monta es un Intel Core Ultra 5 de la serie 200S \"Arrow Lake\". ¿Qué socket debe tener por tanto la placa base?",
+    "opciones": {
+      "A": "LGA 1851",
+      "B": "AM5",
+      "C": "LGA1200",
+      "D": "LGA1700"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 77,
+    "pregunta": "Se nos encomienda la compra de 10 fuentes de alimentación para la sala de formación del Parlamento de Andalucía. Los equipos se usarán para realizar cursos de ofimática y su hardware es básico (Intel i3, gráfica integrada, 8GB RAM), además los equipos estarán solo encendidos unas pocas horas al día. Se nos pide que al realizar la compra nos ciñamos al modelo óptimo para dichos equipos. En base al hardware que está instalado en los equipos y a la relación coste-beneficio, ¿qué certificación es la más apropiada?",
+    "opciones": {
+      "A": "Green Plus",
+      "B": "80 Plus White",
+      "C": "Green Line",
+      "D": "80 Plus Bronze"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 78,
+    "pregunta": "Un usuario un poco maniático de los cables nos indica que quiere evitar a toda costa tener que conectar al monitor un cable de sonido para poder oír por el monitor los Plenos del Parlamento. ¿Qué tipo de conexiones le podemos proponer?",
+    "opciones": {
+      "A": "Solo HDMI",
+      "B": "DVI, HDMI y DisplayPort",
+      "C": "HDMI y DisplayPort",
+      "D": "VGA, DVI, HDMI y DisplayPort"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 79,
+    "pregunta": "Un usuario indica que, en su casa, al intentar usar su ratón bluetooth con el PC a través de un dongle, sufre de cortes intermitentes cuando está funcionando el microondas. ¿Cuál de estas causas le podemos indicar que está pasando para que sufra esa incidencia?",
+    "opciones": {
+      "A": "El microondas emite en la banda de 2,4Ghz, la misma que usa Bluetooth y genera interferencias",
+      "B": "El microondas satura la red eléctrica del hogar y provoca caídas de tensión en el USB donde está conectado el dongle",
+      "C": "El campo magnético que genera el microondas desconecta los aparatos inalámbricos",
+      "D": "El microondas no puede causar ningún tipo de desconexión. Los cortes deben venir por otro motivo"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 80,
+    "pregunta": "Necesitamos crear un archivo vacío en Windows. ¿Qué comandos usaríamos en un terminal de línea de comandos estándar y en uno de Powershell?",
+    "opciones": {
+      "A": "\"type null > archivo.txt\" y \"New-Item archivo.txt -Type File\"",
+      "B": "\"touch archivo.txt\" y \"NewItem archivo.txt -Item Type File\"",
+      "C": "\"type nul > archivo.txt\" y \"New-Item archivo.txt -Item Type File\"",
+      "D": "\"type nul >> archivo.txt\" y \"New-Item archivo.txt -File\""
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 81,
+    "pregunta": "Un usuario nos aborda con un problema urgente: necesita imprimir, pero no encuentra la impresora de su departamento en el ordenador. Al mirar la configuración, comprobamos que, efectivamente, el equipo no tiene instalada ninguna impresora. La opción más rápida es listar las impresoras que tenemos disponibles en el servidor de impresión con nombre 'PA-Print' a través de Powershell y proceder desde ahí a su instalación. ¿Qué sentencia listaría dichas impresoras?",
+    "opciones": {
+      "A": "Get-Printers -Remote PA-Print",
+      "B": "Get-Printer -ComputerName PA-Print",
+      "C": "Get-Printers -RemoteName PA-Print",
+      "D": "Get-Printer -Name PA-Print"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 82,
+    "pregunta": "Necesitamos crear de forma remota en un equipo macOS a través de un terminal un usuario, ¿qué comando usaríamos?",
+    "opciones": {
+      "A": "dscl",
+      "B": "useradd",
+      "C": "net user",
+      "D": "adduser"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 83,
+    "pregunta": "De igual manera, necesitamos comprobar en el mismo equipo macOS y de la misma forma los procesos que están corriendo, ¿qué comando nos permitiría consultarlos?",
+    "opciones": {
+      "A": "tasklist",
+      "B": "launchctl list",
+      "C": "systemctl list-process",
+      "D": "ps aux --startup"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 84,
+    "pregunta": "En un terminal Android en modo depuración inalámbrica, con IP 192.168.1.138 y puerto de conexión 5555, necesitamos enviar un texto a través de la herramienta ADB, ¿qué comando deberemos utilizar?",
+    "opciones": {
+      "A": "adb.exe -s 192.168.1.138 -p 5555 input text \"hola mundo\"",
+      "B": "adb.exe -s 192.168.1.138:5555 shell text \"hola mundo\"",
+      "C": "adb.exe -s 192.168.1.138:5555 shell input text \"hola mundo\"",
+      "D": "adb.exe -s 192.168.1.138 -p 5555 shell input \"hola mundo\""
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 85,
+    "pregunta": "Un usuario indica que su smartphone Android se reinicia de forma constante y sospecha que puede deberse a una aplicación de terceros que instaló recientemente. Sin conectar el dispositivo a un ordenador, ¿qué método le permitiría arrancarlo desactivando temporalmente todas las apps de terceros para comprobar si el problema desaparece?",
+    "opciones": {
+      "A": "Mantener pulsado el botón de encendido y, desde el menú que aparece, seleccionar \"Reiniciar en modo seguro\" (Safe Mode)",
+      "B": "Entrar en el modo Recovery y ejecutar \"Wipe cache partition\"",
+      "C": "Activar el Modo Avión antes de reiniciar el dispositivo",
+      "D": "Mantener pulsados a la vez los botones de volumen y encendido durante 10 segundos"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 86,
+    "pregunta": "Es necesario acceder al OneDrive de un usuario que se encuentra de baja. Desde el Servicio de Personal se nos indica la no idoneidad de ponernos en contacto con él debido a su situación. Teniendo en cuenta que no podemos cambiar la contraseña puesto que afectaría al usuario en cualquier dispositivo en el que tuviera sesión iniciada, ¿qué opciones tenemos siendo administradores de Microsoft 365?",
+    "opciones": {
+      "A": "Revocar los tokens de inicio de sesión y crear una clave de paso temporal que permita el acceso solo desde las IPs del Parlamento",
+      "B": "Desde el Centro de Administración de Sharepoint buscar la URL del sitio personal y agregar en la \"Lista de Administradores de la colección de sitios\" a un usuario delegado",
+      "C": "Utilizar la herramienta Microsoft Purge eXpace para crear una copia del OneDrive del usuario y poder trasladar los datos a otra ubicación accesible",
+      "D": "No hay forma de acceder a los datos del usuario por parte del administrador"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 87,
+    "pregunta": "En una hoja de cálculo, la celda B2 contiene la fórmula =A2*$C$1. Si copiamos esa fórmula arrastrándola hacia abajo hasta la celda B5, ¿cómo quedará la fórmula resultante en B5?",
+    "opciones": {
+      "A": "=A5*$C$1",
+      "B": "=A2*$C$1",
+      "C": "=A5*$C$4",
+      "D": "=A2*$C$4"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 88,
+    "pregunta": "En pos de una mayor productividad y de hacernos la vida más fácil, necesitamos crear una serie de grupos dinámicos en Intune en función del nombre de los dispositivos, ¿qué sentencia usaríamos para crear un grupo dinámico con todos los equipos del Servicio de Publicaciones Oficiales sabiendo que su nomenclatura incluye el texto \"-SERPO-\"?",
+    "opciones": {
+      "A": "(device.displayName -contains \"-SERPO-\")",
+      "B": "(device.displayName -contains [\"-SERPO-\"])",
+      "C": "(devices.deviceName -contains \"-SERPO-\")",
+      "D": "(device.deviceName -contains \"-SERPO-\")"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 89,
+    "pregunta": "A la hora de distribuir una aplicación observamos que se produce un error. Al intentar encontrar qué está provocando el error, vemos que los logs que genera Microsoft no son de utilidad por el gran volumen de información que genera. Decidimos distribuir la aplicación usando un log propio a través de un script de Powershell, ¿qué comando debemos aplicar en la tarea de despliegue de esta aplicación Win32 en Intune?",
+    "opciones": {
+      "A": "powershell.exe -ExecutionPolite Bypass -File script.ps1",
+      "B": "powershell.exe -ExecutionPolicy Bypass -File script.ps1",
+      "C": "powershell.exe -ExecutionPolite Bypass -Filename script.ps1",
+      "D": "powershell.exe -ExecutionPolicy Bypass -Filetype -File script.p1"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 90,
+    "pregunta": "A través del ITSM se han recibido más de 40 incidencias de usuarios distintos que han perdido conectividad con una aplicación cliente-servidor. Ha afectado a diferentes servicios y equipos de distinto hardware. Se identifica una actualización como causa raíz. ¿Cuál de las siguientes actuaciones describe mejor el procedimiento a seguir?",
+    "opciones": {
+      "A": "Agrupar todas las incidencias en una sola y asociar a esta los equipos afectados. Cerrar posteriormente de forma individualizada las incidencias tras desinstalar la actualización",
+      "B": "Crear directamente una solicitud de cambio para retirar la actualización de todos los equipos afectados, asociarla a los activos correspondientes de la CMDB y utilizarla como registro y documentación de diagnóstico y resolución",
+      "C": "Crear un problema a partir de cada incidencia para conservar la trazabilidad individual, tras ejecutar el cambio y comprobada la solución relacionar posteriormente los problemas entre sí en la CMDB",
+      "D": "Crear un registro de problema relacionado con las incidencias afectadas, analizar la causa común y, identificada la solución permanente, tramitar mediante el flujo de trabajo correspondiente el cambio necesario, manteniendo las relaciones entre incidencias, problema, cambio y datos de la CMDB afectados"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 91,
+    "pregunta": "El Servicio de Informática del Parlamento pretende permitir que sus trabajadores se conecten remotamente para teletrabajar. Para ello, desea utilizar una solución de máxima seguridad que verifique la identidad del usuario y la postura de seguridad de cada equipo antes de permitir su acceso a la red corporativa mediante VPN. ¿Qué solución utilizaría?",
+    "opciones": {
+      "A": "VPN con antivirus integrado",
+      "B": "VPN ZTNA",
+      "C": "VPN y RDP",
+      "D": "VPN IPSEC"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 92,
+    "pregunta": "Tras varios intentos de ataques de phishing, el Parlamento de Andalucía decide implementar un mecanismo de seguridad que no sea vulnerable a estos tipos de ataque. ¿Qué mecanismo implementaría para evitarlo?",
+    "opciones": {
+      "A": "Password de longitud mínima de 16 caracteres combinando números, letras y símbolos",
+      "B": "Rotación de contraseñas cada 15 días",
+      "C": "Passkey FIDO2",
+      "D": "Código de un solo uso enviado por SMS"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 93,
+    "pregunta": "Necesita administrar de forma remota, centralizada y homogénea todos los servidores Linux de su CPD. ¿Qué herramienta elegiría si requiere un enfoque declarativo y capacidad para gestionar el estado deseado de los sistemas?",
+    "opciones": {
+      "A": "Ansible",
+      "B": "Terraform",
+      "C": "Zabbix",
+      "D": "Bash"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 94,
+    "pregunta": "Es necesario implantar una herramienta de código abierto diseñada para crear imágenes de máquinas Linux idénticas para múltiples plataformas (como AWS, GCP, Azure o entornos locales) a partir de una única plantilla de configuración. ¿Qué herramienta es la apropiada para este propósito?",
+    "opciones": {
+      "A": "Terraform",
+      "B": "Filezilla",
+      "C": "Packer",
+      "D": "Norton Ghost"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Cuál de las siguientes afirmaciones diferencia correctamente el almacenamiento NAS del almacenamiento SAN?",
+    "opciones": {
+      "A": "NAS proporciona acceso a archivos mediante la red, mientras que SAN proporciona almacenamiento a nivel de bloque para los servidores",
+      "B": "NAS requiere una red de almacenamiento dedicada, mientras que SAN funciona exclusivamente mediante carpetas compartidas",
+      "C": "NAS solo puede utilizarse en equipos individuales, mientras que SAN está destinado únicamente a servidores",
+      "D": "NAS y SAN ofrecen exactamente el mismo tipo de acceso; solo se diferencian en la capacidad de almacenamiento"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 96,
+    "pregunta": "El Parlamento utiliza dos conexiones a Internet con distintos operadores y desea anunciar su propio rango de direccionamiento IP por ambos enlaces para proporcionar redundancia y continuidad del servicio. ¿Qué protocolo debe utilizar para intercambiar rutas con los proveedores?",
+    "opciones": {
+      "A": "RIP",
+      "B": "OSPF",
+      "C": "BGP",
+      "D": "STP"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 97,
+    "pregunta": "El equipo de desarrollo ejecuta una aplicación en su nube privada y necesita trasladarla asiduamente a una nube pública sin modificar su código. ¿Qué combinación facilita mejor este objetivo y facilita la portabilidad entre plataformas?",
+    "opciones": {
+      "A": "Contenedores y una plataforma de orquestación como Kubernetes",
+      "B": "Máquinas virtuales y almacenamiento local",
+      "C": "Servidores físicos configurados manualmente en cada nube",
+      "D": "SaaS y almacenamiento local sin replicación"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 98,
+    "pregunta": "Una aplicación cloud native está formada por microservicios. Cuando un servicio externo comienza a fallar, los reintentos masivos provocan una sobrecarga en cadena. ¿Qué diseño ayudaría a evitar este problema?",
+    "opciones": {
+      "A": "Aumentar indefinidamente el número de réplicas",
+      "B": "Usar un circuit breaker, límites de tiempo y reintentos con retroceso exponencial",
+      "C": "Unificar todos los microservicios en un único contenedor",
+      "D": "Desactivar la monitorización para reducir el consumo de recursos"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 99,
+    "pregunta": "Dos switches están conectados mediante cuatro enlaces físicos y se desea aumentar el ancho de banda y mantener la conectividad si falla uno de ellos. ¿Qué tecnología debe configurarse?",
+    "opciones": {
+      "A": "VLAN mediante 802.1Q",
+      "B": "LACP mediante 802.1AX",
+      "C": "STP mediante 802.1D",
+      "D": "DHCP"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 100,
+    "pregunta": "En una red con varios switches y enlaces redundantes, se detectan bucles de capa 2. Además, se desea que distintas VLAN puedan utilizar árboles de expansión independientes. ¿Qué solución es la más adecuada?",
+    "opciones": {
+      "A": "DHCP con varias subredes",
+      "B": "RSTP",
+      "C": "MSTP, asociando grupos de VLAN a distintas instancias de spanning tree",
+      "D": "LACP, creando un árbol por cada enlace agregado"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 101,
+    "pregunta": "Un usuario quiere consultar su correo desde varios dispositivos y conservar los mensajes sincronizados en el servidor. ¿Qué protocolo debe utilizar?",
+    "opciones": {
+      "A": "SMTP",
+      "B": "POP3",
+      "C": "IMAP",
+      "D": "MIME"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 102,
+    "pregunta": "Un servidor SMTP debe entregar un correo a usuario@parlamento-and.es. ¿Qué consulta DNS realizará y cómo elegirá el servidor de destino si existen varios registros?",
+    "opciones": {
+      "A": "Consultará un registro A y elegirá siempre el servidor con mayor prioridad",
+      "B": "Consultará registros MX y utilizará primero el que tenga el valor de preferencia más bajo",
+      "C": "Consultará un registro CNAME y elegirá el nombre más corto",
+      "D": "Consultará un registro PTR y utilizará el servidor con la IP más baja"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 103,
+    "pregunta": "En un clúster hiperconvergente del centro de datos, falla uno de los nodos que aloja máquinas virtuales. ¿Qué característica permite mantener la disponibilidad del servicio?",
+    "opciones": {
+      "A": "El almacenamiento local de cada nodo se combina y replica mediante software",
+      "B": "Todas las máquinas virtuales dependen de una cabina SAN externa única",
+      "C": "El nodo averiado continúa ejecutando las máquinas virtuales",
+      "D": "La hiperconvergencia elimina la necesidad de redundancia"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 104,
+    "pregunta": "Una organización quiere que los usuarios accedan a escritorios completos desde equipos ligeros manteniendo el sistema operativo y las aplicaciones centralizados en máquinas virtuales. ¿Qué elemento asigna a cada usuario su escritorio virtual?",
+    "opciones": {
+      "A": "El hipervisor",
+      "B": "El connection broker",
+      "C": "El cliente ligero",
+      "D": "RDP"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 105,
+    "pregunta": "En una plataforma VMware, ¿cuál es la principal diferencia entre vSphere High Availability (HA) y vSphere Fault Tolerance (FT)?",
+    "opciones": {
+      "A": "vSphere HA y vSphere FT ofrecen exactamente el mismo nivel de protección y se diferencian únicamente en el nombre",
+      "B": "vSphere HA mantiene dos copias sincronizadas de cada máquina virtual, mientras que vSphere FT solo reinicia la máquina virtual manualmente",
+      "C": "vSphere HA se utiliza exclusivamente para optimizar el almacenamiento, mientras que vSphere FT se utiliza para migrar máquinas virtuales entre hosts",
+      "D": "vSphere HA reinicia la máquina virtual en otro host tras un fallo, mientras que vSphere FT mantiene una réplica secundaria sincronizada para continuar la ejecución con una interrupción mínima"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 106,
+    "pregunta": "Un administrador necesita trasladar una máquina virtual encendida a otro host ESXi para realizar mantenimiento sin interrumpir el servicio. ¿Qué tecnología debe utilizar?",
+    "opciones": {
+      "A": "VMware Tools",
+      "B": "vMotion",
+      "C": "vSphere HA",
+      "D": "Thin Provisioning"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 107,
+    "pregunta": "Para un proyecto de inteligencia artificial, se está planteando usar una interfaz web de código abierto muy parecida a ChatGPT, que te permite chatear y gestionar modelos de inteligencia artificial (IA) desde tu propio ordenador o servidor de forma totalmente privada. Estamos hablando de:",
+    "opciones": {
+      "A": "LLM Studio",
+      "B": "Open WebUI",
+      "C": "Open Data",
+      "D": "WebIA"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 108,
+    "pregunta": "La arquitectura diseñada internamente para optimizar el rendimiento de un modelo de inteligencia artificial (IA) conectándolo con una base de datos externa para que el sistema pueda responder preguntas utilizando información actualizada, privada o específica que no venía en su entrenamiento original, se llama:",
+    "opciones": {
+      "A": "IA Convolucional",
+      "B": "ChatGPT DB",
+      "C": "RAG",
+      "D": "IA DB"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 109,
+    "pregunta": "Según el Lenguaje de Modelado Unificado (UML, Unified Modeling Language) en su versión 2.5, considerando los diagramas de máquinas de estados, ¿qué elementos indican, por un lado, el evento que provoca el cambio de estado y, por otro, la condición que indica cuándo puede ocurrir ese cambio?",
+    "opciones": {
+      "A": "Disparador (trigger) y condición (condition)",
+      "B": "Disparador (trigger) y guarda (guard)",
+      "C": "Evento (event) y condición (condition)",
+      "D": "Evento (event) y guarda (guard)"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 110,
+    "pregunta": "Si disponemos de un equipo de desarrollo de dos personas donde una de ellas escribe código fuente y la otra revisa el código escrito para realizar recomendaciones de mejora, estaremos ante la práctica de desarrollo:",
+    "opciones": {
+      "A": "Pair programming",
+      "B": "Peer reviews",
+      "C": "Program Review to improve",
+      "D": "Mob programming"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 111,
+    "pregunta": "Le encargan depurar un desarrollo back-end y, para ello, ha de parar la ejecución de la aplicación en una línea concreta del código fuente para ejecutar paso a paso. ¿Qué elemento o elementos de depuración tendría que utilizar?",
+    "opciones": {
+      "A": "Las herramientas de desarrollador del navegador web",
+      "B": "Un punto de ruptura",
+      "C": "Un punto de parada",
+      "D": "Utilizar salidas por consola para mostrar el valor de las variables utilizadas"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 112,
+    "pregunta": "Según el estándar ISO/IEC/IEEE 14764:2022 Software engineering - Software life cycle processes - Maintenance, ¿qué mantenimiento tendrá que aplicar si el entorno de una aplicación ha cambiado y han aparecido incompatibilidades de la aplicación respecto a ese entorno?",
+    "opciones": {
+      "A": "El mantenimiento correctivo",
+      "B": "El mantenimiento perfectivo",
+      "C": "El mantenimiento preventivo",
+      "D": "El mantenimiento adaptativo"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 113,
+    "pregunta": "¿En qué entorno debería realizar las pruebas de aceptación para una distribución de la nueva versión de una aplicación software?",
+    "opciones": {
+      "A": "Entorno de desarrollo",
+      "B": "Entorno de staging",
+      "C": "Entorno de producción",
+      "D": "Entorno de validación"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 114,
+    "pregunta": "Dispone de git como sistema de control de versiones. Usted acaba de enviar al servidor la rama develop en la cual están los últimos cambios de su aplicación y quiere incluir esos cambios en la rama main. ¿Qué secuencia de comandos tendría que ejecutar para asegurarnos que los cambios realizados en la rama develop pasan a la rama main del servidor?",
+    "opciones": {
+      "A": "git checkout main\ngit pull origin main\ngit merge develop\ngit push origin main",
+      "B": "git download main\ngit pull origin main\ngit merge develop\ngit push origin main",
+      "C": "git checkout main\ngit download origin main\ngit merge develop\ngit upload origin main",
+      "D": "git checkout main\ngit pull origin main\ngit join develop\ngit push origin main"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 115,
+    "pregunta": "Si usted tuviera que desarrollar una página web según los postulados del diseño web responsive, ¿qué herramientas y tecnologías elegiría para realizar un desarrollo eficiente, rápido, sin coste en licencias ni planes de uso, y que se ajuste lo máximo posible desde la fase de análisis a las necesidades del cliente?",
+    "opciones": {
+      "A": "Figma para visualizar y probar el comportamiento visual en diferentes pantallas antes de escribir código, Bootstrap 5.3 como hoja de estilos, HTML 5 para escribir las páginas web, y un navegador web para simular el aspecto en dispositivos móviles",
+      "B": "Open Design para visualizar y probar el comportamiento visual en diferentes pantallas antes de escribir código, Bootstrap 5.3 como hoja de estilos, HTML 5 para escribir las páginas web, y un navegador web para simular el aspecto en dispositivos móviles",
+      "C": "Open Design para visualizar y probar el comportamiento visual en diferentes pantallas antes de escribir código, Bootstrap 6 como hoja de estilos, HTML 5 para escribir las páginas web, y un navegador web para simular el aspecto en dispositivos móviles",
+      "D": "Figma para visualizar y probar el comportamiento visual en diferentes pantallas antes de escribir código, Bootstrap 6 como hoja de estilos, y HTML 5 para escribir las páginas web y un navegador web para simular el aspecto en dispositivos móviles"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 116,
+    "pregunta": "Dado el siguiente código en Python, donde se aplica programación funcional:\nlista = [1, 2, 3, 4, 5]\nlista_prima = map(lambda x: 3*x, lista)\nlista_prima2 = filter(lambda x: x % 2 == 0, lista_prima)\nprint(list(lista_prima2))\n¿Qué resultado se imprimiría?",
+    "opciones": {
+      "A": "# [2, 4]",
+      "B": "# [0.5, 1, 1.5, 2, 2.5]",
+      "C": "# [6, 12]",
+      "D": "# [1.5, 3, 4.5, 6, 7.5]"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 117,
+    "pregunta": "Dado el siguiente código en Java, donde se aplica programación orientada a objetos (transformación de lista a un TreeSet ordenado e insensible a duplicados con toUpperCase()): ¿Qué resultado se imprimiría?",
+    "opciones": {
+      "A": "Al tratarse de un código erróneo, su ejecución mostraría la traza del error.",
+      "B": "[ALMERÍA, CÁDIZ, CÓRDOBA, GRANADA, HUELVA, JAÉN, MÁLAGA, SEVILLA]",
+      "C": "[CÁDIZ, ALMERÍA, SEVILLA, CÓRDOBA, GRANADA, HUELVA, ALMERÍA, JAÉN, MÁLAGA, SEVILLA, GRANADA, ALMERÍA]",
+      "D": "[CÁDIZ, ALMERÍA, SEVILLA, CÓRDOBA, GRANADA, HUELVA, JAÉN, MÁLAGA]"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 118,
+    "pregunta": "¿Cuáles de los siguientes frameworks de Microsoft .NET utilizaría usted para realizar un desarrollo multiplataforma?",
+    "opciones": {
+      "A": ".NET MAUI",
+      "B": "WinForms",
+      "C": "ASP",
+      "D": "Django"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 119,
+    "pregunta": "Usted está realizando un desarrollo en tecnología java que recibe llamadas y parámetros desde un frontal, ¿qué librería tendría que utilizar para manejar y procesar texto en formato JSON?",
+    "opciones": {
+      "A": "Json module",
+      "B": "Jackson",
+      "C": "Open Jsonator",
+      "D": "Lombok"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 120,
+    "pregunta": "Si quisiera realizar un desarrollo front-end en javascript, ¿qué tecnologías debería aplicar?",
+    "opciones": {
+      "A": "Vue 3, HTML5, CSS 3",
+      "B": "Servlets, HTML 5 y CSS 3",
+      "C": "HTMX y CSS 3",
+      "D": "WebAssembly, HTML5 y CSS 3"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 121,
+    "pregunta": "Si quisiera realizar un desarrollo back-end en Python, ¿qué trío de tecnologías serían válidas?",
+    "opciones": {
+      "A": "Django, Flask y Avalone",
+      "B": "Django, Spring y Fast API",
+      "C": "Django, Flask y Fast API",
+      "D": "Avalone, Flask y Fast API"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 122,
+    "pregunta": "Según la Guía de Privacidad desde el Diseño de la Agencia Española de Protección de Datos, las estrategias de diseño de la privacidad son:",
+    "opciones": {
+      "A": "Minimizar, seudonimizar, separar, abstraer, informar, controlar, cumplir, y demostrar",
+      "B": "Minimizar, ocultar, separar, generalizar, informar, controlar, cumplir, y demostrar",
+      "C": "Minimizar, ocultar, separar, abstraer, informar, controlar, cumplir, y demostrar",
+      "D": "Minimizar, ocultar, separar, abstraer, difundir, controlar, cumplir, y demostrar"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 123,
+    "pregunta": "En el portal web de nuestra institución pueden aparecer matrículas de vehículos, pero queremos que queden sujetas a las normas de seudonimización propuestas por la Agencia Española de Protección de Datos. Si la matrícula 4587TZA la mostramos como 547xxxx, estaremos aplicando las técnicas de:",
+    "opciones": {
+      "A": "Modificación aleatoria y ocultación",
+      "B": "Enmascaramiento de caracteres e intercambio",
+      "C": "Generalización e intercambio",
+      "D": "Intercambio y ocultación"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 124,
+    "pregunta": "Por cuestiones de rendimiento, pretende desnormalizar un esquema relacional. ¿Cuál de las siguientes es considerada como una técnica de desnormalización?",
+    "opciones": {
+      "A": "Vistas materializadas",
+      "B": "Aplicar la 4FN (cuarta forma normal)",
+      "C": "Aplicar la técnica del caos controlado",
+      "D": "Evitar columnas redundantes"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 125,
+    "pregunta": "Usted necesita un cliente LDAP que pueda ser usado en una máquina con sistema operativo Linux, ¿cuál de las siguientes aplicaciones utilizaría?",
+    "opciones": {
+      "A": "Softerra LDAP Browser",
+      "B": "LDAP CSAM",
+      "C": "Apache Directory Studio",
+      "D": "LDAP Kingdom"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 126,
+    "pregunta": "[RESERVA 1] Conforme al artículo 48 de la Ley 1/2014, de Transparencia Pública de Andalucía, corresponde a la Dirección del Consejo de Transparencia y Protección de Datos de Andalucía:",
+    "opciones": {
+      "A": "Resolver exclusivamente las reclamaciones contra resoluciones expresas en materia de acceso que puedan presentar las personas solicitantes o terceras personas interesadas en los supuestos previstos legalmente",
+      "B": "Resolver las reclamaciones contra las resoluciones expresas o presuntas en materia de acceso que puedan presentar las personas solicitantes o terceras personas interesadas en los supuestos previstos legalmente",
+      "C": "Presentar ante el Parlamento de Andalucía un informe semestral de actuación",
+      "D": "Presentar ante el Parlamento de Andalucía un informe trimestral de actuación"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 127,
+    "pregunta": "[RESERVA 2] Según el concepto de código limpio (clean code), propuesto y popularizado por Robert C. Martin, uno de sus principios generales es:",
+    "opciones": {
+      "A": "La regla de la jerarquía",
+      "B": "Parchear el código siempre que sea posible",
+      "C": "La regla del boy scout",
+      "D": "Programar en lenguaje Python siempre que se pueda"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 128,
+    "pregunta": "[RESERVA 3] Entre los principios de diseño universal, planteados en la Universidad Estatal de Carolina del Norte, se encuentran los siguientes:",
+    "opciones": {
+      "A": "Uso flexible, diseño mobile first y tolerancia al error",
+      "B": "Uso equitativo, uso simple e intuitivo y tolerancia al error",
+      "C": "Uso equitativo, uso simple e intuitivo y tolerancia al error",
+      "D": "Uso equitativo, uso simple e intuitivo y navegación intuitiva"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 129,
+    "pregunta": "[RESERVA 4] ¿Qué herramienta de línea de comandos permite a un técnico depurar, instalar, desinstalar o consultar logs en un dispositivo Android tanto por USB como de forma inalámbrica?",
+    "opciones": {
+      "A": "No es posible de forma inalámbrica realizar esas acciones, solo por USB",
+      "B": "DbgX32",
+      "C": "ADB",
+      "D": "Xcode"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 130,
+    "pregunta": "[RESERVA 5] En un equipo macOS en el cual tenemos conectado un dispositivo iOS y también un simulador iOS corriendo en el propio macOS queremos realizar la instalación de una aplicación en el móvil físico usando la herramienta de línea de comandos 'ios-deploy', ¿es necesario especificar en qué dispositivo queremos realizar la instalación?",
+    "opciones": {
+      "A": "Necesitamos lanzar antes \"ios-deploy -l\" para obtener el UID del dispositivo en el que queremos instalar la aplicación",
+      "B": "\"ios-deploy -bundle <ruta de la app>\" dará error y preguntará en qué dispositivo quieres instalar la aplicación",
+      "C": "Instalará la aplicación en ambos",
+      "D": "Suficiente con ejecutar \"ios-deploy -bundle <ruta de la app>\", solo se instalará en el dispositivo físico"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 131,
+    "pregunta": "[RESERVA 6] En una red pequeña se desea utilizar un protocolo de enrutamiento dinámico sencillo que seleccione las rutas según el número de saltos, ¿cuál sería el más adecuado?",
+    "opciones": {
+      "A": "RIP",
+      "B": "BGP",
+      "C": "STP",
+      "D": "DNS"
+    },
+    "respuesta_correcta": "A"
+  }
+]
