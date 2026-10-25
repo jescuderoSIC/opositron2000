@@ -39,4 +39,10 @@ El modo estudio guarda en formato markdown comentarios y asociaciones de pregunt
 
 ## Algunas cuestiones EXTRA
 - Para renderizar el Markdown en Visual Studio Code usa la combinación de teclas CTRL + SHIFT + V
-- 
+- Para subir el contenido de este repositorio
+```git
+git add .
+git commit -m "Subido contenido de Local Storage 261015"
+git push
+```
+
