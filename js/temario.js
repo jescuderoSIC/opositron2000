@@ -20,9 +20,29 @@ function rutaDesdeRaiz(ruta) {
     return RAIZ + ruta;
 }
 
+// Primera vez que se abre el temario en este navegador (no hay asociaciones guardadas):
+// se cargan automáticamente las de data/asociaciones-temario-ati.json, si existe.
+function cargarAsociacionesIniciales() {
+    let yaHayAsociaciones = true;
+    try { yaHayAsociaciones = localStorage.getItem(CLAVE_ASOCIACIONES) !== null; } catch (e) {}
+    if (yaHayAsociaciones) return Promise.resolve();
+
+    return fetch(RAIZ + 'data/asociaciones-temario-ati.json')
+        .then(r => {
+            if (!r.ok) throw new Error(r.status);
+            return r.json();
+        })
+        .then(iniciales => {
+            asociaciones = iniciales;
+            guardarAsociaciones();
+        })
+        .catch(() => {});   // Si el archivo no existe, se empieza sin asociaciones
+}
+
 Promise.all([
     fetch(RAIZ + 'data/temario.json').then(r => r.json()),
-    fetch(RAIZ + 'data/preguntas.json').then(r => r.json()).catch(() => [])
+    fetch(RAIZ + 'data/preguntas.json').then(r => r.json()).catch(() => []),
+    cargarAsociacionesIniciales()
 ])
     .then(([data, listaPreguntas]) => {
         preguntas = listaPreguntas;

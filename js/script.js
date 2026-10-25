@@ -141,9 +141,30 @@ function importarNotas(event) {
     event.target.value = '';
 }
 
-fetch('data/preguntas.json')
-    .then(response => response.json())
-    .then(data => {
+// Primera vez que se abre la app en este navegador (no hay notas guardadas):
+// se cargan automáticamente las de data/mis-notas-ati.json, si existe.
+function cargarNotasIniciales() {
+    let yaHayNotas = true;
+    try { yaHayNotas = localStorage.getItem(CLAVE_NOTAS) !== null; } catch (e) {}
+    if (yaHayNotas) return Promise.resolve();
+
+    return fetch('data/mis-notas-ati.json')
+        .then(r => {
+            if (!r.ok) throw new Error(r.status);
+            return r.json();
+        })
+        .then(iniciales => {
+            notas = iniciales;
+            localStorage.setItem(CLAVE_NOTAS, JSON.stringify(notas));
+        })
+        .catch(() => {});   // Si el archivo no existe, se empieza sin notas
+}
+
+Promise.all([
+    fetch('data/preguntas.json').then(response => response.json()),
+    cargarNotasIniciales()
+])
+    .then(([data]) => {
         preguntas = data;
         estadoRespuestas = new Array(preguntas.length).fill(null);
         renderizarSidebar();
