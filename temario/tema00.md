@@ -1,24 +1,28 @@
 ## ÁRBOL SEMÁNTICO / MAPA CONCEPTUAL
 
-> 🌳 342.4(460)"1978" → 
->       34: Derecho / Legislación. → 
->       342: Derecho público / Derecho constitucional. → 
->       342.4: Constituciones (leyes fundamentales de los Estados). → 
->       (460): Auxiliar común de lugar que representa a España. → 
->       "1978": Auxiliar común de tiempo que indica el año de promulgación.
+> 🌳 "Es importante ver el conocimiento como una especie de árbol semántico: asegúrate de comprender los principios fundamentales, es decir, el tronco y las ramas grandes, antes de adentrarte en las hojas (los detalles), de lo contrario no habrá nada de qué sujetarse" _Elon Musk_
 
 ## GLOSARIO
 
-> Antes de hablar, primero define tus términos
->
-> 🤔 _Voltaire, filósofo francés_
+> 🤔 "Antes de hablar, primero define tus términos" _Voltaire_
 
 
 ## TIMELINE / LUGAR
 
+> ⏳ / 🌎
+
 ## GALERÍA
 
+> 🌄 "Una imagen vale más que diez mil palabras" _Probervio Chino_
+
 ## REFERENCIAS ( WWW / YTB / WKP / AIA )
+
+> 📖🌐 
+
+## TO-DO
+
+> 🌱 "Me lo contaron y lo olvidé, lo vi y lo aprendí, lo hice y lo entendí" _Confucio_
+
 
 ____
 
