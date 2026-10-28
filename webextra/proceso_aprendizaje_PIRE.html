@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Modelo de aprendizaje en cuatro etapas y comparación entre aprender sin IA y con IA.">
+  <title>El proceso de aprendizaje: sin IA y con IA</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5c667a;
+      --line: #dfe5ef;
+      --accent: #3157a4;
+      --accent-soft: #edf2ff;
+      --radius: 18px;
+      --shadow: 0 8px 24px rgba(28, 43, 76, .06);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); }
+    .page { width: min(100% - 28px, 1040px); margin-inline: auto; }
+    header { padding: 42px 0 26px; }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(2rem, 8vw, 3.5rem);
+      letter-spacing: -.045em;
+      line-height: 1.08;
+    }
+    .intro {
+      max-width: 720px;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    main { padding-bottom: 48px; }
+    section { margin-top: 28px; }
+    h2 {
+      margin: 0 0 8px;
+      font-size: clamp(1.35rem, 5vw, 1.8rem);
+      letter-spacing: -.025em;
+      line-height: 1.2;
+    }
+    .section-intro { color: var(--muted); margin: 0 0 16px; }
+    .stages { display: grid; gap: 14px; }
+    .stage, .comparison-wrap, .note, .principle {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .stage { padding: 20px; }
+    .stage-top { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 10px; }
+    .number {
+      display: grid; place-items: center; flex: 0 0 40px; height: 40px;
+      border-radius: 12px; background: var(--accent-soft); color: var(--accent);
+      font-weight: 800;
+    }
+    h3 { margin: 0; font-size: 1.16rem; line-height: 1.3; }
+    .stage-purpose { margin: 4px 0 0; color: var(--muted); font-size: .94rem; }
+    .stage ul { padding-left: 1.2rem; margin: 12px 0; }
+    li { padding-left: 2px; margin: 5px 0; }
+    .ai-tip {
+      margin-top: 14px; padding: 12px 14px; border-radius: 12px;
+      background: #f0f5ff; border-left: 3px solid var(--accent);
+    }
+    .ai-tip strong { display: block; margin-bottom: 3px; }
+    .comparison-wrap { overflow: hidden; }
+    .comparison { width: 100%; border-collapse: collapse; }
+    .comparison th, .comparison td {
+      text-align: left; vertical-align: top; padding: 15px;
+      border-bottom: 1px solid var(--line);
+    }
+    .comparison th { background: #eef2f8; font-size: .88rem; }
+    .comparison td { font-size: .94rem; }
+    .comparison tr:last-child td { border-bottom: 0; }
+    .comparison td:first-child { font-weight: 750; min-width: 115px; }
+    .note { padding: 18px; margin-top: 14px; }
+    .note h3 { margin-bottom: 8px; }
+    .note p { margin: 8px 0 0; }
+    .principle {
+      padding: 22px;
+      background: var(--accent-soft);
+      border-color: #d9e3ff;
+    }
+    .principle p { margin: 0; font-size: 1.08rem; }
+    footer { padding: 8px 0 32px; color: var(--muted); font-size: .88rem; }
+    @media (max-width: 640px) {
+      .comparison, .comparison tbody, .comparison tr, .comparison td { display: block; width: 100%; }
+      .comparison thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+      .comparison tr { padding: 14px 16px; border-bottom: 1px solid var(--line); }
+      .comparison tr:last-child { border-bottom: 0; }
+      .comparison td { padding: 8px 0; border: 0; min-width: 0; }
+      .comparison td:first-child { padding-top: 0; font-size: 1.02rem; color: var(--accent); }
+      .comparison td:nth-child(2)::before, .comparison td:nth-child(3)::before {
+        display: block; margin-bottom: 3px; color: var(--muted);
+        font-size: .72rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase;
+      }
+      .comparison td:nth-child(2)::before { content: "Sin IA"; }
+      .comparison td:nth-child(3)::before { content: "Con IA"; }
+    }
+    @media (min-width: 760px) {
+      .page { width: min(100% - 48px, 1040px); }
+      header { padding-top: 64px; }
+      .stages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .stage { padding: 24px; }
+      section { margin-top: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow">Guía de estudio</p>
+      <h1>El proceso de aprendizaje: sin IA y con IA</h1>
+      <p class="intro">Un modelo práctico para organizar el aprendizaje en cuatro etapas, identificar actividades y comparar cómo puede ayudar la inteligencia artificial en cada una.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="etapas-title">
+        <h2 id="etapas-title">1. Estructura del proceso de aprendizaje</h2>
+        <p class="section-intro">Desde decidir qué estudiar hasta comprobar qué se ha aprendido.</p>
+        <div class="stages">
+          <article class="stage">
+            <div class="stage-top">
+              <div class="number" aria-hidden="true">1</div>
+              <div>
+                <h3>Planificación</h3>
+                <p class="stage-purpose">Determinar qué aprender, para qué y en qué orden.</p>
+              </div>
+            </div>
+            <ul>
+              <li>Syllabus o guía docente.</li>
+              <li>Temario de una oposición.</li>
+              <li>Objetivos y competencias definidos en el BOE.</li>
+              <li>Bibliografía y fuentes oficiales.</li>
+              <li>Plan de estudio y calendario.</li>
+              <li>Identificación de conocimientos previos.</li>
+            </ul>
+            <div class="ai-tip"><strong>Con IA</strong>Analizar el temario, desglosar objetivos, detectar dependencias entre temas y generar un plan de estudio personalizado.</div>
+          </article>
+
+          <article class="stage">
+            <div class="stage-top">
+              <div class="number" aria-hidden="true">2</div>
+              <div>
+                <h3>Implementación</h3>
+                <p class="stage-purpose">Adquirir conocimientos y trabajar activamente con la información.</p>
+              </div>
+            </div>
+            <ul>
+              <li>Clases presenciales.</li>
+              <li>Videotutoriales y vídeos.</li>
+              <li>Libros, manuales y legislación.</li>
+              <li>Apuntes y toma de notas.</li>
+              <li>Esquemas, mapas conceptuales y resúmenes.</li>
+              <li>Preguntas, respuestas y laboratorio virtual.</li>
+            </ul>
+            <div class="ai-tip"><strong>Con IA</strong>Recibir explicaciones adaptadas, generar ejemplos, transformar textos complejos, crear esquemas y simular situaciones prácticas.</div>
+          </article>
+
+          <article class="stage">
+            <div class="stage-top">
+              <div class="number" aria-hidden="true">3</div>
+              <div>
+                <h3>Reflexión</h3>
+                <p class="stage-purpose">Elaborar, relacionar y dar sentido a lo aprendido.</p>
+              </div>
+            </div>
+            <ul>
+              <li>Ensayos.</li>
+              <li>Debates.</li>
+              <li>Explicación de conceptos con palabras propias.</li>
+              <li>Comparación de teorías y argumentos.</li>
+              <li>Análisis de casos.</li>
+              <li>Identificación de dudas y diario de aprendizaje.</li>
+            </ul>
+            <div class="ai-tip"><strong>Con IA</strong>Debatir con un interlocutor virtual, recibir preguntas críticas, contrastar argumentos y detectar lagunas en el razonamiento.</div>
+          </article>
+
+          <article class="stage">
+            <div class="stage-top">
+              <div class="number" aria-hidden="true">4</div>
+              <div>
+                <h3>Evaluación</h3>
+                <p class="stage-purpose">Comprobar el grado de aprendizaje y detectar qué necesita mejorar.</p>
+              </div>
+            </div>
+            <ul>
+              <li>Exámenes.</li>
+              <li>Test de autoevaluación.</li>
+              <li>Recuperación activa de la memoria.</li>
+              <li>Anki y repetición espaciada.</li>
+              <li>Ejercicios sin consultar los apuntes.</li>
+              <li>Corrección de errores y seguimiento.</li>
+            </ul>
+            <div class="ai-tip"><strong>Con IA</strong>Generar exámenes personalizados, corregir respuestas abiertas, explicar errores y adaptar las siguientes actividades a las dificultades detectadas.</div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="comparativa-title">
+        <h2 id="comparativa-title">2. Tabla comparativa: sin IA y con IA</h2>
+        <p class="section-intro">La misma etapa puede desarrollarse con métodos tradicionales o con apoyo de herramientas de IA.</p>
+        <div class="comparison-wrap">
+          <table class="comparison">
+            <thead>
+              <tr><th scope="col">Etapa</th><th scope="col">Sin IA</th><th scope="col">Con IA</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Planificación</td>
+                <td>Temario, syllabus, BOE, bibliografía y planificación manual.</td>
+                <td>Análisis del temario, planificación personalizada y organización de objetivos.</td>
+              </tr>
+              <tr>
+                <td>Implementación</td>
+                <td>Clases, libros, vídeos, apuntes, esquemas y ejercicios.</td>
+                <td>Tutor conversacional, explicaciones adaptadas, resúmenes y laboratorio virtual.</td>
+              </tr>
+              <tr>
+                <td>Reflexión</td>
+                <td>Ensayos, debates, razonamiento propio y análisis de casos.</td>
+                <td>Debate socrático, preguntas críticas, revisión de argumentos y detección de lagunas.</td>
+              </tr>
+              <tr>
+                <td>Evaluación</td>
+                <td>Exámenes, test, Anki y autoevaluación.</td>
+                <td>Pruebas adaptativas, corrección asistida, análisis de errores y seguimiento del progreso.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section aria-labelledby="matices-title">
+        <h2 id="matices-title">3. Dos matices que mejoran el modelo</h2>
+        <article class="note">
+          <h3>Anki no es exclusivamente una evaluación final</h3>
+          <p>Anki es una herramienta de repetición espaciada y recuperación activa que puede utilizarse durante todo el proceso. Su función principal es reforzar la retención a largo plazo.</p>
+        </article>
+        <article class="note">
+          <h3>El laboratorio virtual puede ocupar varias etapas</h3>
+          <p>Si utilizas IA para simular un caso de Derecho Constitucional, la actividad forma parte de la <strong>implementación</strong> cuando practicas la aplicación de conceptos; de la <strong>reflexión</strong> cuando justificas y revisas tu razonamiento; y de la <strong>evaluación</strong> cuando compruebas si has llegado a una solución correcta.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="idea-title">
+        <h2 id="idea-title">Idea central</h2>
+        <div class="principle">
+          <p>La IA no constituye una etapa adicional del aprendizaje, sino una herramienta que puede transformar las actividades realizadas en cada etapa.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Modelo orientativo: las etapas pueden solaparse y adaptarse según la materia, los objetivos y el contexto de aprendizaje.
+    </footer>
+  </div>
+</body>
+</html>
