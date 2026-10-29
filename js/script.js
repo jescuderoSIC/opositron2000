@@ -248,6 +248,8 @@ function importarNotas(event) {
 // ===== ELEGIR OPOSICIÓN =====
 // Sin ?opo= en la URL (o con una que no existe) se muestra la lista de oposiciones.json.
 // Cada una es un enlace a ?opo=..., así que al elegir se recarga la app con esa oposición.
+let nombreOpo = '';   // nombre de la oposición cargada (se usa en los prompts de IA)
+
 function mostrarSelectorOposicion(oposiciones) {
     document.body.classList.add('eligiendo-opo');
     document.getElementById('opo-aviso').hidden = !OPO;
@@ -274,6 +276,7 @@ fetch('oposiciones/oposiciones.json', { cache: 'no-cache' })
             mostrarSelectorOposicion(oposiciones);
             return;
         }
+        nombreOpo = opo.nombre;
         document.title = opo.nombre + ' - opositron2000';
         document.getElementById('opo-nombre').textContent = opo.nombre;
         return Promise.all([
@@ -418,7 +421,7 @@ async function consultarGemini() {
     }
 
     // Prompt optimizado para pegar en un mismo chat continuo
-    const prompt = `[CUESTIÓN DE OPOSICIÓN ATI - PREGUNTA ${numeroPregunta}]
+    const prompt = `[CUESTIÓN DE OPOSICIÓN ${nombreOpo} - PREGUNTA ${numeroPregunta}]
 
 Pregunta: "${preguntaActual.pregunta}"
 
@@ -451,7 +454,7 @@ async function consultarDeepSeek() {
         opcionesTexto += `- Opción ${letra}: ${texto}\n`;
     }
 
-    const prompt = `[CONCEPTOS - OPOSICIÓN ATI - PREGUNTA ${numeroPregunta}]
+    const prompt = `[CONCEPTOS - OPOSICIÓN ${nombreOpo} - PREGUNTA ${numeroPregunta}]
 
 Pregunta: "${preguntaActual.pregunta}"
 
