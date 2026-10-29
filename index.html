@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Oposición - ATI 2025</title>
+    <title>opositron2000</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="modo-examen">
-    <div class="app-container">
+    <!-- Elegir oposición (se muestra si la URL no lleva ?opo=) -->
+    <div class="app-container selector-opo">
+        <header class="top-bar">
+            <img src="favicon.svg" alt="" width="24" height="24">
+            <strong>opositron2000</strong>
+        </header>
+        <div class="selector-opo-cuerpo">
+            <h2>Elige una oposición</h2>
+            <p id="opo-aviso" class="opo-aviso" hidden>La oposición indicada no existe.</p>
+            <div id="opo-lista" class="opo-lista">
+                <!-- La lista se inyecta desde JS (oposiciones/oposiciones.json) -->
+            </div>
+        </div>
+    </div>
+
+    <div class="app-container app-test">
         <!-- Barra superior -->
         <header class="top-bar">
+            <a class="stat opo-actual" href="./" title="Cambiar de oposición"><span id="opo-nombre"></span></a>
             <div class="stat">Cuestión: <span id="q-counter">1/10</span></div>
             <div class="stat text-green solo-examen">Aciertos: <span id="q-aciertos">0</span></div>
             <div class="stat text-red solo-examen">Fallos: <span id="q-fallos">0</span></div>
@@ -79,12 +95,12 @@
                 <!-- Botones modo Estudio -->
                 <div class="bottom-bar solo-estudio">
                     <button type="button" onclick="cargarPregunta(indiceActual - 1)" title="Pregunta anterior">◀</button>
-                    <button type="button" onclick="exportarNotas()" title="Guardar en preguntas-plus.json las notas, temas, tags, dificultad y enlaces de cada pregunta">Exportar notas</button>
+                    <button type="button" onclick="exportarNotas()" title="Guardar en pregNNNN-plus.json las notas, temas, tags, dificultad y enlaces de cada pregunta">Exportar notas</button>
                     <button type="button" onclick="document.getElementById('importar-notas').click()">Importar notas</button>
                     <input type="file" id="importar-notas" accept=".json" hidden onchange="importarNotas(event)">
                     <button type="button" onclick="cargarPregunta(indiceActual + 1)" title="Pregunta siguiente">▶</button>
-                    <!-- Botón Temario: abre temario.html en otra pestaña -->
-                    <button id="btn-temario" type="button" onclick="window.open('temario/temario.html', '_blank')" title="Abrir el temario">
+                    <!-- Botón Temario: abre en otra pestaña el webextra/index.html de la oposición -->
+                    <button id="btn-temario" type="button" onclick="window.open(CARPETA_OPO + 'webextra/index.html', '_blank')" title="Abrir los extras de la oposición">
                         <svg class="temario-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/>
                             <path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>

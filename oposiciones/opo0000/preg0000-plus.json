@@ -1,0 +1,185 @@
+{
+  "1": {
+    "nota": "Colón llegó el **12 de octubre de 1492** a la isla de Guanahaní (Bahamas). Ese día se celebra hoy la Fiesta Nacional de España.",
+    "temas": [
+      "1"
+    ],
+    "tags": [
+      "#descubrimientos"
+    ],
+    "dificultad": "Básico",
+    "enlaces": [
+      "[WKP@Cristóbal Colón](https://es.wikipedia.org/wiki/Crist%C3%B3bal_Col%C3%B3n)"
+    ]
+  },
+  "2": {
+    "nota": "Ciudadela inca del siglo XV en los Andes de Perú. Los mayas vivían en Mesoamérica y los aztecas en el valle de México.",
+    "temas": [
+      "1"
+    ],
+    "tags": [
+      "#civilizaciones"
+    ],
+    "dificultad": "Básico",
+    "enlaces": [
+      "[WKP@Machu Picchu](https://es.wikipedia.org/wiki/Machu_Picchu)"
+    ]
+  },
+  "4": {
+    "nota": "**Truco:** Julio César fue dictador, pero nunca emperador. El primero fue su sobrino nieto Octavio, llamado **Augusto** desde el 27 a. C.",
+    "temas": [
+      "1"
+    ],
+    "tags": [
+      "#roma",
+      "#trampa"
+    ],
+    "dificultad": "Medio",
+    "enlaces": []
+  },
+  "5": {
+    "nota": "Aprobada en referéndum el 6 de diciembre de 1978 y en vigor desde el 29 de diciembre.",
+    "temas": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "#constitucion"
+    ],
+    "dificultad": "Básico",
+    "enlaces": [
+      "[WKP@Constitución de 1978](https://es.wikipedia.org/wiki/Constituci%C3%B3n_espa%C3%B1ola_de_1978)"
+    ]
+  },
+  "6": {
+    "nota": "El Tajo mide unos 1.007 km. El Ebro es el más largo de los que discurren **enteramente** por España.",
+    "temas": [
+      "2"
+    ],
+    "tags": [
+      "#rios",
+      "#trampa"
+    ],
+    "dificultad": "Medio",
+    "enlaces": []
+  },
+  "7": {
+    "nota": "Canberra se eligió como capital para no favorecer ni a Sídney ni a Melbourne.",
+    "temas": [
+      "2"
+    ],
+    "tags": [
+      "#capitales",
+      "#trampa"
+    ],
+    "dificultad": "Medio",
+    "enlaces": []
+  },
+  "8": {
+    "nota": "El Teide (Tenerife) mide 3.715 m. El Mulhacén (3.479 m) es el más alto de la **península**.",
+    "temas": [
+      "2"
+    ],
+    "tags": [
+      "#relieve"
+    ],
+    "dificultad": "Medio",
+    "enlaces": [
+      "[WKP@Teide](https://es.wikipedia.org/wiki/Teide)"
+    ]
+  },
+  "10": {
+    "nota": "Son 17 comunidades autónomas, más las ciudades autónomas de Ceuta y Melilla.",
+    "temas": [
+      "2"
+    ],
+    "tags": [
+      "#constitucion"
+    ],
+    "dificultad": "Básico",
+    "enlaces": []
+  },
+  "12": {
+    "nota": "Pintada en 1656. Se conserva en el Museo del Prado.",
+    "temas": [
+      "3"
+    ],
+    "tags": [
+      "#pintura",
+      "#barroco"
+    ],
+    "dificultad": "Básico",
+    "enlaces": [
+      "[WKP@Las Meninas](https://es.wikipedia.org/wiki/Las_Meninas)"
+    ]
+  },
+  "14": {
+    "nota": "Publicada en 1967; obra cumbre del realismo mágico.",
+    "temas": [
+      "3"
+    ],
+    "tags": [
+      "#literatura"
+    ],
+    "dificultad": "Básico",
+    "enlaces": []
+  },
+  "16": {
+    "nota": "Viene del latín *aurum*. **Ag** es la plata (*argentum*).",
+    "temas": [
+      "4"
+    ],
+    "tags": [
+      "#quimica"
+    ],
+    "dificultad": "Básico",
+    "enlaces": [
+      "[WKP@Oro](https://es.wikipedia.org/wiki/Oro)"
+    ]
+  },
+  "18": {
+    "nota": "Exactamente 299.792,458 km/s.",
+    "temas": [
+      "4"
+    ],
+    "tags": [
+      "#fisica"
+    ],
+    "dificultad": "Medio",
+    "enlaces": []
+  },
+  "20": {
+    "nota": "Un recién nacido tiene unos 300 huesos; muchos se fusionan al crecer.",
+    "temas": [
+      "4"
+    ],
+    "tags": [
+      "#cuerpo-humano"
+    ],
+    "dificultad": "Difícil",
+    "enlaces": []
+  },
+  "23": {
+    "nota": "Se juega en París a finales de mayo y principios de junio.",
+    "temas": [
+      "5"
+    ],
+    "tags": [
+      "#tenis"
+    ],
+    "dificultad": "Medio",
+    "enlaces": []
+  },
+  "24": {
+    "nota": "Juegos de la XXV Olimpiada, del 25 de julio al 9 de agosto de 1992.",
+    "temas": [
+      "1",
+      "5"
+    ],
+    "tags": [
+      "#olimpiadas"
+    ],
+    "dificultad": "Básico",
+    "enlaces": []
+  }
+}

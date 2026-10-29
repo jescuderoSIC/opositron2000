@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0000 - Web extra</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;        /* fondo general de la app */
+            --barra: #dddddd;        /* barras superior e inferior */
+            --papel: #ffffff;        /* paneles y listas */
+            --linea: #000000;        /* bordes negros */
+            --linea-suave: #e4e4e4;  /* separadores entre elementos */
+            --resalte: #ffe6e6;      /* selección / activo */
+            --rojo: #cc0000;
+            --verde: #008000;
+            --texto: #000000;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        html { -webkit-text-size-adjust: 100%; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: var(--texto);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.45;
+        }
+
+        /* ===== Móvil (por defecto) ===== */
+        .jardin {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 18px 16px 14px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+            line-height: 1.2;
+        }
+
+        .cabecera p {
+            margin: 4px 0 0;
+            font-size: 14px;
+            color: var(--texto-suave);
+        }
+
+        /* Buscador y filtros */
+        .herramientas {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--linea);
+            background-color: var(--fondo);
+            display: grid;
+            gap: 10px;
+        }
+
+        .buscador {
+            width: 100%;
+            padding: 10px 12px;
+            font: inherit;
+            font-size: 16px;   /* 16px evita el zoom automático en iOS */
+            border: 1px solid var(--linea);
+            background-color: var(--papel);
+            border-radius: 0;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        /* Selector de madurez: mismo patrón que Examen / Estudio */
+        .filtros {
+            display: flex;
+            border: 1px solid var(--linea);
+            background-color: var(--papel);
+        }
+
+        .filtros button {
+            flex: 1;
+            padding: 9px 4px;
+            font: inherit;
+            font-size: 14px;
+            background: none;
+            border: none;
+            color: var(--texto);
+            cursor: pointer;
+        }
+
+        .filtros button + button { border-left: 1px solid var(--linea); }
+
+        .filtros button[aria-pressed="true"] {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        .recuento {
+            margin: 0;
+            font-size: 13px;
+            color: var(--texto-suave);
+        }
+
+        /* Listado de páginas */
+        .paginas {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .pagina {
+            border-bottom: 1px solid var(--linea-suave);
+        }
+
+        .pagina a {
+            display: grid;
+            grid-template-columns: 18px 1fr;
+            column-gap: 10px;
+            padding: 14px 16px;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .pagina a:hover { background-color: #f7f7f7; }
+
+        .pagina a:focus-visible {
+            outline: 2px solid var(--rojo);
+            outline-offset: -2px;
+            background-color: var(--resalte);
+        }
+
+        .pagina h2 {
+            margin: 0;
+            font-size: 17px;
+            line-height: 1.3;
+        }
+
+        .pagina a:hover h2 { text-decoration: underline; }
+
+        .pagina .resumen {
+            grid-column: 2;
+            margin: 3px 0 0;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .pagina .datos {
+            grid-column: 2;
+            margin: 6px 0 0;
+            font-size: 12px;
+            color: var(--texto-suave);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 8px;
+            align-items: center;
+        }
+
+        .etiqueta {
+            border: 1px solid #cccccc;
+            background-color: var(--fondo);
+            padding: 0 5px;
+        }
+
+        /* ===== Marcador de madurez =====
+           Semilla: punto hueco · Brote: punto a medias · Árbol: punto lleno */
+        .madurez {
+            width: 12px;
+            height: 12px;
+            margin-top: 4px;
+            border-radius: 50%;
+            border: 2px solid var(--verde);
+        }
+
+        [data-estado="semilla"] .madurez { background: var(--papel); border-color: #999999; }
+        [data-estado="brote"]   .madurez { background: linear-gradient(to top, var(--verde) 50%, var(--papel) 50%); }
+        [data-estado="arbol"]   .madurez { background: var(--verde); }
+
+        /* Leyenda */
+        .leyenda {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+            margin: 0;
+            padding: 14px 16px;
+            font-size: 13px;
+            color: var(--texto-suave);
+            background-color: var(--barra);
+            border-top: 1px solid var(--linea);
+        }
+
+        .leyenda span {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .leyenda .madurez { margin-top: 0; }
+
+        .vacio {
+            padding: 24px 16px;
+            color: var(--texto-suave);
+        }
+
+        .vacio button {
+            margin-top: 8px;
+            padding: 8px 14px;
+            font: inherit;
+            font-size: 14px;
+            background-color: var(--papel);
+            border: 1px solid var(--linea);
+            cursor: pointer;
+        }
+
+        [hidden] { display: none !important; }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 720px) {
+            body { padding: 32px 20px; }
+
+            .jardin {
+                max-width: 720px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+            }
+
+            .cabecera { padding: 22px 24px 16px; }
+            .cabecera h1 { font-size: 26px; }
+
+            .herramientas {
+                grid-template-columns: 1fr 300px;
+                align-items: center;
+                padding: 12px 24px;
+            }
+
+            .recuento { grid-column: 1 / -1; }
+
+            .pagina a { padding: 16px 24px; }
+            .leyenda, .vacio { padding-left: 24px; padding-right: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="jardin">
+        <header class="cabecera">
+            <h1><img src="../../../favicon.svg" alt="" width="48" height="48"> opositron2000 - opo0000 - EXTRAS</h1>
+            <p>Complementos a la app de examen/estudio de preguntas</p>
+        </header>
+
+        <div class="herramientas">
+            <input class="buscador" type="search" id="buscador"
+                   placeholder="Buscar páginas o etiquetas" aria-label="Buscar páginas o etiquetas">
+            <div class="filtros" role="group" aria-label="Filtrar por madurez">
+                <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+                <button type="button" data-filtro="semilla" aria-pressed="false">Semillas</button>
+                <button type="button" data-filtro="brote" aria-pressed="false">Brotes</button>
+                <button type="button" data-filtro="arbol" aria-pressed="false">Árboles</button>
+            </div>
+            <p class="recuento" id="recuento" aria-live="polite"></p>
+        </div>
+
+        <!--
+            ===== CÓMO AÑADIR UNA PÁGINA =====
+            Copia un <li> completo y cambia:
+              - data-estado: semilla | brote | arbol
+              - data-etiquetas: palabras separadas por comas (se usan en la búsqueda)
+              - href, título, resumen, fecha y etiquetas visibles
+        -->
+        <ul class="paginas" id="paginas">
+            <li class="pagina" data-estado="arbol" data-etiquetas="vmware, virtualización, drs, sistemas">
+                <a href="temario0000.html" target="_blank">
+                    <span class="madurez" role="img" aria-label="Semilla"></span>
+                    <h2>TEMARIO</h2>
+                    <p class="resumen">Temario de la oposición.</p>
+                    <p class="datos"><time datetime="2026-10-18">28 oct 2026</time> <span class="etiqueta">aprendizaje</span> <span class="etiqueta">evaluación</span></p>
+                </a>
+            </li>
+            <li class="pagina" data-estado="arbol" data-etiquetas="test, oposición, app">
+                <a href="bingoAzar75.html" target="_blank">
+                    <span class="madurez" role="img" aria-label="Árbol"></span>
+                    <h2>Bingo de elección de preguntas ó temas</h2>
+                    <p class="resumen">Elige una pregunta al azar para que la contestes, o un tema al azar para que profundices en él.</p>
+                    <p class="datos"><time datetime="2026-10-25">25 oct 2026</time> <span class="etiqueta">autoexamen</span> <span class="etiqueta">app</span></p>
+                </a>
+            </li>
+        </ul>
+
+        <div class="vacio" id="vacio" hidden>
+            <p id="vacio-texto">Ninguna página coincide con la búsqueda.</p>
+            <button type="button" id="limpiar">Ver todas las páginas</button>
+        </div>
+
+        <p class="leyenda">
+            <span data-estado="semilla"><span class="madurez"></span> Semilla: idea inicial</span>
+            <span data-estado="brote"><span class="madurez"></span> Brote: en desarrollo</span>
+            <span data-estado="arbol"><span class="madurez"></span> Árbol: completa</span>
+        </p>
+    </div>
+
+    <script>
+        // La lista funciona sin JavaScript; esto solo añade la búsqueda y los filtros.
+        const buscador = document.getElementById('buscador');
+        const botones = document.querySelectorAll('.filtros button');
+        const paginas = [...document.querySelectorAll('.pagina')];
+        const recuento = document.getElementById('recuento');
+        const vacio = document.getElementById('vacio');
+        let filtro = 'todas';
+
+        // Quita tildes y mayúsculas para que "constitucion" encuentre "Constitución"
+        const normalizar = t => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+        function aplicar() {
+            const q = normalizar(buscador.value.trim());
+            let visibles = 0;
+
+            paginas.forEach(p => {
+                const texto = normalizar(p.textContent + ' ' + (p.dataset.etiquetas || ''));
+                const coincide = (!q || texto.includes(q)) &&
+                                 (filtro === 'todas' || p.dataset.estado === filtro);
+                p.hidden = !coincide;
+                if (coincide) visibles++;
+            });
+
+            const total = paginas.length;
+            recuento.textContent = visibles === total
+                ? `${total} páginas`
+                : `${visibles} de ${total} páginas`;
+            vacio.hidden = visibles > 0;
+        }
+
+        buscador.addEventListener('input', aplicar);
+
+        botones.forEach(b => b.addEventListener('click', () => {
+            filtro = b.dataset.filtro;
+            botones.forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+            aplicar();
+        }));
+
+        document.getElementById('limpiar').addEventListener('click', () => {
+            buscador.value = '';
+            filtro = 'todas';
+            botones.forEach(x => x.setAttribute('aria-pressed', String(x.dataset.filtro === 'todas')));
+            aplicar();
+            buscador.focus();
+        });
+
+        aplicar();
+    </script>
+</body>
+</html>

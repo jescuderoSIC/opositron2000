@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Bender (Futurama) -->
+  <g stroke="#2b333d" stroke-width="2" stroke-linejoin="round">
+    <!-- Antena -->
+    <line x1="32" y1="6" x2="32" y2="13" stroke-width="2.5"/>
+    <circle cx="32" cy="5" r="3" fill="#b9c7d6"/>
+    <path d="M28 15 L30 11 H34 L36 15 Z" fill="#9fb3c8"/>
+    <!-- Cabeza -->
+    <path d="M17 31 Q17 15 32 15 Q47 15 47 31 V63 H17 Z" fill="#9fb3c8"/>
+    <!-- Visor -->
+    <rect x="12" y="26" width="40" height="15" rx="7.5" fill="#3a3f47"/>
+    <!-- Ojos -->
+    <circle cx="24" cy="33.5" r="5.5" fill="#fffbe0"/>
+    <circle cx="40" cy="33.5" r="5.5" fill="#fffbe0"/>
+    <!-- Boca -->
+    <rect x="20" y="47" width="24" height="12" rx="4" fill="#efe9c8"/>
+  </g>
+  <!-- Pupilas -->
+  <rect x="22" y="31.5" width="4" height="4" fill="#111"/>
+  <rect x="38" y="31.5" width="4" height="4" fill="#111"/>
+  <!-- Rejilla de la boca -->
+  <g stroke="#2b333d" stroke-width="1.5">
+    <line x1="20" y1="53" x2="44" y2="53"/>
+    <line x1="26" y1="47" x2="26" y2="59"/>
+    <line x1="32" y1="47" x2="32" y2="59"/>
+    <line x1="38" y1="47" x2="38" y2="59"/>
+  </g>
+  <!-- Brillo -->
+  <path d="M21 27 Q22 19 29 17.5" fill="none" stroke="#dfe8f1" stroke-width="2" stroke-linecap="round"/>
+</svg>

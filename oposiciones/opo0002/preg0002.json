@@ -1,0 +1,1454 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Con arreglo a lo dispuesto en la Constitución, cuál de los siguientes se consideraría un derecho fundamental:",
+    "opciones": {
+      "A": "El derecho de petición individual y colectiva (art. 29 de la Constitución).",
+      "B": "El derecho a la protección de la salud (art. 43 de la Constitución).",
+      "C": "El derecho a disfrutar de una vivienda digna y adecuada (art. 47 de la Constitución).",
+      "D": "Las tres respuestas anteriores son correctas."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuál de los siguientes actos del Rey NO requiere refrendo?",
+    "opciones": {
+      "A": "La propuesta de candidato a la Presidencia del Gobierno.",
+      "B": "La expedición de decretos acordados en Consejo de Ministros.",
+      "C": "El nombramiento y relevo de los miembros civiles y militares de su Casa.",
+      "D": "La sanción y promulgación de las leyes."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 3,
+    "pregunta": "El artículo 149.3 de la Constitución implica, entre otras cosas, que:",
+    "opciones": {
+      "A": "Toda competencia no atribuida expresamente al Estado corresponde a las comunidades autónomas.",
+      "B": "La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado.",
+      "C": "La competencia sobre las materias que no se hayan asumido por ley de la comunidad autónoma corresponderá al Estado.",
+      "D": "El Senado resuelve definitivamente los conflictos competenciales."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 4,
+    "pregunta": "La norma que, en el marco de la Unión Europea, obliga al Estado miembro destinatario en cuanto al resultado que deba conseguirse, dejando, sin embargo, a las autoridades nacionales la elección de la forma y de los medios, se denomina:",
+    "opciones": {
+      "A": "Ley europea.",
+      "B": "Reglamento.",
+      "C": "Directiva.",
+      "D": "Posición común."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 5,
+    "pregunta": "Cuál de las siguientes entidades NO se encuentra mencionada en el Título III del Estatuto de Autonomía para Andalucía, relativo a la organización territorial de la comunidad autónoma:",
+    "opciones": {
+      "A": "El municipio.",
+      "B": "La provincia.",
+      "C": "Las mancomunidades.",
+      "D": "Las comarcas."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 6,
+    "pregunta": "Con arreglo al artículo 102.1 del Estatuto de Autonomía para Andalucía vigente, el Parlamento de Andalucía goza de plena autonomía, entre otras, en materia:",
+    "opciones": {
+      "A": "Económica.",
+      "B": "Representativa.",
+      "C": "Normativa.",
+      "D": "Administrativa."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 7,
+    "pregunta": "Con arreglo al artículo 5.2 del Reglamento del Parlamento de Andalucía, los derechos y prerrogativas del Diputado o Diputada serán efectivos desde el momento en que:",
+    "opciones": {
+      "A": "Sea proclamado electo.",
+      "B": "Preste la promesa o el juramento de acatar la Constitución y el Estatuto de Autonomía para Andalucía.",
+      "C": "Efectúe su declaración sobre actividades y bienes e intereses.",
+      "D": "Se integre en un grupo parlamentario o en el Grupo Mixto."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 8,
+    "pregunta": "Con arreglo al artículo 58 del Reglamento del Parlamento de Andalucía, la Diputación Permanente, en las circunstancias que prevé dicho artículo:",
+    "opciones": {
+      "A": "Ejercerá las funciones del Pleno, en sustitución de éste, cuando no está reunido.",
+      "B": "Velará por los poderes de la Cámara.",
+      "C": "Ejercerá las funciones representativas que corresponden a la Mesa en el caso de que las Cámaras hubieran sido disueltas o hubiera expirado su mandato.",
+      "D": "Son correctas todas las respuestas anteriores."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 9,
+    "pregunta": "En las sesiones del Parlamento de Andalucía, conforme al artículo 84.2 del Reglamento del Parlamento de Andalucía, la comprobación de quórum:",
+    "opciones": {
+      "A": "Podrá solicitarse en cualquier momento de la sesión.",
+      "B": "Sólo podrá solicitarse al inicio de la sesión.",
+      "C": "Sólo podrá solicitarse antes del comienzo de cada votación.",
+      "D": "Sólo podrá comprobarse una vez celebrada la sesión."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 10,
+    "pregunta": "Conforme al artículo 111.1 del Reglamento del Parlamento de Andalucía:",
+    "opciones": {
+      "A": "Todo proyecto de ley será objeto de un debate de totalidad.",
+      "B": "Todo proyecto de ley será objeto de un debate de toma en consideración.",
+      "C": "Todo proyecto de ley será objeto de un debate de totalidad, siempre que haya recibido una enmienda a la totalidad.",
+      "D": "Todo proyecto de ley será objeto de un debate de toma en consideración, siempre que haya recibido una enmienda a la totalidad."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 11,
+    "pregunta": "Conforme al artículo 157 del Reglamento del Parlamento de Andalucía, las iniciativas que derivan de una interpelación para que la Cámara manifieste su posición se llaman:",
+    "opciones": {
+      "A": "Mociones.",
+      "B": "Propuestas de resolución.",
+      "C": "Proposiciones no de ley.",
+      "D": "Declaraciones políticas de alcance general."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 12,
+    "pregunta": "Según el artículo 5.1 de la Ley 1/2004, de 17 de diciembre, de creación del Consejo Audiovisual de Andalucía, los miembros del Consejo Audiovisual de Andalucía son elegidos:",
+    "opciones": {
+      "A": "Por el Parlamento de Andalucía, por mayoría de tres quintos de sus miembros.",
+      "B": "Por el Consejo de Gobierno.",
+      "C": "Por la Comisión Consultiva de Nombramientos, Relaciones con el Defensor del Pueblo Andaluz y Peticiones del Parlamento de Andalucía.",
+      "D": "Por el Parlamento de Andalucía, por mayoría de dos tercios en primera votación y, si no se diera tal resultado, por mayoría de tres quintos en una votación posterior."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 13,
+    "pregunta": "Sobre la base de lo establecido en el artículo 110 del Estatuto de Autonomía para Andalucía, se puede afirmar que los decretos-leyes:",
+    "opciones": {
+      "A": "Son normas de carácter reglamentario.",
+      "B": "Son normas del Consejo de Gobierno con fuerza de ley.",
+      "C": "Son normas del Consejo de Gobierno que no tienen carácter reglamentario, aunque no alcanzan fuerza de ley.",
+      "D": "Son normas del Consejo de Gobierno que adquieren su fuerza de ley en virtud de su convalidación."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 14,
+    "pregunta": "Conforme al artículo 13.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en los supuestos de vacante, ausencia o enfermedad, si no se designa suplente, la competencia del órgano administrativo se ejercerá:",
+    "opciones": {
+      "A": "Por quien designe a tal fin quien ejerza la presidencia del órgano administrativo afectado.",
+      "B": "Por quien designe a tal fin la mayoría del órgano administrativo afectado.",
+      "C": "Por quien designe el órgano administrativo inmediato superior de quien dependa.",
+      "D": "Por quien designe a tal fin la persona causante de la situación de vacante, ausencia o enfermedad."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 15,
+    "pregunta": "Según el artículo 121.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, las resoluciones y actos a que se refiere el artículo 112.1 de la misma ley, cuando no pongan fin a la vía administrativa, podrán ser recurridos:",
+    "opciones": {
+      "A": "En alzada ante el órgano superior jerárquico del que los dictó.",
+      "B": "En reposición ante el mismo órgano que los hubiera dictado.",
+      "C": "En revisión ante el órgano administrativo que los dictó.",
+      "D": "En revisión de oficio o declaración de lesividad."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 16,
+    "pregunta": "Conforme a la disposición adicional novena de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público:",
+    "opciones": {
+      "A": "En los contratos de servicios que impliquen el desarrollo o mantenimiento de aplicaciones informáticas el objeto del contrato habrá de definirse necesariamente por referencia a componentes de prestación del servicio.",
+      "B": "En ningún caso la entidad contratante podrá instrumentar la contratación de personal a través del contrato de servicios, salvo los que por razón de la cuantía se tramiten como contratos menores.",
+      "C": "Los contratos de servicios que tengan por objeto el desarrollo y la puesta a disposición de productos protegidos por un derecho de propiedad intelectual o industrial no llevarán aparejada la cesión de este a la Administración contratante.",
+      "D": "La contratación del acceso a la información contenida en bases de datos especializadas podrá efectuarse, cualquiera que sea su cuantía siempre que no tengan el carácter de contratos sujetos a regulación armonizada, de acuerdo con las normas establecidas para los contratos menores."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 17,
+    "pregunta": "Señale cuál de los siguientes está reconocido como cuerpo de funcionarios del Parlamento de Andalucía por el Estatuto de Personal de dicha institución:",
+    "opciones": {
+      "A": "El cuerpo de auxiliares.",
+      "B": "El cuerpo administrativo.",
+      "C": "El cuerpo de oficiales de gestión.",
+      "D": "El cuerpo de ujieres."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 18,
+    "pregunta": "Conforme al artículo 102.4 del Estatuto de Autonomía para Andalucía:",
+    "opciones": {
+      "A": "La Junta de Andalucía elabora el presupuesto del Parlamento de Andalucía, que posteriormente lo aprueba.",
+      "B": "El Parlamento elabora y aprueba su presupuesto.",
+      "C": "El Parlamento elabora su presupuesto, que aprueba la Junta de Andalucía.",
+      "D": "La Junta de Andalucía elabora y aprueba el presupuesto del Parlamento."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 19,
+    "pregunta": "Señale cuál de los siguientes derechos está reconocido como tal en el Reglamento General de Protección de Datos en los términos establecidos por dicha norma:",
+    "opciones": {
+      "A": "El derecho a la conservación de los datos.",
+      "B": "El derecho a la limitación del tratamiento.",
+      "C": "El derecho a la investigación de los datos.",
+      "D": "El derecho al aseguramiento frente al tratamiento ilegal de los datos."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué códecs admite oficialmente el contenedor libre WebM?",
+    "opciones": {
+      "A": "HEVC/H.265 para vídeo y AC-3 o E-AC-3 para audio.",
+      "B": "VP8/VP9/AV1 para vídeo y Vorbis/Opus para audio.",
+      "C": "MPEG-2/H.262 para vídeo y PCM o MP2 para audio.",
+      "D": "H.264/AVC para vídeo y AAC o MP3 para audio."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 21,
+    "pregunta": "En el contexto de ITIL 4, ¿qué práctica actúa como punto único de contacto entre los usuarios y el proveedor de servicios, gestionando incidencias, solicitudes y comunicaciones?",
+    "opciones": {
+      "A": "Gestión de problemas.",
+      "B": "Gestión de incidentes.",
+      "C": "Service desk.",
+      "D": "Servicio técnico."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 22,
+    "pregunta": "En ITIL 4, una compañía contrata a un proveedor externo para alojar sus servidores y debe gestionar el contrato, la relación comercial y la calidad del servicio recibido. ¿A qué dimensión de la gestión de servicios corresponde principalmente esta situación?",
+    "opciones": {
+      "A": "Organizaciones y personas.",
+      "B": "Información y tecnología.",
+      "C": "Socios y proveedores.",
+      "D": "Flujos de valor y procesos."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué tipo de núcleo utiliza el kernel de Linux?",
+    "opciones": {
+      "A": "Monolítico.",
+      "B": "Microkernel.",
+      "C": "Híbrido.",
+      "D": "Exonúcleo"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 24,
+    "pregunta": "En Rocky Linux, ¿cuál de los siguientes comandos permite configurar la red (IP, DNS, puerta de enlace y hostname)?",
+    "opciones": {
+      "A": "ipconfig",
+      "B": "netstat",
+      "C": "netsh",
+      "D": "nmtui"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 25,
+    "pregunta": "Tras promocionar un servidor a controlador de dominio, los usuarios experimentan errores de inicio de sesión y problemas de replicación. ¿Qué combinación de herramientas sería la adecuada para comenzar el diagnóstico?",
+    "opciones": {
+      "A": "dcrepair y adrepair",
+      "B": "addiag y sfc /scannow",
+      "C": "dcdiag y repadmin",
+      "D": "No existe comando para este diagnóstico."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 26,
+    "pregunta": "Un administrador quiere cifrar la información almacenada en un Mac por si el equipo se pierde o alguien extrae físicamente la unidad de almacenamiento. ¿Qué función de seguridad de macOS debería activar?",
+    "opciones": {
+      "A": "BitLocker.",
+      "B": "iCipher.",
+      "C": "FileVault.",
+      "D": "Ninguna de los anteriores."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 27,
+    "pregunta": "En un entorno BYOD, ¿qué mecanismo separa los datos corporativos de los personales limitando el control de la organización a la parte gestionada?",
+    "opciones": {
+      "A": "En dispositivos Android: dispositivo totalmente gestionado (COBO) / En dispositivos iOS: modo supervisado vía ADE",
+      "B": "En dispositivos Android: perfil de trabajo / En dispositivos iOS: User Enrollment con MDM",
+      "C": "En dispositivos Android: desbloqueo del bootloader / En dispositivos iOS: jailbreak",
+      "D": "En dispositivos Android: modo seguro / En dispositivos iOS: modo DFU"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 28,
+    "pregunta": "Cuando se crea de cero un equipo de Teams, ¿qué se crea automáticamente por detrás?",
+    "opciones": {
+      "A": "Un grupo de Microsoft 365, con un buzón de grupo y calendario en Exchange Online, un sitio de SharePoint y un bloc de notas de OneNote.",
+      "B": "Un sitio de SharePoint, una lista de distribución de Exchange, una carpeta compartida en el OneDrive del creador y un plan de Planner.",
+      "C": "Un sitio de SharePoint y un grupo de seguridad de Entra ID, que gestiona los permisos de acceso a dicho sitio.",
+      "D": "Solamente un sitio de SharePoint, con una biblioteca de documentos independiente para cada canal."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 29,
+    "pregunta": "Una administración pública utiliza varios servidores Red Hat Enterprise Linux y quiere probar las actualizaciones primero en desarrollo, después en pruebas y finalmente pasarlas a producción. ¿Qué herramienta permite gestionar este proceso de forma centralizada?",
+    "opciones": {
+      "A": "Red Hat SUS",
+      "B": "Red Hat Satellite",
+      "C": "Landscape",
+      "D": "RPM Center"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 30,
+    "pregunta": "El ciclo de vida híbrido se utiliza cuando:",
+    "opciones": {
+      "A": "Unas partes del proyecto tienen requisitos estables y bien definidos y otras tienen alta incertidumbre o requisitos cambiantes.",
+      "B": "Se combinan varios proyectos independientes bajo una misma dirección para obtener beneficios coordinados.",
+      "C": "Los requisitos son estables pero el equipo es nuevo y necesita formarse durante las primeras fases.",
+      "D": "La organización carece de PMO y cada director aplica la metodología que considera más adecuada."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 31,
+    "pregunta": "En el marco de la agilidad a gran escala, ¿cuál es una diferencia estructural clave entre los marcos LeSS (Large-Scale Scrum) y SAFe (Scaled Agile Framework) respecto a la gestión del Backlog?",
+    "opciones": {
+      "A": "SAFe mantiene un único Product Backlog para todo el grupo de equipos, mientras que LeSS utiliza backlogs individuales por equipo.",
+      "B": "LeSS defiende un único Product Backlog para todo el grupo de equipos, mientras que SAFe organiza el trabajo mediante múltiples niveles de backlog (Program, Team y otros según el contexto).",
+      "C": "LeSS separa los requisitos estratégicos y operativos en distintos Product Backlogs, mientras que SAFe mantiene un único backlog para todos los niveles de planificación.",
+      "D": "LeSS requiere un Product Backlog por cada tres equipos, mientras que en SAFe el número de backlogs es ilimitado."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 32,
+    "pregunta": "Dentro de los principios GRASP, ¿cuál es el propósito primordial del patrón \"Fabricación Pura\" (Pure Fabrication)?",
+    "opciones": {
+      "A": "Asignar responsabilidades a la clase que posee la información necesaria para ejecutarlas.",
+      "B": "Introducir una clase artificial que no forme parte del modelo conceptual del dominio para conseguir un bajo acoplamiento y una alta cohesión.",
+      "C": "Desviar el control de los eventos de la interfaz hacia un objeto mediador.",
+      "D": "Asegurar que las subclases puedan sustituir a sus clases base sin romper la lógica del sistema."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 33,
+    "pregunta": "Dentro de la gestión de Historias de Usuario, el acrónimo INVEST define criterios de calidad. ¿Qué implicación técnica tiene el criterio \"Small\" (Pequeña) en la planificación de un Sprint?",
+    "opciones": {
+      "A": "Que la historia no debe ocupar más de una tarjeta física de tamaño estándar (Card).",
+      "B": "Que el código fuente resultante no debe exceder un número determinado de líneas de código (LOC).",
+      "C": "Que su dimensión debe permitir que sea totalmente diseñada, codificada y probada dentro de un único ciclo de desarrollo (Sprint), de lo contrario debe fragmentarse al considerarse parte de una épica o un requisito de mayor tamaño.",
+      "D": "Que solo puede ser asignada a un único desarrollador para evitar el acoplamiento de tareas."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 34,
+    "pregunta": "En el marco de una arquitectura de Malla de Servicios (Service Mesh), ¿cuál es la responsabilidad técnica exclusiva del denominado \"Plano de Control\" (Control Plane)?",
+    "opciones": {
+      "A": "Interceptar y gestionar todo el tráfico de red de entrada y salida de cada microservicio mediante proxies Sidecar.",
+      "B": "Ejecutar de forma directa el balanceo de carga, la terminación TLS y la recopilación de telemetría de los datos en tránsito.",
+      "C": "Configurar, coordinar y propagar de forma unificada las políticas de seguridad y reglas operativas hacia los proxies del Plano de Datos.",
+      "D": "Actuar como la fachada periférica para gestionar el tráfico \"Norte-Sur\" proveniente de clientes externos."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 35,
+    "pregunta": "Dentro de las relaciones estructurales de UML 2.5, ¿cuál es la diferencia técnica fundamental que distingue a la composición de una agregación simple?",
+    "opciones": {
+      "A": "En la composición, existe una relación de propiedad fuerte donde el ciclo de vida de la clase \"parte\" está ligado al de la clase \"todo\", desapareciendo si esta última se destruye.",
+      "B": "En la agregación, el ciclo de vida de las partes está ligado estrictamente al del objeto todo.",
+      "C": "La agregación es una relación más fuerte que implica que las partes no pueden existir sin su contenedor.",
+      "D": "La composición se representa mediante un rombo blanco o vacío, mientras que la agregación utiliza un rombo negro relleno."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 36,
+    "pregunta": "Al utilizar un mecanismo de depuración (Debugger) en un entorno de desarrollo moderno, ¿qué acción realiza el comando \"Step Over\" (Saltar instrucción)?",
+    "opciones": {
+      "A": "Detiene la ejecución del hilo del programa solo si se cumple una condición lógica determinada.",
+      "B": "Ejecuta la línea de código actual como una única instrucción atómica, pasando a la siguiente sin entrar en las funciones internas invocadas.",
+      "C": "Desplaza el foco de control hacia la primera línea de código de cualquier método interno que sea invocado.",
+      "D": "Muestra la secuencia jerárquica inversa de hilos de ejecución activos en la memoria RAM."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 37,
+    "pregunta": "Dentro de la gestión operativa de Git, ¿cuál es la función técnica del \"Área de Preparación\" o Índice (Staging Area)?",
+    "opciones": {
+      "A": "Actuar como el espacio físico en el disco duro donde los archivos son editados directamente por el desarrollador.",
+      "B": "Almacenar de forma definitiva y persistente las instantáneas inmutables en la base de datos del repositorio local.",
+      "C": "Sincronizar de forma inmediata los cambios locales con la plataforma en la nube (como GitHub o GitLab) tras cada modificación.",
+      "D": "Funcionar como un área intermedia donde se preseleccionan y preparan los cambios específicos que formarán parte de la próxima confirmación (commit)."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 38,
+    "pregunta": "En el marco de la automatización industrializada del software, ¿qué diferencia técnica clave distingue a la \"Entrega Continua\" (Continuous Delivery) del \"Despliegue Continuo\" (Continuous Deployment)?",
+    "opciones": {
+      "A": "La Entrega Continua no incluye pruebas automatizadas de regresión, mientras que el Despliegue Continuo sí.",
+      "B": "El Despliegue Continuo solo es aplicable a entornos locales, mientras que la Entrega Continua es para nube.",
+      "C": "En la Entrega Continua el paso final a producción requiere una aprobación o decisión manual, mientras que en el Despliegue Continuo el proceso es totalmente automático.",
+      "D": "La Entrega Continua utiliza obligatoriamente Jenkins, mientras que el Despliegue Continuo se realiza mediante scripts manuales de Bash."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Cómo se denomina a la técnica de diseño de pruebas que se basa exclusivamente en las especificaciones y el comportamiento observable del sistema, sin considerar su estructura interna, y se guía solo por los requisitos y las salidas esperadas?",
+    "opciones": {
+      "A": "Pruebas de caja blanca.",
+      "B": "Pruebas de caja negra.",
+      "C": "Pruebas de regresión.",
+      "D": "Pruebas estructurales."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Cuál es el pilar técnico del Diseño Web Responsive (RWD) que permite aplicar reglas de estilo CSS condicionales basándose en las características del medio de presentación o del viewport, como el ancho de pantalla?",
+    "opciones": {
+      "A": "Rejillas fluidas (Fluid Grids).",
+      "B": "Imágenes flexibles.",
+      "C": "Media Queries.",
+      "D": "Puntos de ruptura (Breakpoints) estáticos."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 41,
+    "pregunta": "En la evolución de los lenguajes de programación, ¿cuál es la característica técnica que define fundamentalmente a los lenguajes de tercera generación (3GL) frente a sus predecesores?",
+    "opciones": {
+      "A": "La utilización de instrucciones mnemotécnicas directas que mapean uno a uno con el código máquina.",
+      "B": "La expresión de algoritmos mediante el uso exclusivo de lógica binaria pura.",
+      "C": "La mayor abstracción y relativa independencia del hardware, gracias al uso de compiladores o intérpretes.",
+      "D": "El enfoque puramente declarativo donde se define qué resultado se desea sin especificar el proceso algorítmico."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Cuál es la función primordial del componente CoreCLR dentro de las implementaciones modernas de .NET (anteriormente .NET Core)?",
+    "opciones": {
+      "A": "Funcionar como una máquina virtual modular y multiplataforma que gestiona la memoria, la recolección de basura y la compilación JIT.",
+      "B": "Actuar como el gestor de paquetes centralizado para descargar librerías.",
+      "C": "Proporcionar las APIs de Windows Forms para el desarrollo de escritorio.",
+      "D": "Traducir el código C# directamente a Python para su ejecución en servidores Linux."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Qué innovación de HTML5 contribuyó especialmente a mejorar la semántica de los documentos web, facilitando tanto la indexación por buscadores como la accesibilidad mediante tecnologías asistivas?",
+    "opciones": {
+      "A": "El uso obligatorio de tablas para maquetar el contenido.",
+      "B": "El uso de etiquetas con significado semántico como <header>, <nav>, <main> y <footer>.",
+      "C": "La ejecución de scripts únicamente en el lado del servidor.",
+      "D": "La eliminación del soporte para archivos multimedia de audio y vídeo."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 44,
+    "pregunta": "En la arquitectura interna de un motor de búsqueda empresarial integrado en un ECM, ¿qué componente técnico procesa el contenido extraído de los documentos para generar la estructura de datos denominada \"índice invertido\"?",
+    "opciones": {
+      "A": "El Indexador, encargado de organizar el contenido procesado para permitir búsquedas eficientes.",
+      "B": "El Crawler o Spider, encargado de rastrear y recolectar la información bruta de los repositorios.",
+      "C": "La Interfaz de Consulta, responsable de procesar las peticiones del usuario y aplicar algoritmos de ranking.",
+      "D": "El Agregador de Noticias, encargado de leer los metadatos de los canales RSS del sistema."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 45,
+    "pregunta": "En el desarrollo de aplicaciones móviles, ¿cuál es la principal característica técnica que ofrece el enfoque 'Multiplataforma' (como Flutter o React Native) frente al desarrollo 'Nativo' (como Swift para iOS o Kotlin para Android)?",
+    "opciones": {
+      "A": "Un rendimiento significativamente superior en tareas que requieren acceso directo al hardware complejo.",
+      "B": "Eliminación total de la necesidad de realizar pruebas en dispositivos físicos reales.",
+      "C": "Acceso exclusivo y más rápido a las APIs más recientes y avanzadas de Apple y Google.",
+      "D": "La capacidad de reutilizar una gran parte del código base para desplegar la aplicación en múltiples sistemas operativos."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 46,
+    "pregunta": "En el proceso de validación de un documento XML, ¿cuál es la ventaja técnica fundamental de utilizar un esquema XSD (XML Schema Definition) frente a una DTD (Document Type Definition)?",
+    "opciones": {
+      "A": "Que XSD permite definir tipos de datos, restricciones de valor, derivación de tipos y utiliza la propia sintaxis XML, siendo más expresivo y potente que DTD.",
+      "B": "Que la DTD utiliza una sintaxis basada en etiquetas XML, facilitando su lectura por motores de búsqueda.",
+      "C": "Que la DTD permite definir tipos de datos personalizados mientras que XSD no lo admite.",
+      "D": "Que las DTD son las únicas capaces de manejar múltiples espacios de nombres (namespaces) de forma simultánea."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 47,
+    "pregunta": "Una organización necesita conservar registros de firewalls, servidores, aplicaciones y servicios cloud durante varios años para realizar investigaciones y auditorías de cumplimiento. Al mismo tiempo, quiere detectar y responder automáticamente a amenazas en endpoints, correo electrónico e identidades. ¿Qué combinación describe mejor el uso de SIEM y XDR?",
+    "opciones": {
+      "A": "El XDR centraliza y analiza logs; el SIEM correlaciona señales de seguridad y automatiza la detección y respuesta.",
+      "B": "El SIEM protege únicamente los endpoints; el XDR se limita a almacenar logs para auditorías.",
+      "C": "El SIEM protege a los equipos de usuarios; el XDR protege los elementos de red.",
+      "D": "El SIEM centraliza y analiza logs; el XDR correlaciona señales de seguridad y automatiza la detección y respuesta."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 48,
+    "pregunta": "El modo GCM de AES se caracteriza por:",
+    "opciones": {
+      "A": "Ser un modo de cifrado en flujo sin vector de inicialización.",
+      "B": "Proporcionar confidencialidad, autenticidad e integridad.",
+      "C": "Requerir relleno (padding) obligatoriamente.",
+      "D": "Proporcionar solo confidencialidad."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 49,
+    "pregunta": "En un flujo de inicio de sesión único (Single Sign-On) basado en SAML 2.0, el proveedor de servicios recibe una respuesta SAML a través del navegador. ¿Qué componente debe validar normalmente la firma de la aserción antes de conceder acceso al usuario?",
+    "opciones": {
+      "A": "Service Provider (SP).",
+      "B": "Identity Provider (IdP).",
+      "C": "Resource Server.",
+      "D": "User-Agent."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 50,
+    "pregunta": "Una organización utiliza Keycloak como gestor de identidades para proporcionar Single Sign-On (SSO) a varias aplicaciones. Una de ellas necesita autenticar a los usuarios mediante OpenID Connect (OIDC). ¿Cuál de las siguientes afirmaciones es CORRECTA?",
+    "opciones": {
+      "A": "OpenID Connect es un protocolo de autorización basado exclusivamente en XML y diseñado para sustituir a SAML 2.0.",
+      "B": "OpenID Connect es una capa de identidad construida sobre OAuth 2.0, que permite a una aplicación verificar la identidad del usuario y obtener información sobre él mediante tokens.",
+      "C": "OAuth 2.0 y OpenID Connect son exactamente el mismo protocolo y ambos tienen como objetivo principal transportar aserciones de identidad mediante XML.",
+      "D": "SAML 2.0 es el protocolo que Keycloak utiliza obligatoriamente para todas las aplicaciones, independientemente del protocolo de autenticación configurado."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 51,
+    "pregunta": "De acuerdo con el Reglamento General de Protección de Datos y las guías de la Agencia Española de Protección de Datos, ¿cuál de las siguientes situaciones puede hacer necesaria la realización de una Evaluación de Impacto relativa a la Protección de Datos (EIPD)?",
+    "opciones": {
+      "A": "Cualquier tratamiento de datos personales, independientemente de su naturaleza y del riesgo que implique.",
+      "B": "Un tratamiento que, por su naturaleza, alcance, contexto o fines, pueda entrañar un alto riesgo para los derechos y libertades de las personas físicas.",
+      "C": "Únicamente los tratamientos realizados por organismos de la Administración Pública.",
+      "D": "Exclusivamente los tratamientos que impliquen datos de carácter económico o financiero."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 52,
+    "pregunta": "Una organización quiere utilizar una herramienta de la Agencia Española de Protección de Datos para realizar un análisis inicial de los riesgos asociados a un tratamiento de datos personales y determinar si puede ser necesario realizar una Evaluación de Impacto relativa a la Protección de Datos (EIPD). ¿cuál de las siguientes herramientas está específicamente orientada a este tipo de análisis?",
+    "opciones": {
+      "A": "Facilita RGPD",
+      "B": "Gestiona RGPD",
+      "C": "Evalúa-Riesgo RGPD",
+      "D": "PILAR"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 53,
+    "pregunta": "Dentro de los distintos tipos de almacenamiento, ¿cuál sería el más apropiado para compartir ficheros entre múltiples PoDs Kubernetes repartidos en nodos distintos?",
+    "opciones": {
+      "A": "DAS",
+      "B": "SAN",
+      "C": "NAS",
+      "D": "HD"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 54,
+    "pregunta": "Respecto a la propiedad de aislamiento de las transacciones SQL, ¿cuál de las siguientes respuestas es VERDADERA?:",
+    "opciones": {
+      "A": "Se definen distintos niveles de aislamiento según se permitan ciertas anomalías.",
+      "B": "Asegura que la transacción se ejecuta enteramente o no se ejecuta en absoluto.",
+      "C": "Evita que dos transacciones accedan a la misma tabla de forma simultánea.",
+      "D": "Las lecturas sucias se limpian con un rollback."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 55,
+    "pregunta": "Si necesita iniciar una base de datos Oracle sin abrirla ni montarla, ¿cuál de los siguientes comandos utilizaría?",
+    "opciones": {
+      "A": "STARTUP MOUNT;",
+      "B": "STARTUP FORCE;",
+      "C": "STARTUP OPEN;",
+      "D": "STARTUP NOMOUNT;"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 56,
+    "pregunta": "En una base de datos Oracle, un administrador necesita controlar el acceso de los usuarios y asignarles únicamente los privilegios necesarios para realizar sus funciones. ¿Cuál de las siguientes opciones describe correctamente este mecanismo?",
+    "opciones": {
+      "A": "Los privilegios se asignan exclusivamente mediante parámetros de inicialización de la instancia.",
+      "B": "Los roles permiten agrupar privilegios y asignarlos a los usuarios de forma centralizada, facilitando la gestión del control de acceso.",
+      "C": "Los usuarios de Oracle heredan automáticamente todos los privilegios del usuario que creó su cuenta.",
+      "D": "El control de acceso en Oracle se realiza únicamente mediante reglas configuradas en el sistema operativo."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 57,
+    "pregunta": "Relativo a PostgreSQL, ¿cuál de las siguientes opciones es FALSA?",
+    "opciones": {
+      "A": "WAL shipping es un mecanismo de replicación que envía segmentos WAL completos.",
+      "B": "El archivo pg_hba.conf es el archivo de configuración general del servidor.",
+      "C": "DBeaver permite administrar bases de datos PostgreSQL.",
+      "D": "Patroni proporciona alta disponibilidad a PostgreSQL."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Qué pertenencia NO está permitida en grupos de Microsoft Entra ID?",
+    "opciones": {
+      "A": "Pertenencia dinámica de dispositivos en grupos Microsoft 365.",
+      "B": "Pertenencia dinámica de dispositivos en grupos de seguridad.",
+      "C": "Pertenencia dinámica de usuarios en grupos de seguridad.",
+      "D": "Pertenencia asignada en grupos Microsoft 365."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 59,
+    "pregunta": "En el marco del Esquema Nacional de Interoperabilidad (ENI), ¿cuál es la finalidad principal de las Normas Técnicas de Interoperabilidad (NTI)?",
+    "opciones": {
+      "A": "Establecer exclusivamente los requisitos de seguridad que deben cumplir los sistemas de información de las Administraciones Públicas.",
+      "B": "Definir especificaciones técnicas y criterios comunes que faciliten la interoperabilidad y el intercambio de información entre las Administraciones Públicas.",
+      "C": "Sustituir las normas internas de cada Administración en materia de gestión de sistemas informáticos.",
+      "D": "Regular exclusivamente la contratación de productos y servicios tecnológicos por parte de las Administraciones Públicas."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 60,
+    "pregunta": "Un balanceador que decide según la URL de HTTP, ¿en qué capa del modelo OSI hace esta decisión?",
+    "opciones": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "7"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Cuál es la secuencia de establecimiento de una conexión TCP mediante el three-way handshake?",
+    "opciones": {
+      "A": "SYN → SYN+ACK → ACK",
+      "B": "SYN → ACK → SYN+ACK",
+      "C": "ACK → SYN → SYN+ACK",
+      "D": "SYN → SYN+ACK → FIN"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 62,
+    "pregunta": "En relación con las categorías de cableado de par trenzado, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+    "opciones": {
+      "A": "La categoría del cable y la clase del canal son exactamente la misma clasificación y ambas pertenecen exclusivamente a la norma ANSI/TIA- 568.",
+      "B": "ANSI/TIA-568 utiliza categorías para especificar las prestaciones de los componentes de cableado, mientras que ISO/IEC 11801 utiliza clases para especificar las prestaciones del enlace o canal.",
+      "C": "ISO/IEC 11801 utiliza únicamente categorías de cable y ANSI/TIA-568 utiliza exclusivamente clases de enlace.",
+      "D": "Las categorías y clases de cableado determinan únicamente el tipo de conector y no tienen relación con las prestaciones de transmisión."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Cuál es la ventaja de MSTP frente a PVST+ cuando se tiene gran número de VLANs?",
+    "opciones": {
+      "A": "Permite reducir el número de árboles de expansión, mejorando la escalabilidad.",
+      "B": "Sustituye el intercambio de BPDUs por mensajes LACP entre switches.",
+      "C": "Es un protocolo propietario de Cisco optimizado para esta casuística.",
+      "D": "Permite mayor control al tener una instancia por VLAN."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Cuál es la principal diferencia entre LoRaWAN y LoRa?",
+    "opciones": {
+      "A": "Las bandas de frecuencias usadas en LoRaWAN son libres, mientras que las de LoRa son licenciadas.",
+      "B": "LoRa es la capa física y LoRaWAN es el protocolo de acceso al medio y de red.",
+      "C": "Son las versiones europea y americana respectivamente del mismo protocolo",
+      "D": "LoRaWAN es la evolución de LoRa basada en tecnología 5G NR."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Cuál de las siguientes opciones NO se corresponde con un servicio comercial de CDN (Content Delivery Network)?",
+    "opciones": {
+      "A": "Cloudflare",
+      "B": "Akamai",
+      "C": "AWS CDN",
+      "D": "Amazon CloudFront"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 66,
+    "pregunta": "En relación con los protocolos de la capa de transporte, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+    "opciones": {
+      "A": "UDP establece una conexión previa y garantiza la entrega ordenada de todos los segmentos.",
+      "B": "TCP proporciona mecanismos de establecimiento de conexión, control de flujo y retransmisión para ofrecer una comunicación fiable.",
+      "C": "QUIC funciona directamente sobre TCP y utiliza el puerto 443/TCP para mejorar el rendimiento de HTTPS.",
+      "D": "TCP y UDP utilizan siempre los mismos mecanismos de control de congestión y ofrecen idénticas garantías de entrega."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué relación servicio-puerto es INCORRECTA?",
+    "opciones": {
+      "A": "DNS 53/udp y 53/tcp",
+      "B": "HTTPS 443/tcp",
+      "C": "SNMP 25/tcp",
+      "D": "SSH 22/tcp"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 68,
+    "pregunta": "Relativo al QoS, ¿qué diferencia hay entre el policing y el shaping?",
+    "opciones": {
+      "A": "Policing almacena el exceso de tráfico en una cola, mientras que shaping lo descarta inmediatamente.",
+      "B": "Policing descarta el exceso de tráfico, mientras shaping lo retrasa para suavizar la salida.",
+      "C": "Son equivalentes, solo cambian según la nomenclatura de distintos fabricantes.",
+      "D": "Policing se usa en tráfico multicast y shaping en tráfico unicast."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Cuál NO es una función del SAI en un CPD?",
+    "opciones": {
+      "A": "Alimentar los equipos en caso de corte hasta que arranque el grupo electrógeno, si se dispone de uno.",
+      "B": "Alimentar la climatización durante un corte.",
+      "C": "Estabilizar la tensión y frecuencia eléctrica.",
+      "D": "Filtrar picos y microcortes de la red."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Cuál de los siguientes NO es una plataforma de hiperconvergencia?",
+    "opciones": {
+      "A": "VxRail",
+      "B": "vSAN",
+      "C": "Nutanix",
+      "D": "HyperCon"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 71,
+    "pregunta": "Si necesita optimizar el consumo energético de su Datacenter VMware apagando o encendiendo hosts según la carga que estos estén ejecutando, ¿qué herramienta de VMware está diseñada para tal cometido?",
+    "opciones": {
+      "A": "vMotion",
+      "B": "vSphere DPM",
+      "C": "Fault Tolerance",
+      "D": "vShutdown"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 72,
+    "pregunta": "Si necesita que vSphere reparta automáticamente la carga entre los distintos hosts que tiene un clúster, ¿qué característica activará para tal fin?",
+    "opciones": {
+      "A": "VMware HA",
+      "B": "vMotion",
+      "C": "DRS",
+      "D": "Affinity rules"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 73,
+    "pregunta": "Un Deployment de Kubernetes es un objeto que:",
+    "opciones": {
+      "A": "Expone un conjunto de pods con una IP estable.",
+      "B": "Ejecuta un pod en cada nodo del cluster.",
+      "C": "Asigna a un pod un nombre y un volumen persistente.",
+      "D": "Gestiona las réplicas de pods sin estado."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Cuál de los siguientes componentes NO se utiliza como servicio o componente de la plataforma OpenStack?",
+    "opciones": {
+      "A": "Nova",
+      "B": "Neutron",
+      "C": "Cinder",
+      "D": "Lambda"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 75,
+    "pregunta": "Respecto a la integración continua en GitLab:",
+    "opciones": {
+      "A": "Los pipelines se definen en un fichero .gitlab-ci.yml en la raíz del repositorio.",
+      "B": "Los jobs dentro de una stage se ejecutan en secuencia y los stages en paralelo.",
+      "C": "Los pipelines se ejecutan siempre en el propio servidor de gitlab.",
+      "D": "Los jobs solo se pueden ejecutar dentro de contenedores Docker."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 76,
+    "pregunta": "Un equipo Scrum ha acordado trabajar con Sprints de dos semanas. Durante la planificación del siguiente Sprint, el Scrum Master propone reservar una jornada completa de trabajo (8 horas) para el Sprint Planning. Según la Guía Scrum, ¿cómo debería valorarse esta propuesta?",
+    "opciones": {
+      "A": "Es adecuada, ya que el Sprint Planning puede durar hasta 8 horas con independencia de la duración del Sprint.",
+      "B": "No es adecuada, porque para un Sprint de dos semanas el Sprint Planning debe tener una duración máxima aproximada de 4 horas.",
+      "C": "No es adecuada, porque el Sprint Planning nunca debe superar 2 horas.",
+      "D": "Es adecuada únicamente si participa también el Product Owner."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 77,
+    "pregunta": "Durante el modelado de un sistema para el Parlamento, se identifica que el caso de uso \"Registrar Iniciativa\" requiere que, en todas sus ejecuciones y como parte de su comportamiento, el sistema ejecute previamente el caso de uso \"Validar Firma Electrónica\". ¿Qué relación de UML debe utilizarse en el diagrama de casos de uso para representar esta dependencia?",
+    "opciones": {
+      "A": "<<extend>>",
+      "B": "<<include>>",
+      "C": "Generalización.",
+      "D": "Asociación simple."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 78,
+    "pregunta": "El departamento de informática del Parlamento está desplegando una red de microservicios en un clúster de Kubernetes para la nueva plataforma de \"Gestión de Expedientes\". El equipo de ciberseguridad exige que todas las comunicaciones internas entre servicios utilicen cifrado mutuo (mTLS) y que se registre una traza detallada de cada petición para auditoría. Para evitar que los desarrolladores tengan que codificar manualmente estas funciones de infraestructura y seguridad dentro de cada microservicio de negocio, ¿qué patrón arquitectónico permite externalizar estas responsabilidades transversales sin incorporarlas al código de cada microservicio?",
+    "opciones": {
+      "A": "Sidecar.",
+      "B": "Backend for Frontend (BFF).",
+      "C": "Event Sourcing.",
+      "D": "Objeto de Valor (Value Object)."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 79,
+    "pregunta": "El Parlamento está diseñando un proceso de negocio que integra varios servicios web. Se ha decidido que un servicio central controle explícitamente el orden de ejecución de las operaciones, invoque a los distintos servicios y gestione de forma centralizada las excepciones y la lógica del proceso. ¿Qué modelo de integración de servicios se está aplicando?",
+    "opciones": {
+      "A": "Coreografía.",
+      "B": "Orquestación.",
+      "C": "Service Mesh.",
+      "D": "API Gateway."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 80,
+    "pregunta": "El departamento de informática está dibujando un proceso de \"Votación Plenaria\" que involucra al \"Sistema de Votación\" (interno) y al \"Servidor de Certificación Externo\" (de otra organización). Para modelar correctamente la comunicación técnica entre ambos participantes independientes en BPMN 2.0, ¿qué elementos deben usarse?",
+    "opciones": {
+      "A": "Un único Pool con dos Lanes y flujos de secuencia entre ellos.",
+      "B": "Dos Lanes distintos dentro de un mismo Pool y flujos de mensaje para cruzarlos.",
+      "C": "Dos Pools distintos y Flujos de Mensaje (Message Flows) para representar la comunicación entre ambos participantes.",
+      "D": "Un Diagrama de Comunicación de UML con numeración jerárquica para las tareas"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 81,
+    "pregunta": "Durante la ejecución de una aplicación parlamentaria se produce una condición excepcional que impide recuperar correctamente un documento de la base de datos. Siguiendo las recomendaciones de Clean Code para el tratamiento de errores, ¿cuál es la práctica más adecuada para gestionar esta situación?",
+    "opciones": {
+      "A": "Devolver un código de error numérico (por ejemplo, -1) para que el código llamador determine mediante sentencias if cómo continuar la ejecución.",
+      "B": "Devolver un valor null para indicar que la operación no ha podido completarse y dejar que el código cliente interprete el motivo del fallo.",
+      "C": "Lanzar una excepción específica que represente la condición de error, separando el tratamiento de la excepción de la lógica principal de negocio.",
+      "D": "Documentar mediante comentarios el posible error y permitir que cada desarrollador implemente el tratamiento que considere oportuno."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 82,
+    "pregunta": "Un desarrollador ha creado una nueva carpeta para iniciar un proyecto desde cero en su equipo local. Desea que esa carpeta pase a estar gestionada mediante Git, sin conectarla todavía a ningún repositorio remoto. ¿Qué comando debe ejecutar en primer lugar?",
+    "opciones": {
+      "A": "git clone",
+      "B": "git commit",
+      "C": "git push",
+      "D": "git init"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 83,
+    "pregunta": "Durante un análisis estático de código mediante la herramienta SonarQube, se identifica que un método complejo presenta una complejidad ciclomática de McCabe significativamente elevada. ¿Qué implicación tiene este valor cuantitativo para el equipo de desarrollo?",
+    "opciones": {
+      "A": "Sugiere que el método presenta un elevado número de caminos independientes de ejecución, lo que incrementa su complejidad, dificulta las pruebas y aumenta el riesgo de defectos.",
+      "B": "Indica que el código es altamente reutilizable y fácil de comprender.",
+      "C": "Significa que el código cumple estrictamente con el estándar de accesibilidad WCAG 2.1.",
+      "D": "Indica que la cobertura de pruebas unitarias es superior al 80%."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 84,
+    "pregunta": "El Parlamento de Andalucía está renovando su portal de transparencia y el equipo de diseño front-end debe elegir una estrategia para que la interfaz se visualice correctamente en smartphones, tablets y monitores ultra-wide. El requisito técnico es que exista una única estructura de código HTML, que se adapte automáticamente a diferentes tamaños y características de pantalla, utilizando unidades de medida relativas (%) y directivas condicionales en las hojas de estilo. ¿Qué arquitectura de diseño se debe aplicar?",
+    "opciones": {
+      "A": "Diseño Web Adaptativo (Adaptive Web Design).",
+      "B": "Diseño Fluido puro sin Media Queries.",
+      "C": "Diseño Fijo o Estático.",
+      "D": "Diseño Web Responsive (Responsive Web Design)."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 85,
+    "pregunta": "En el diseño de un sistema para la \"Gestión de Iniciativas Legislativas\", una variable de tipo Iniciativa puede referenciar indistintamente objetos de las clases ProposicionDeLey o Enmienda. Ambas clases redefinen el método validar(), de forma que una misma llamada a dicho método ejecuta automáticamente la implementación correspondiente al tipo real del objeto en tiempo de ejecución. ¿Qué característica fundamental de la Programación Orientada a Objetos se está aplicando en este escenario?",
+    "opciones": {
+      "A": "Herencia.",
+      "B": "Polimorfismo.",
+      "C": "Sobrecarga de métodos (Overloading).",
+      "D": "Encapsulación."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 86,
+    "pregunta": "El departamento de informática del Parlamento está migrando un microservicio de gestión de actas desde un entorno antiguo a un servidor de aplicaciones compatible con Jakarta EE 10. Un programador presenta el siguiente fragmento de código para el nuevo punto de acceso REST:\npackage es.parlamento.api;\nimport javax.ws.rs.GET;\nimport javax.ws.rs.Path;\nimport javax.ws.rs.Produces;\nimport javax.ws.rs.core.MediaType;\n@Path(\"/actas\")\npublic class ActaResource {\n    @GET\n    @Produces(MediaType.APPLICATION_JSON)\n    public String consultarUltimaActa() {\n        return \"{\\\"id\\\": 101, \\\"titulo\\\": \\\"Sesión Plenaria Ordinaria\\\"}\";\n    }\n}\nAl intentar compilar este código contra las librerías de Jakarta EE 10, el sistema devuelve un error de \"paquete no encontrado\" para las importaciones de javax.ws.rs.*. ¿Cuál es la causa técnica de este error según la evolución del estándar Java?",
+    "opciones": {
+      "A": "Jakarta EE 10 ya no soporta el formato de intercambio JSON de forma nativa, requiriendo obligatoriamente Jackson.",
+      "B": "A partir de Jakarta EE 9, se produjo el cambio masivo del espacio de nombres, sustituyendo todos los paquetes javax.* por jakarta.*.",
+      "C": "Los servicios REST en Jakarta EE 10 deben definirse obligatoriamente mediante interfaces EJB de tipo Stateless.",
+      "D": "El uso de la anotación @Path ha quedado obsoleto en favor de la configuración programática en el archivo web.xml."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 87,
+    "pregunta": "El Parlamento desea lanzar un portal de noticias institucionales extremadamente rápido y seguro frente a ataques en el lado del servidor. Se ha decidido que todas las páginas se generen previamente durante el proceso de construcción (build), produciendo archivos HTML estáticos que posteriormente son servidos directamente al usuario. ¿Cómo se denomina técnicamente este modelo de renderizado?",
+    "opciones": {
+      "A": "Static Site Generation (SSG).",
+      "B": "Client-Side Rendering (CSR).",
+      "C": "Server-Side Rendering (SSR).",
+      "D": "Vibe Coding distribuido."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 88,
+    "pregunta": "Al diseñar el sistema de archivo digital, el archivero de la Cámara insiste en que ciertos documentos electrónicos deben gestionarse como 'Records' conforme a la norma ISO 15489. ¿Qué implica técnicamente esta distinción para la configuración del sistema de gestión documental (DMS)?",
+    "opciones": {
+      "A": "Que los documentos solo pueden ser almacenados en formato de imagen (TIFF) tras un proceso de OCR.",
+      "B": "Que el documento debe publicarse automáticamente en el portal de transparencia para garantizar su acceso público.",
+      "C": "Que la información debe ser conservada como evidencia de las actividades y decisiones de la organización, preservando su autenticidad, integridad, fiabilidad y usabilidad durante el tiempo que resulte necesario.",
+      "D": "Que el documento debe ser indexado exclusivamente por un motor de búsqueda tipo \"Spider\"."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 89,
+    "pregunta": "El equipo de desarrollo del Parlamento va a crear una nueva aplicación móvil. Según los estándares actuales, si desean que la aplicación sea \"Nativa Pura\" para aprovechar al máximo las APIs de hardware de última generación, ¿qué combinación de lenguajes y entornos de desarrollo representa actualmente la opción recomendada para desarrollar aplicaciones nativas en Android e iOS?",
+    "opciones": {
+      "A": "Kotlin con Android Studio para la versión Android, y Swift con Xcode para la versión de iOS.",
+      "B": "Java Native para Android y Objective-C para iOS, utilizando Microsoft Visual Studio como entorno unificado.",
+      "C": "Dart para ambas plataformas utilizando el SDK de Flutter.",
+      "D": "C# mediante .NET MAUI para ambas plataformas."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 90,
+    "pregunta": "Un desarrollador de la Sede Electrónica necesita extraer los nombres de los diputados que han intervenido en una sesión específica, pero solo de aquellos que pertenecen al \"Grupo A\". Se dispone del siguiente documento XML:\n<Sesion id=\"2026-001\">\n  <Intervencion>\n    <Diputado grupo=\"Grupo A\">Juan Perez</Diputado>\n    <Duracion>10</Duracion>\n  </Intervencion>\n  <Intervencion>\n    <Diputado grupo=\"Grupo B\">Maria Garcia</Diputado>\n    <Duracion>15</Duracion>\n  </Intervencion>\n  <Intervencion>\n    <Diputado grupo=\"Grupo A\">Luis Lopez</Diputado>\n    <Duracion>05</Duracion>\n  </Intervencion>\n</Sesion>\n¿Cuál es la expresión XPath correcta para obtener los nodos de texto con los nombres de los diputados del \"Grupo A\"?",
+    "opciones": {
+      "A": "/Sesion/Intervencion/Diputado == 'Grupo A'",
+      "B": "/Sesion/Intervencion/Diputado[@grupo='Grupo A']/text()",
+      "C": "//Diputado[grupo:'Grupo A']",
+      "D": "SELECT Diputado FROM Sesion WHERE grupo = 'Grupo A'"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué extensión tiene el manifiesto (lista de reproducción) de un stream HLS y de uno MPEG-DASH respectivamente?",
+    "opciones": {
+      "A": ".m3u8 para HSL y .mpd para MPEG-DASH",
+      "B": ".mpd para HSL y .m3u8 para MPEG-DASH",
+      "C": ".xml para HSL y .m3u8 para MPEG-DASH",
+      "D": ".ts para HSL y .m4s para MPEG-DASH"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Qué resultado muestra este script de bash al ejecutarlo?\n#!/bin/bash\nCOUNT=0\ncat /etc/passwd | while read -r linea; do\n  COUNT=$((COUNT+1))\ndone\necho \"$COUNT\"",
+    "opciones": {
+      "A": "Un error indicando que la variable COUNT no está disponible dentro del bucle",
+      "B": "El número de líneas del archivo /etc/passwd",
+      "C": "Nada",
+      "D": "0"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Qué herramienta de Android permite ver los logs en tiempo real, tanto del sistema como de las aplicaciones?",
+    "opciones": {
+      "A": "dmesg-mobile",
+      "B": "journalctl",
+      "C": "syslogd",
+      "D": "logcat"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 94,
+    "pregunta": "En un equipo de Teams, necesitas un espacio de trabajo solo para ciertos miembros del equipo. ¿Qué tipo de canal crearías?",
+    "opciones": {
+      "A": "Estándar.",
+      "B": "Privado.",
+      "C": "General.",
+      "D": "De grupo."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 95,
+    "pregunta": "Para un diagrama PDM con: - tarea A (duración 2 días): sin predecesoras - tarea B (duración 5 días): para comenzar depende de que termine A - tarea C (duración 2 días): para comenzar depende de que termine A - tarea D (duración 3 días): para comenzar depende de que termine B y C ¿cuál es la duración total y la holgura de la tarea C?",
+    "opciones": {
+      "A": "La duración total es de 12 días y la holgura de C es de 2 días.",
+      "B": "La duración total es de 10 días y la holgura de C es de 3 días.",
+      "C": "La duración total es de 10 días y la holgura de C es de 0 días.",
+      "D": "La duración total es de 9 días y la holgura de C es de 5 días."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 96,
+    "pregunta": "Respecto a las novedades incorporadas en TLS 1.3, ¿cuál de la siguientes es INCORRECTA?:",
+    "opciones": {
+      "A": "Se añaden RC4 y 3DES como suites de cifrado recomendadas para mejorar el rendimiento.",
+      "B": "Se reduce el tiempo de handshake completo a un solo viaje de ida y vuelta (1 RTT).",
+      "C": "Se cifra parte del handshake, incluyendo el certificado del servidor.",
+      "D": "Solo se admite el intercambio de claves efímero (DHE/ECDHE)."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 97,
+    "pregunta": "Si detectamos que los bits menos significativos de los píxeles de una imagen PNG, se distribuyen de forma estadísticamente anómala. ¿Sería un indicio de que la imagen?",
+    "opciones": {
+      "A": "Procede de una conversión desde JPEG y conserva artefactos de cuantización.",
+      "B": "Contiene información oculta mediante esteganografía.",
+      "C": "Está cifrada con AES en modo CBC.",
+      "D": "Se ha comprimido con pérdida."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 98,
+    "pregunta": "En un diagrama E/R, una relación N:M entre DIPUTADO y COMISION con el atributo cargo, ¿en qué se transformaría en el modelo relacional?",
+    "opciones": {
+      "A": "La fusión de ambas entidades en una única tabla DIPUTADO_COMISION con todos sus atributos y el cargo.",
+      "B": "Nuevas columnas comision_id y cargo en la tabla DIPUTADO, con clave ajena hacia COMISION.",
+      "C": "Nuevas columnas diputado_id y cargo en la tabla COMISION, con clave ajena hacia DIPUTADO.",
+      "D": "Una nueva tabla PERTENENCIA con campos diputado_id, comision_id y cargo."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Qué metacomando del cliente psql de PostgreSQL sirve para listar los roles y sus respectivos atributos?",
+    "opciones": {
+      "A": "\\drd",
+      "B": "\\dp",
+      "C": "\\dr",
+      "D": "\\du"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 100,
+    "pregunta": "Para integrar el login de nuevas aplicaciones web contra Microsoft EntraID, ¿qué protocolos son más apropiados?",
+    "opciones": {
+      "A": "Kerberos o NTLMv3 (NT LAN Manager)",
+      "B": "OAuth 2.0 o OpenID Connect",
+      "C": "RADIUS o TACACS+",
+      "D": "LDAP con StartTLS"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 101,
+    "pregunta": "Si hay equipos en la red que generan errores de CRC ¿qué tipo de conmutación recomendaría en los switches para evitar que se propaguen los errores?",
+    "opciones": {
+      "A": "Cut-through en los puertos de usuario y fragment-free en los uplinks.",
+      "B": "Fragment-free, porque filtra todas las tramas erróneas.",
+      "C": "Cut-through, porque ofrece la menor latencia.",
+      "D": "Store-and-forward, porque verifica el FCS."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 102,
+    "pregunta": "Si un atacante envía a un switch Cisco millones de tramas MAC con origen aleatorios ¿qué le ocurre al switch, y que medida sería la recomendada para mitigarlo?",
+    "opciones": {
+      "A": "Se llenaría la tabla CAM y se mitigaría mediante Port Security con un maximum.",
+      "B": "Se agotaría el pool de DHCP, para mitigarlo se usaría DHCP Snooping.",
+      "C": "Se caería el STP, y para mitigarlo se usaría Root Guard.",
+      "D": "Se corrompería la caché ARP, mitigándolo mediante DAI."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 103,
+    "pregunta": "Se establece un enlace WDS entre los APs de dos edificios, ¿cuántos campos de dirección MAC de la trama 802.11 se usan en las comunicaciones entre edificios?",
+    "opciones": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 104,
+    "pregunta": "Al conectarse por SSH a un equipo remoto, aparece una advertencia indicando que el identificador del equipo ha cambiado. ¿Cuál es la práctica recomendada?",
+    "opciones": {
+      "A": "Verificar el hash del identificador por otro canal confiable y si es legítimo ejecutar ssh-keygen -R host",
+      "B": "Desactivar la comprobación estricta del identificador del equipo en el cliente SSH.",
+      "C": "Indicar que se guarde la nueva identificación y continuar con la conexión.",
+      "D": "Borrar el archivo known_hosts del usuario y volver a conectar."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 105,
+    "pregunta": "En España, el organismo responsable de mantener la hora oficial y que ofrece servicio NTP público es:",
+    "opciones": {
+      "A": "El Instituto Nacional de Técnica Aeroespacial (INTA).",
+      "B": "El Real Instituto y Observatorio de la Armada (ROA).",
+      "C": "El Instituto Geográfico Nacional (IGN).",
+      "D": "El Centro Español de Metrología (CEM)."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 106,
+    "pregunta": "En un CPD organizado en pasillos fríos y calientes y climatización por impulsión bajo suelo técnico, ¿dónde deben colocarse las baldosas perforadas?:",
+    "opciones": {
+      "A": "En ambos pasillos, alternándolas, para mantener uniforme la presión.",
+      "B": "En los pasillos calientes, para evacuar el aire de retorno.",
+      "C": "En los pasillos calientes, con baldosas de baja apertura.",
+      "D": "En los pasillos fríos, delante del frontal de los racks."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 107,
+    "pregunta": "Dado el siguiente archivo Dockerfile, ¿qué contiene la imagen final?\nFROM golang:1.27 AS builder\nWORKDIR /src\nCOPY go.mod go.sum ./\nRUN go mod download\nCOPY . .\nRUN CGO_ENABLED=0 go build -o app\nFROM alpine:3.24\nCOPY --from=builder /src/app /usr/local/bin/app\nENTRYPOINT [\"app\"]\nCMD [\"--port\",\"8080\"]",
+    "opciones": {
+      "A": "Las capas de alpine:3.24 más una capa con el binario app.",
+      "B": "Las capas de golang:1.27 y las de alpine, porque las etapas se heredan.",
+      "C": "Solo el binario, ya que multi-stage equivale a FROM scratch.",
+      "D": "Ninguna de las anteriores."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 108,
+    "pregunta": "Para abrir una shell interactiva en un contenedor llamado \"web\" que ya está en ejecución, se usaría:",
+    "opciones": {
+      "A": "docker run -it web /bin/sh",
+      "B": "docker attach -it web /bin/sh",
+      "C": "docker exec -ti web /bin/sh",
+      "D": "docker start -i web /bin/sh"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 109,
+    "pregunta": "Dado el siguiente código de Ansible:\ntasks:\n  - name: Copiar configuración\n    template:\n      src: nginx.conf.j2\n      dest: /etc/nginx/nginx.conf\n    notify: Reiniciar nginx\nhandlers:\n  - name: Reiniciar nginx\n    service:\n      name: nginx\n      state: restarted\n¿Cuándo se reinicia Nginx?",
+    "opciones": {
+      "A": "Siempre, justo después de la tarea “Copiar configuración”.",
+      "B": "Solo si la tarea “Copiar configuración” produce un cambio.",
+      "C": "Nunca, porque los handlers deben invocarse con include.",
+      "D": "Al inicio del play, antes de ejecutar las tareas."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 110,
+    "pregunta": "El equipo de sistemas del Parlamento está aplicando ITIL 4, ¿cuál es el propósito principal de una CMDB dentro de la gestión de configuración de servicios?",
+    "opciones": {
+      "A": "Sustituir todas las herramientas de ticketing.",
+      "B": "Almacenar copias de los procesos de ITIL.",
+      "C": "Guardar información de cumplimiento y métricas.",
+      "D": "Registrar y gestionar la información sobre elementos de configuración y sus relaciones."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 111,
+    "pregunta": "El Parlamento de Andalucía, en sus sistemas embebidos para IoT va a utilizar sistemas basados en microkernels, ¿qué característica define a este tipo de núcleo?",
+    "opciones": {
+      "A": "Ejecuta todos los servicios del sistema operativo dentro del núcleo, en un único espacio de direcciones.",
+      "B": "Permite a las aplicaciones acceder directamente al hardware sin ningún mecanismo de protección.",
+      "C": "Mantiene en el núcleo únicamente las funciones esenciales y ejecuta otros servicios, como controladores y sistemas de archivos, en el espacio de usuario.",
+      "D": "Combina obligatoriamente dos núcleos monolíticos para mejorar el rendimiento."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 112,
+    "pregunta": "Un técnico está investigando un problema de ejecución en un equipo Linux, ¿qué significa que un proceso se encuentre en estado bloqueado o en espera?",
+    "opciones": {
+      "A": "Que está utilizando actualmente la CPU.",
+      "B": "Que ha finalizado y sus recursos ya han sido liberados.",
+      "C": "Que está preparado para ejecutarse, pero esperando su turno en la CPU.",
+      "D": "Que no puede continuar hasta que ocurra un evento, como la finalización de una operación de entrada/salida."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 113,
+    "pregunta": "El equipo de seguridad nos recomienda pasar nuestros servidores Windows a Server Core, ¿cuál es una característica principal de esta instalación Windows Server?",
+    "opciones": {
+      "A": "Incluye todas las herramientas gráficas y el escritorio completo de Windows.",
+      "B": "Es una instalación mínima que reduce el consumo de recursos y la superficie de ataque.",
+      "C": "Solo permite ejecutar aplicaciones de escritorio para usuarios finales.",
+      "D": "Deshabilita obligatoriamente todos los roles de servidor."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 114,
+    "pregunta": "¿Cuál es una diferencia correcta entre administrar actualizaciones mediante Microsoft Entra ID con Intune y hacerlo mediante Active Directory local con WSUS?",
+    "opciones": {
+      "A": "Microsoft Entra ID descarga y almacena directamente todas las actualizaciones en sus servidores.",
+      "B": "Intune permite administrar directivas de actualización desde la nube, mientras que WSUS requiere un servidor local que descargue y distribuya las actualizaciones a los equipos.",
+      "C": "WSUS solo puede utilizarse con equipos Windows 10/11 y Microsoft Entra ID únicamente con Windows Server.",
+      "D": "Intune y WSUS son el mismo servicio y utilizan siempre la misma infraestructura."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 115,
+    "pregunta": "El SOC del Parlamento nos aconseja usar un NDR. ¿Qué función principal desempeña este sistema?",
+    "opciones": {
+      "A": "Analizar archivos almacenados en los equipos de usuario en busca de malware.",
+      "B": "Supervisar el tráfico de red para detectar comportamientos anómalos o maliciosos y responder ante ellos.",
+      "C": "Detectar comportamiento y responder ante ellos en equipos cliente.",
+      "D": "Cifrar automáticamente todos los archivos de la organización."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 116,
+    "pregunta": "¿Qué objetivo principal tienen las tecnologías PET (Privacy Enhancing Technologies)?",
+    "opciones": {
+      "A": "Aumentar la cantidad de datos personales recopilados.",
+      "B": "Sustituir todas las medidas de seguridad informática.",
+      "C": "Garantizar que los datos personales sean siempre públicos.",
+      "D": "Permitir el tratamiento y análisis de datos reduciendo la exposición de la información personal."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 117,
+    "pregunta": "Se necesita proporcionar almacenamiento centralizado a varios servidores de virtualización. Las máquinas virtuales deben acceder a discos compartidos a nivel de bloque como si fueran dispositivos locales, disponer de un rendimiento elevado y permitir que varios hosts utilicen simultáneamente el mismo almacenamiento. Además, los servidores no deben depender de los recursos de almacenamiento internos de cada equipo. ¿Qué tipo de almacenamiento sería el adecuado?",
+    "opciones": {
+      "A": "DAS",
+      "B": "NAS",
+      "C": "SAN",
+      "D": "Almacenamiento cloud"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 118,
+    "pregunta": "Un administrador de Oracle necesita realizar varias tareas durante una intervención: consultar el estado de la instancia, impedir temporalmente nuevas conexiones de usuarios, detener la base de datos de forma controlada y, posteriormente, volver a iniciarla. Está conectado mediante SQL*Plus con privilegios administrativos. ¿Qué secuencia de comandos es la correcta?",
+    "opciones": {
+      "A": "STARTUP; ALTER DATABASE OPEN; SHUTDOWN ABORT; LISTENER STOP;",
+      "B": "SELECT STATUS FROM V$INSTANCE; ALTER SYSTEM ENABLE RESTRICTED SESSION; SHUTDOWN IMMEDIATE; STARTUP;",
+      "C": "SELECT STATUS FROM V$DATABASE; STARTUP; ALTER SYSTEM DISABLE RESTRICTED SESSION;",
+      "D": "SELECT STATUS FROM V$DATABASE; SHUTDOWN ABORT; STARTUP NOMOUNT; DROP USER SYSTEM;"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 119,
+    "pregunta": "Una Administración Pública recibe un expediente electrónico generado por otra entidad. Para garantizar que pueda ser interpretado, validado y conservado correctamente a lo largo del tiempo, el sistema receptor debe comprobar que el expediente cumple los criterios establecidos por el Esquema Nacional de Interoperabilidad. ¿Cuál de las siguientes medidas se ajusta a los criterios establecidos por el ENI?",
+    "opciones": {
+      "A": "Comprobar únicamente que el expediente puede abrirse en la aplicación receptora.",
+      "B": "Convertir todos los documentos a un formato propietario para evitar modificaciones.",
+      "C": "Verificar la estructura del expediente, sus documentos y metadatos, los formatos utilizados y las firmas electrónicas asociadas.",
+      "D": "Eliminar los metadatos y las firmas después de registrar el expediente."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 120,
+    "pregunta": "Se necesitan conectar dos sedes situadas a 8 kilómetros de distancia. El enlace debe ofrecer alta velocidad de transmisión, baja atenuación y posibilidad de actualización futura mediante distintos equipos ópticos. El tendido se realizará por canalizaciones exteriores y no existen equipos intermedios entre ambos edificios. ¿Qué tipo de fibra óptica sería el más adecuado?",
+    "opciones": {
+      "A": "Fibra multimodo, porque permite cubrir largas distancias con un coste menor.",
+      "B": "Fibra monomodo, porque está diseñada para enlaces de larga distancia y presenta menor dispersión y atenuación.",
+      "C": "Cable de cobre de par trenzado, porque puede alcanzar 8 kilómetros sin repetidores.",
+      "D": "Fibra multimodo OM1, porque su núcleo grande garantiza mayor alcance que la fibra monomodo."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 121,
+    "pregunta": "Una red dispone de dos routers configurados con VRRP y conectados a la misma LAN. Ambos comparten la dirección IP virtual que utilizan como puerta de enlace los equipos de la red. El router con mayor prioridad actúa inicialmente como maestro, pero deja de responder debido a un fallo de hardware. ¿Qué ocurrirá previsiblemente?",
+    "opciones": {
+      "A": "El router de respaldo asumirá la dirección IP virtual y comenzará a reenviar el tráfico.",
+      "B": "Los equipos perderán definitivamente la puerta de enlace hasta que se configure una nueva dirección IP.",
+      "C": "Ambos routers utilizarán simultáneamente la dirección IP virtual para repartir el tráfico.",
+      "D": "VRRP modificará automáticamente las direcciones IP configuradas en los equipos cliente."
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 122,
+    "pregunta": "El Parlamento está configurando un nuevo servidor ¿Cuál de las siguientes configuraciones de versiones TLS es la más adecuada desde el punto de vista de seguridad?",
+    "opciones": {
+      "A": "Permitir únicamente SSLv3 y TLS 1.0 para garantizar la compatibilidad con clientes antiguos.",
+      "B": "Permitir TLS 1.0, TLS 1.1 y TLS 1.2, desactivando TLS 1.3 por ser demasiado reciente.",
+      "C": "Permitir TLS 1.2 y TLS 1.3, desactivando TLS 1.0 y TLS 1.1 por estar obsoletas.",
+      "D": "Permitir todas las versiones hasta SSLv3 y TLS 1.3 para evitar errores de conexión."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 123,
+    "pregunta": "El Servicio de Informática tiene previsto virtualizar sus servidores y le han presentado varias alternativas para sustituir su actual software de virtualización. ¿Cuál de las siguientes opciones NO se corresponde con una solución de virtualización completa?",
+    "opciones": {
+      "A": "Proxmox",
+      "B": "KVM",
+      "C": "oVirt",
+      "D": "VirtIO"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 124,
+    "pregunta": "La plataforma de virtualización del Parlamento de Andalucía, basada en VMware, necesita disponer de la capacidad de virtualizar elementos de red, como switches virtuales, firewalls distribuidos, routers y realizar microsegmentación. ¿Qué componente de VMware permite proporcionar estas capacidades de virtualización y seguridad de red?",
+    "opciones": {
+      "A": "VMware vCenter Server.",
+      "B": "VMware vNetwork.",
+      "C": "VMware NSX.",
+      "D": "VMware vSphere HA."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 125,
+    "pregunta": "Una organización ejecuta varias máquinas virtuales en un clúster VMware. Las máquinas virtuales de producción deben comunicarse entre sí, pero no deben tener acceso directo a la red de usuarios. Además, necesitan salir a Internet a través de un cortafuegos virtual. Para ello, el administrador configura dos grupos de puertos en el switch virtual: uno asociado a la VLAN de producción y otro asociado a la VLAN de usuarios. Sin embargo, después de una migración mediante vMotion, algunas máquinas virtuales pierden la conectividad. ¿Cuál es la causa más probable y qué debería comprobar el administrador?",
+    "opciones": {
+      "A": "VMware Tools no está instalado en todas las máquinas virtuales; debe reinstalarlo para que funcione cualquier red virtual.",
+      "B": "HA ha reiniciado las máquinas virtuales con direcciones MAC nuevas, por lo que es necesario cambiar sus direcciones IP.",
+      "C": "vMotion solo puede migrar máquinas virtuales conectadas a la red de usuarios.",
+      "D": "El grupo de puertos de destino o su VLAN no está configurado de forma coherente en todos los hosts ESXi, o los enlaces físicos no permiten dicha VLAN."
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 151,
+    "pregunta": "Conforme al artículo 11.i) del Estatuto de Gobierno y Régimen Interior del Parlamento de Andalucía, ¿a qué órgano corresponde la superior inspección del funcionamiento de los servicios del Parlamento?",
+    "opciones": {
+      "A": "Al Presidente o Presidenta del Parlamento.",
+      "B": "Al letrado o letrada mayor.",
+      "C": "Al letrado adjunto o letrada adjunta al letrado o letrada mayor.",
+      "D": "A las jefaturas de servicio."
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 152,
+    "pregunta": "Respecto al correo electrónico ¿qué protocolo permite comprobar el alineamiento entre las cabeceras \"DKIM-Signature\", \"Return-Path\" y \"From\"?",
+    "opciones": {
+      "A": "DKIM",
+      "B": "SPF",
+      "C": "STARTTLS",
+      "D": "DMARC"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 153,
+    "pregunta": "En BIND, ¿qué zona usa un servidor secundario para replicar automáticamente los registros de un servidor primario?",
+    "opciones": {
+      "A": "Zona de tipo master, de forma que descarga la zona de los otros masters.",
+      "B": "Zona de tipo forward, replicando la zona completa del primario y la guarda en local.",
+      "C": "Zona de tipo slave, obteniendo los registros de los masters mediante transferencia AXFR/IXFR.",
+      "D": "Zona de tipo hint, que permite sincronizar periódicamente los registros del primario según el registro SOA."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 154,
+    "pregunta": "Si una organización pretende implementar un centro de datos definido por software (SDDC), utilizando herramientas de automatización y gestión de la infraestructura mediante código, ¿cuál de las siguientes herramientas NO está específicamente orientada a este propósito?",
+    "opciones": {
+      "A": "Hashicorp",
+      "B": "VMware Cloud Foundation",
+      "C": "OpenStack",
+      "D": "Microsoft Azure Stack"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 155,
+    "pregunta": "Se ha construido una imagen con este Dockerfile:\nFROM alpine:3.24\nCOPY app app2 /usr/bin/\nENTRYPOINT [\"/usr/bin/app\"]\nCMD [\"--port\", \"80\"]\nSe despliega en Kubernetes con un Pod cuyo contenedor define únicamente el campo command: [\"/usr/bin/app2\"], sin definir argumentos. ¿Qué proceso se ejecuta como PID 1 dentro del contenedor?",
+    "opciones": {
+      "A": "/usr/bin/app /usr/bin/app2 --port 80",
+      "B": "/bin/sh -c \"/usr/bin/app2 --port 80\"",
+      "C": "/usr/bin/app2 --port 80",
+      "D": "/usr/bin/app2"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 156,
+    "pregunta": "Para el lanzamiento de la nueva Sede Electrónica, el Parlamento desea reducir el riesgo asociado al despliegue de una nueva versión. Para ello, la despliega inicialmente en producción para un 5 % de los ciudadanos seleccionados de forma aleatoria y monitoriza su comportamiento y telemetría antes de ampliar progresivamente el despliegue al resto de usuarios. ¿Qué estrategia de despliegue se está aplicando?",
+    "opciones": {
+      "A": "Blue-Green Deployment (Despliegue Azul-Verde).",
+      "B": "Despliegue Big Bang con Rollback.",
+      "C": "Canary Deployment (Despliegue Canario).",
+      "D": "Dog Fooding Institucional."
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 157,
+    "pregunta": "Una máquina virtual se ejecuta en un host con una generación de procesador más reciente. El administrador quiere migrarla mediante vMotion a un host con una generación de CPU anterior. ¿Qué tecnología puede facilitar esta migración y evitar problemas de compatibilidad entre CPUs?",
+    "opciones": {
+      "A": "vSphere HA",
+      "B": "vSphere FT",
+      "C": "EVC",
+      "D": "DRS"
+    },
+    "respuesta_correcta": "C"
+  }
+]

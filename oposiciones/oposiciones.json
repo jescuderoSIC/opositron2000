@@ -1,0 +1,17 @@
+[
+  {
+    "id": "opo0000",
+    "nombre": "Cultura general (prueba)",
+    "descripcion": "Oposición de prueba: 25 preguntas en 5 temas (historia, geografía, arte y literatura, ciencia y deportes)."
+  },
+  {
+    "id": "opo0001",
+    "nombre": "ATI 2025",
+    "descripcion": "131 preguntas tipo test y temario de 44 temas."
+  },
+  {
+    "id": "opo0002",
+    "nombre": "TI 2026",
+    "descripcion": "125 preguntas tipo test + 6 de Reserva y temario de 75 temas."
+  }
+]

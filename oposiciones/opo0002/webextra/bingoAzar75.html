@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0002 - Bingo</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma del jardín y de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;
+            --barra: #dddddd;
+            --papel: #ffffff;
+            --linea: #000000;
+            --linea-suave: #e4e4e4;
+            --resalte: #ffe6e6;
+            --rojo: #cc0000;
+            --oscuro: #333333;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        /* ===== Móvil (por defecto) ===== */
+        .bingo {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 14px 16px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .contador {
+            font-size: 14px;
+            color: var(--texto-suave);
+            white-space: nowrap;
+        }
+
+        .contador strong { color: #000; }
+
+        /* Zona del bombo y la última bola */
+        .escenario {
+            padding: 16px;
+            border-bottom: 1px solid var(--linea);
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .bombo {
+            width: 100%;
+            max-width: 300px;
+            aspect-ratio: 1;
+            justify-self: center;
+        }
+
+        .bombo canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .ultima {
+            text-align: center;
+        }
+
+        .ultima p {
+            margin: 0 0 6px;
+            font-size: 13px;
+            color: var(--texto-suave);
+        }
+
+        .bola-grande {
+            width: 104px;
+            height: 104px;
+            border-radius: 50%;
+            border: 6px solid var(--rojo);
+            background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffffff 45%, #e9e9e9 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 44px;
+            font-weight: bold;
+            font-variant-numeric: tabular-nums;
+            margin: 0 auto;
+        }
+
+        .bola-grande.vacia {
+            border-color: #bbbbbb;
+            color: #bbbbbb;
+        }
+
+        .bola-grande.aparece {
+            animation: aparecer 450ms cubic-bezier(.2, 1.6, .4, 1);
+        }
+
+        @keyframes aparecer {
+            from { transform: scale(.2) translateY(-40px); opacity: 0; }
+            to   { transform: scale(1) translateY(0); opacity: 1; }
+        }
+
+        /* Botones */
+        .acciones {
+            grid-column: 1 / -1;
+            display: grid;
+            gap: 10px;
+        }
+
+        .btn-sacar {
+            width: 100%;
+            padding: 16px;
+            font: inherit;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: var(--oscuro);
+            border: 1px solid var(--linea);
+            cursor: pointer;
+        }
+
+        .btn-sacar:hover:not(:disabled) { background-color: #000000; }
+        .btn-sacar:disabled { opacity: .55; cursor: default; }
+
+        .opciones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .opciones input[type="number"] {
+            width: 68px;
+            padding: 6px;
+            font: inherit;
+            border: 1px solid var(--linea);
+        }
+
+        .opciones label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .btn-nueva {
+            padding: 7px 12px;
+            font: inherit;
+            font-size: 14px;
+            background-color: var(--papel);
+            border: 1px solid var(--linea);
+            cursor: pointer;
+        }
+
+        .btn-nueva:hover { background-color: #f0f0f0; }
+
+        button:focus-visible, input:focus-visible {
+            outline: 2px solid var(--rojo);
+            outline-offset: 2px;
+        }
+
+        /* Secciones de historial y tablero */
+        .seccion {
+            padding: 14px 16px 16px;
+            border-bottom: 1px solid var(--linea-suave);
+        }
+
+        .seccion h2 {
+            margin: 0 0 10px;
+            font-size: 15px;
+        }
+
+        .seccion h2 span {
+            font-weight: normal;
+            color: var(--texto-suave);
+        }
+
+        /* Historial: bolas en orden de salida, la más reciente primero */
+        .historial {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .historial li {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            border: 2px solid var(--rojo);
+            background-color: var(--papel);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .historial li:first-child {
+            background-color: var(--rojo);
+            color: #ffffff;
+        }
+
+        .sin-bolas {
+            margin: 0;
+            color: var(--texto-suave);
+            font-size: 14px;
+        }
+
+        /* Tablero 1–75 */
+        .tablero {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(34px, 1fr));
+            gap: 3px;
+        }
+
+        .casilla {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            color: #999999;
+            border: 1px solid var(--linea-suave);
+            background-color: var(--fondo);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .casilla.salida {
+            color: #000000;
+            font-weight: bold;
+            background-color: var(--resalte);
+            border-color: var(--rojo);
+        }
+
+        .casilla.ultima-casilla {
+            background-color: var(--rojo);
+            color: #ffffff;
+        }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 860px) {
+            body { padding: 28px 20px; }
+
+            .bingo {
+                max-width: 1040px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+                display: grid;
+                grid-template-columns: 380px 1fr;
+                grid-template-rows: auto 1fr;
+            }
+
+            .cabecera { grid-column: 1 / -1; padding: 16px 24px; }
+
+            .escenario {
+                grid-template-columns: 1fr;
+                border-bottom: none;
+                border-right: 1px solid var(--linea);
+                padding: 24px;
+                align-content: start;
+            }
+
+            .bola-grande {
+                width: 130px;
+                height: 130px;
+                font-size: 56px;
+                border-width: 7px;
+            }
+
+            .paneles { overflow: auto; }
+            .seccion { padding: 16px 24px 18px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .bola-grande.aparece { animation: none; }
+        }
+    </style>
+</head>
+<body>
+    <main class="bingo">
+        <header class="cabecera">
+            <h1 id="titulo">Bingo de 75 preguntas</h1>
+            <span class="contador" id="contador"><strong>0</strong> de 75 bolas</span>
+        </header>
+
+        <section class="escenario" aria-label="Bombo">
+            <div class="bombo">
+                <canvas id="lienzo" role="img" aria-label="Bombo con las bolas que quedan"></canvas>
+            </div>
+
+            <div class="ultima">
+                <p>Última bola</p>
+                <div class="bola-grande vacia" id="bola-grande" aria-live="assertive">–</div>
+            </div>
+
+            <div class="acciones">
+                <button type="button" class="btn-sacar" id="btn-sacar">Sacar bola</button>
+                <div class="opciones">
+                    <label><input type="checkbox" id="cantar"> Cantar en voz alta</label>
+                    <label title="Cambiarlo empieza una partida nueva">Bolas <input type="number" id="total" min="1" max="999" step="1"></label>
+                    <button type="button" class="btn-nueva" id="btn-nueva">Nueva partida</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="paneles">
+            <section class="seccion">
+                <h2>Bolas que han salido <span>(la más reciente primero)</span></h2>
+                <ol class="historial" id="historial" reversed></ol>
+                <p class="sin-bolas" id="sin-bolas">Pulsa «Sacar bola» para empezar.</p>
+            </section>
+
+            <section class="seccion">
+                <h2>Tablero</h2>
+                <div class="tablero" id="tablero"></div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        const CLAVE = 'bingo-75-partida@opo0002';
+        const CLAVE_TOTAL = 'bingo-75-total@opo0002';
+        const TOTAL_INICIAL = 132;
+        const TOTAL_MAXIMO = 999;
+        const reducirMovimiento = matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const DURACION_GIRO = reducirMovimiento ? 300 : 1800;   // ms que gira el bombo
+
+        // ===== Estado de la partida =====
+        let total = cargarTotal();       // número de bolas (se puede cambiar)
+        let salidas = cargarPartida();   // números en orden de salida
+        let girando = false;
+
+        // Devuelve el número si es un entero válido de bolas, o null
+        function totalValido(valor) {
+            const n = Number(valor);
+            return Number.isInteger(n) && n >= 1 && n <= TOTAL_MAXIMO ? n : null;
+        }
+
+        function cargarTotal() {
+            try { return totalValido(localStorage.getItem(CLAVE_TOTAL)) || TOTAL_INICIAL; }
+            catch (e) { return TOTAL_INICIAL; }
+        }
+
+        function cargarPartida() {
+            try {
+                const datos = JSON.parse(localStorage.getItem(CLAVE));
+                return Array.isArray(datos) ? datos.filter(n => n >= 1 && n <= total) : [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        function guardarPartida() {
+            try { localStorage.setItem(CLAVE, JSON.stringify(salidas)); } catch (e) {}
+        }
+
+        function restantes() {
+            const s = new Set(salidas);
+            const lista = [];
+            for (let n = 1; n <= total; n++) if (!s.has(n)) lista.push(n);
+            return lista;
+        }
+
+        // Azar criptográfico: más justo que Math.random
+        function azar(max) {
+            const a = new Uint32Array(1);
+            crypto.getRandomValues(a);
+            return a[0] % max;
+        }
+
+        // ===== Interfaz =====
+        const btnSacar = document.getElementById('btn-sacar');
+        const bolaGrande = document.getElementById('bola-grande');
+        const historial = document.getElementById('historial');
+        const sinBolas = document.getElementById('sin-bolas');
+        const tablero = document.getElementById('tablero');
+        const contador = document.getElementById('contador');
+        const cantar = document.getElementById('cantar');
+        const campoTotal = document.getElementById('total');
+        const titulo = document.getElementById('titulo');
+
+        // Tablero con una casilla por bola
+        let casillas = [];
+        function construirTablero() {
+            tablero.innerHTML = '';
+            casillas = [];
+            for (let n = 1; n <= total; n++) {
+                const c = document.createElement('div');
+                c.className = 'casilla';
+                c.textContent = n;
+                tablero.appendChild(c);
+                casillas.push(c);
+            }
+            campoTotal.value = total;
+            titulo.textContent = `Bingo de ${total} preguntas`;
+        }
+
+        function pintar(animar = false) {
+            const ultima = salidas[salidas.length - 1];
+
+            contador.innerHTML = `<strong>${salidas.length}</strong> de ${total} bolas`;
+
+            bolaGrande.textContent = ultima ?? '–';
+            bolaGrande.classList.toggle('vacia', ultima == null);
+            if (animar) {
+                bolaGrande.classList.remove('aparece');
+                void bolaGrande.offsetWidth;   // reinicia la animación
+                bolaGrande.classList.add('aparece');
+            }
+
+            historial.innerHTML = '';
+            [...salidas].reverse().forEach(n => {
+                const li = document.createElement('li');
+                li.textContent = n;
+                historial.appendChild(li);
+            });
+            sinBolas.hidden = salidas.length > 0;
+
+            const s = new Set(salidas);
+            casillas.forEach((c, i) => {
+                const n = i + 1;
+                c.classList.toggle('salida', s.has(n));
+                c.classList.toggle('ultima-casilla', n === ultima);
+            });
+
+            const quedan = total - salidas.length;
+            btnSacar.disabled = girando || quedan === 0;
+            btnSacar.textContent = quedan === 0 ? 'Han salido todas las bolas' : 'Sacar bola';
+
+            sincronizarBolasBombo();
+        }
+
+        function sacarBola() {
+            const quedan = restantes();
+            if (girando || quedan.length === 0) return;
+
+            girando = true;
+            btnSacar.disabled = true;
+            btnSacar.textContent = 'Girando…';
+            giroHasta = performance.now() + DURACION_GIRO;
+
+            setTimeout(() => {
+                const numero = quedan[azar(quedan.length)];
+                salidas.push(numero);
+                guardarPartida();
+                girando = false;
+                pintar(true);
+                if (cantar.checked) cantarNumero(numero);
+            }, DURACION_GIRO);
+        }
+
+        function cantarNumero(n) {
+            if (!('speechSynthesis' in window)) return;
+            speechSynthesis.cancel();
+            const voz = new SpeechSynthesisUtterance(String(n));
+            voz.lang = 'es-ES';
+            speechSynthesis.speak(voz);
+        }
+
+        function nuevaPartida() {
+            if (salidas.length && !confirm('¿Empezar una partida nueva? Se borrarán las bolas que han salido.')) return;
+            salidas = [];
+            guardarPartida();
+            bolasBombo = [];
+            pintar();
+        }
+
+        // Cambiar el número de bolas empieza una partida nueva
+        function cambiarTotal() {
+            const nuevo = totalValido(campoTotal.value);
+            if (!nuevo || nuevo === total || girando ||
+                (salidas.length && !confirm(`¿Jugar con ${nuevo} bolas? Se borrarán las bolas que han salido.`))) {
+                campoTotal.value = total;
+                return;
+            }
+            total = nuevo;
+            try { localStorage.setItem(CLAVE_TOTAL, total); } catch (e) {}
+            salidas = [];
+            guardarPartida();
+            bolasBombo = [];
+            construirTablero();
+            pintar();
+        }
+
+        btnSacar.addEventListener('click', sacarBola);
+        document.getElementById('btn-nueva').addEventListener('click', nuevaPartida);
+        campoTotal.addEventListener('change', cambiarTotal);
+
+        // Barra espaciadora para sacar bola (si no se está en un campo o botón)
+        document.addEventListener('keydown', e => {
+            if (e.code === 'Space' && !['INPUT', 'BUTTON'].includes(e.target.tagName)) {
+                e.preventDefault();
+                sacarBola();
+            }
+        });
+
+        // ===== Bombo animado (canvas) =====
+        const lienzo = document.getElementById('lienzo');
+        const ctx = lienzo.getContext('2d');
+        const MAX_BOLAS_VISIBLES = 40;
+        let tam = 300;               // tamaño del lienzo en píxeles CSS
+        let bolasBombo = [];
+        let anguloBombo = 0;
+        let giroHasta = 0;
+
+        function ajustarTamano() {
+            const r = lienzo.getBoundingClientRect();
+            const anterior = tam;
+            tam = r.width || 300;
+            // Mantiene las bolas en su sitio relativo si cambia el tamaño
+            const k = tam / anterior;
+            bolasBombo.forEach(b => { b.x *= k; b.y *= k; b.vx *= k; b.vy *= k; });
+            const dpr = window.devicePixelRatio || 1;
+            lienzo.width = Math.round(tam * dpr);
+            lienzo.height = Math.round(tam * dpr);
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        }
+
+        function radioBola() { return tam * 0.052; }
+        function radioBombo() { return tam * 0.44; }
+
+        // Las bolas del bombo llevan números que aún no han salido
+        function sincronizarBolasBombo() {
+            const s = new Set(salidas);
+            bolasBombo = bolasBombo.filter(b => !s.has(b.n));
+            const visibles = new Set(bolasBombo.map(b => b.n));
+            const candidatas = restantes().filter(n => !visibles.has(n));
+            const objetivo = Math.min(MAX_BOLAS_VISIBLES, total - salidas.length);
+
+            while (bolasBombo.length < objetivo && candidatas.length) {
+                const n = candidatas.splice(azar(candidatas.length), 1)[0];
+                const ang = Math.random() * Math.PI * 2;
+                const dist = Math.random() * (radioBombo() - radioBola() * 2);
+                bolasBombo.push({
+                    n,
+                    x: Math.cos(ang) * dist,
+                    y: Math.sin(ang) * dist,
+                    vx: 0,
+                    vy: 0,
+                    tono: n % 2 ? '#ffffff' : '#ffe6e6'
+                });
+            }
+        }
+
+        let ultimoTiempo = performance.now();
+
+        function fisica(dt) {
+            const R = radioBombo();
+            const r = radioBola();
+            const gira = performance.now() < giroHasta;
+            const gravedad = tam * 3;
+
+            anguloBombo += (gira ? 9 : 0.25) * dt;
+
+            for (const b of bolasBombo) {
+                b.vy += gravedad * dt;
+                if (gira) {
+                    // El giro agita las bolas
+                    b.vx += (Math.random() - 0.5) * tam * 40 * dt;
+                    b.vy += (Math.random() - 0.5) * tam * 40 * dt;
+                }
+                b.vx *= 0.995;
+                b.vy *= 0.995;
+                b.x += b.vx * dt;
+                b.y += b.vy * dt;
+
+                // Choque con la pared del bombo
+                const d = Math.hypot(b.x, b.y);
+                const limite = R - r;
+                if (d > limite) {
+                    const nx = b.x / d, ny = b.y / d;
+                    b.x = nx * limite;
+                    b.y = ny * limite;
+                    const vn = b.vx * nx + b.vy * ny;
+                    const rebote = gira ? 1.0 : 0.35;
+                    b.vx -= (1 + rebote) * vn * nx;
+                    b.vy -= (1 + rebote) * vn * ny;
+                    if (gira) {
+                        // La pared arrastra la bola en el sentido del giro
+                        b.vx += -ny * tam * 1.2;
+                        b.vy += nx * tam * 1.2;
+                    } else {
+                        b.vx *= 0.9;
+                        b.vy *= 0.9;
+                    }
+                }
+            }
+
+            // Choques entre bolas
+            for (let i = 0; i < bolasBombo.length; i++) {
+                for (let j = i + 1; j < bolasBombo.length; j++) {
+                    const a = bolasBombo[i], b = bolasBombo[j];
+                    const dx = b.x - a.x, dy = b.y - a.y;
+                    const d = Math.hypot(dx, dy) || 0.001;
+                    const min = r * 2;
+                    if (d < min) {
+                        const nx = dx / d, ny = dy / d;
+                        const solape = (min - d) / 2;
+                        a.x -= nx * solape; a.y -= ny * solape;
+                        b.x += nx * solape; b.y += ny * solape;
+                        const vr = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
+                        if (vr < 0) {
+                            const imp = vr * 0.9;
+                            a.vx += imp * nx; a.vy += imp * ny;
+                            b.vx -= imp * nx; b.vy -= imp * ny;
+                        }
+                    }
+                }
+            }
+
+            // Tras los choques, ninguna bola puede quedar fuera del bombo
+            const limite = R - r;
+            for (const b of bolasBombo) {
+                const d = Math.hypot(b.x, b.y);
+                if (d > limite) {
+                    b.x *= limite / d;
+                    b.y *= limite / d;
+                }
+            }
+        }
+
+        function dibujar() {
+            const c = tam / 2;
+            const R = radioBombo();
+            const r = radioBola();
+            ctx.clearRect(0, 0, tam, tam);
+
+            // Soporte del bombo
+            ctx.fillStyle = '#dddddd';
+            ctx.strokeStyle = '#000000';
+            ctx.lineWidth = 1.5;
+            ctx.beginPath();
+            ctx.moveTo(c - R * 0.55, tam - 2);
+            ctx.lineTo(c, c);
+            ctx.lineTo(c + R * 0.55, tam - 2);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            // Fondo del bombo
+            ctx.beginPath();
+            ctx.arc(c, c, R, 0, Math.PI * 2);
+            ctx.fillStyle = '#f7f7f7';
+            ctx.fill();
+
+            // Bolas
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.font = `bold ${Math.round(r * 0.95)}px Arial, sans-serif`;
+            for (const b of bolasBombo) {
+                ctx.beginPath();
+                ctx.arc(c + b.x, c + b.y, r, 0, Math.PI * 2);
+                ctx.fillStyle = b.tono;
+                ctx.fill();
+                ctx.lineWidth = 1.5;
+                ctx.strokeStyle = '#cc0000';
+                ctx.stroke();
+                if (r >= 9) {
+                    ctx.fillStyle = '#000000';
+                    ctx.fillText(b.n, c + b.x, c + b.y + 0.5);
+                }
+            }
+
+            // Varillas de la jaula (giran con el bombo)
+            ctx.strokeStyle = 'rgba(0, 0, 0, 0.35)';
+            ctx.lineWidth = 2;
+            const varillas = 8;
+            for (let i = 0; i < varillas; i++) {
+                const a = anguloBombo + (i * Math.PI) / varillas;
+                ctx.beginPath();
+                ctx.moveTo(c + Math.cos(a) * R, c + Math.sin(a) * R);
+                ctx.lineTo(c - Math.cos(a) * R, c - Math.sin(a) * R);
+                ctx.stroke();
+            }
+
+            // Aro exterior y eje
+            ctx.beginPath();
+            ctx.arc(c, c, R, 0, Math.PI * 2);
+            ctx.lineWidth = 4;
+            ctx.strokeStyle = '#000000';
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(c, c, r * 0.6, 0, Math.PI * 2);
+            ctx.fillStyle = '#333333';
+            ctx.fill();
+
+            // Bombo vacío
+            if (!bolasBombo.length) {
+                ctx.fillStyle = '#888888';
+                ctx.font = `${Math.round(tam * 0.05)}px Arial, sans-serif`;
+                ctx.fillText('Bombo vacío', c, c + R * 0.5);
+            }
+        }
+
+        function bucle(ahora) {
+            const dt = Math.min((ahora - ultimoTiempo) / 1000, 1 / 30);
+            ultimoTiempo = ahora;
+            // Varios pasos pequeños por fotograma: la física es más estable
+            for (let i = 0; i < 3; i++) fisica(dt / 3);
+            dibujar();
+            requestAnimationFrame(bucle);
+        }
+
+        window.addEventListener('resize', ajustarTamano);
+        ajustarTamano();
+        construirTablero();
+        pintar();
+        requestAnimationFrame(bucle);
+    </script>
+</body>
+</html>

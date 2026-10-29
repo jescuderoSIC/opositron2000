@@ -133,6 +133,11 @@ function renderizarNota(texto) {
     if (markdownDisponible) {
         vista.classList.remove('texto-plano');
         vista.innerHTML = DOMPurify.sanitize(marked.parse(texto, { breaks: true }));
+        // Las imágenes de las notas van relativas a la carpeta de la oposición: images/p073_01.png
+        vista.querySelectorAll('img[src]').forEach(img => {
+            const src = img.getAttribute('src');
+            if (!/^([a-z]+:|\/)/i.test(src)) img.src = CARPETA_OPO + src;
+        });
     } else {
         vista.classList.add('texto-plano');
         vista.textContent = texto;
@@ -214,7 +219,7 @@ function guardarNotasPendientes() {
     guardarNotas();
 }
 
-// Exporta preguntas-plus.json: notas y también temas asociados a cada pregunta
+// Exporta pregNNNN-plus.json: notas y también temas asociados a cada pregunta
 function exportarNotas() {
     guardarNotasPendientes();
     exportarPreguntasPlus();
@@ -240,17 +245,49 @@ function importarNotas(event) {
     event.target.value = '';
 }
 
-Promise.all([
-    fetch('data/preguntas.json').then(response => response.json()),
-    cargarPreguntasPlus('')
-])
-    .then(([data]) => {
-        notas = leerDelNavegador(CLAVE_NOTAS);
-        fichas = leerDelNavegador(CLAVE_FICHAS);
-        preguntas = data;
-        estadoRespuestas = new Array(preguntas.length).fill(null);
-        renderizarSidebar();
-        cargarPregunta(0);
+// ===== ELEGIR OPOSICIÓN =====
+// Sin ?opo= en la URL (o con una que no existe) se muestra la lista de oposiciones.json.
+// Cada una es un enlace a ?opo=..., así que al elegir se recarga la app con esa oposición.
+function mostrarSelectorOposicion(oposiciones) {
+    document.body.classList.add('eligiendo-opo');
+    document.getElementById('opo-aviso').hidden = !OPO;
+    const lista = document.getElementById('opo-lista');
+    lista.innerHTML = '';
+    oposiciones.forEach(opo => {
+        const a = document.createElement('a');
+        a.className = 'opo-item';
+        a.href = '?opo=' + encodeURIComponent(opo.id);
+        const nombre = document.createElement('strong');
+        nombre.textContent = opo.nombre;
+        const descripcion = document.createElement('span');
+        descripcion.textContent = opo.descripcion || '';
+        a.append(nombre, descripcion);
+        lista.appendChild(a);
+    });
+}
+
+fetch('oposiciones/oposiciones.json', { cache: 'no-cache' })
+    .then(response => response.json())
+    .then(oposiciones => {
+        const opo = oposiciones.find(o => o.id === OPO);
+        if (!opo) {
+            mostrarSelectorOposicion(oposiciones);
+            return;
+        }
+        document.title = opo.nombre + ' - opositron2000';
+        document.getElementById('opo-nombre').textContent = opo.nombre;
+        return Promise.all([
+            fetch(CARPETA_OPO + ARCHIVO_PREGUNTAS).then(response => response.json()),
+            cargarPreguntasPlus('')
+        ])
+            .then(([data]) => {
+                notas = leerDelNavegador(CLAVE_NOTAS);
+                fichas = leerDelNavegador(CLAVE_FICHAS);
+                preguntas = data;
+                estadoRespuestas = new Array(preguntas.length).fill(null);
+                renderizarSidebar();
+                cargarPregunta(0);
+            });
     })
     .catch(error => console.error("Error cargando JSON:", error));
 

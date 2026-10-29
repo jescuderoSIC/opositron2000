@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0002 - Temario TI 2026</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma del jardín y de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;
+            --barra: #dddddd;
+            --papel: #ffffff;
+            --linea: #000000;
+            --linea-suave: #e4e4e4;
+            --resalte: #ffe6e6;
+            --rojo: #cc0000;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .temario {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 14px 16px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .contenido { padding: 8px 16px 24px; }
+
+        a { color: inherit; }
+        a:hover { color: var(--rojo); }
+
+        /* Índice */
+        .indice {
+            border-bottom: 1px solid var(--linea);
+            padding-bottom: 12px;
+        }
+
+        .indice h2 { font-size: 18px; }
+
+        .indice > ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        .indice > ol > li { margin-bottom: 12px; }
+
+        .indice ol ol { margin: 6px 0 0; }
+
+        .indice ol ol li { margin: 3px 0; }
+
+        /* Bloques y temas */
+        .bloque {
+            margin: 28px -16px 0;
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: var(--barra);
+            border-top: 1px solid var(--linea);
+            border-bottom: 1px solid var(--linea);
+        }
+
+        .tema {
+            padding: 4px 0 8px;
+            border-bottom: 1px solid var(--linea-suave);
+            scroll-margin-top: 8px;
+        }
+
+        .tema:target { background-color: var(--resalte); }
+
+        .tema h3 { font-size: 18px; margin: 16px 0 8px; }
+
+        .epigrafe {
+            margin: 0 0 8px;
+            padding: 10px 12px;
+            background-color: var(--fondo);
+            border-left: 4px solid var(--rojo);
+            font-size: 15px;
+            color: #222;
+        }
+
+        .volver {
+            margin: 0;
+            text-align: right;
+            font-size: 13px;
+        }
+
+        .volver a { color: var(--texto-suave); }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 860px) {
+            body { padding: 28px 20px; }
+
+            .temario {
+                max-width: 1040px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+            }
+
+            .cabecera { padding: 16px 24px; }
+            .contenido { padding: 8px 24px 28px; }
+            .bloque { margin: 28px -24px 0; padding: 8px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="temario">
+        <header class="cabecera">
+            <h1>Temario TI 2026</h1>
+        </header>
+
+        <div class="contenido">
+            <nav class="indice" id="indice" aria-label="Índice del temario">
+                <h2>Índice</h2>
+                <ol>
+                <li><strong>Bloque UNO</strong>
+                    <ol>
+                        <li value="1"><a href="#t1">La Constitución española de 1978</a></li>
+                        <li value="2"><a href="#t2">Los órganos constitucionales</a></li>
+                        <li value="3"><a href="#t3">La organización territorial del Estado en la Constitución</a></li>
+                        <li value="4"><a href="#t4">La Unión Europea</a></li>
+                        <li value="5"><a href="#t5">La Comunidad Autónoma de Andalucía: antecedentes histórico-culturales</a></li>
+                        <li value="6"><a href="#t6">Organización institucional de la Comunidad Autónoma de Andalucía (I)</a></li>
+                        <li value="7"><a href="#t7">El Parlamento de Andalucía (II)</a></li>
+                        <li value="8"><a href="#t8">El Parlamento de Andalucía (III)</a></li>
+                        <li value="9"><a href="#t9">El Parlamento de Andalucía (IV)</a></li>
+                        <li value="10"><a href="#t10">El Parlamento de Andalucía (V)</a></li>
+                        <li value="11"><a href="#t11">El Parlamento de Andalucía (VI)</a></li>
+                        <li value="12"><a href="#t12">El Parlamento de Andalucía (VII)</a></li>
+                        <li value="13"><a href="#t13">El Parlamento de Andalucía (VIII)</a></li>
+                        <li value="14"><a href="#t14">Organización institucional de la Comunidad Autónoma de Andalucía (II)</a></li>
+                        <li value="15"><a href="#t15">Organización de la Administración de la Junta de Andalucía: principios de organización, actuación y atención ciudadana</a></li>
+                        <li value="16"><a href="#t16">Fuentes del Derecho: clasificación</a></li>
+                        <li value="17"><a href="#t17">La Administración pública</a></li>
+                        <li value="18"><a href="#t18">El acto administrativo: concepto, clases y elementos</a></li>
+                        <li value="19"><a href="#t19">El procedimiento administrativo: concepto y naturaleza</a></li>
+                        <li value="20"><a href="#t20">Los contratos de la Administración</a></li>
+                        <li value="21"><a href="#t21">La autonomía administrativa del Parlamento de Andalucía</a></li>
+                        <li value="22"><a href="#t22">Régimen jurídico del personal al servicio del Parlamento de Andalucía: normativa aplicable</a></li>
+                        <li value="23"><a href="#t23">La Hacienda pública en la Constitución y en el Estatuto de Autonomía para Andalucía</a></li>
+                        <li value="24"><a href="#t24">Normativa comunitaria, nacional y autonómica sobre igualdad de género</a></li>
+                        <li value="25"><a href="#t25">Protección de datos de carácter personal</a></li>
+                    </ol>
+                </li>
+                <li><strong>Bloque DOS — Informática Básica</strong>
+                    <ol>
+                        <li value="26"><a href="#t26">Formatos de imagen</a></li>
+                        <li value="27"><a href="#t27">Planificación y control de las TIC: gestión de servicios e infraestructuras TIC y gestión de valor de las TIC</a></li>
+                        <li value="28"><a href="#t28">Sistemas operativos: tipos de núcleo</a></li>
+                        <li value="29"><a href="#t29">Linux: principales distribuciones</a></li>
+                        <li value="30"><a href="#t30">Windows: versiones de escritorio y servidor</a></li>
+                        <li value="31"><a href="#t31">Sistemas operativos macOS: administración, gestión de usuarios y aplicaciones</a></li>
+                        <li value="32"><a href="#t32">Sistemas operativos de dispositivos móviles: Android e iOS</a></li>
+                        <li value="33"><a href="#t33">Ofimática: procesadores de texto</a></li>
+                        <li value="34"><a href="#t34">Gestión de dispositivos: automatización de instalaciones</a></li>
+                        <li value="35"><a href="#t35">Gestión de proyectos: tiempo, coste y alcance</a></li>
+                    </ol>
+                </li>
+                <li><strong>Bloque DOS — Desarrollo de Sistemas</strong>
+                    <ol>
+                        <li value="36"><a href="#t36">Ciclos de vida y metodologías de desarrollo de software</a></li>
+                        <li value="37"><a href="#t37">Análisis de requisitos del software: requisitos funcionales y no funcionales</a></li>
+                        <li value="38"><a href="#t38">Diseño de software: principios SOLID y GRASP</a></li>
+                        <li value="39"><a href="#t39">Servicios web</a></li>
+                        <li value="40"><a href="#t40">Lenguajes de modelado: UML 2.5</a></li>
+                        <li value="41"><a href="#t41">Construcción de software: código limpio</a></li>
+                        <li value="42"><a href="#t42">Control de versiones</a></li>
+                        <li value="43"><a href="#t43">Implantación y mantenimiento de software: tipos de entornos</a></li>
+                        <li value="44"><a href="#t44">Calidad del software: factores</a></li>
+                        <li value="45"><a href="#t45">Usabilidad y experiencia de usuario/s (UX): principios del diseño universal</a></li>
+                        <li value="46"><a href="#t46">Programación: fundamentos y evolución</a></li>
+                        <li value="47"><a href="#t47">Introducción a los entornos Microsoft.NET, Java y Python: características principales</a></li>
+                        <li value="48"><a href="#t48">Desarrollo web</a></li>
+                        <li value="49"><a href="#t49">Gestión de contenidos y documentos: gestores de contenidos (CMS)</a></li>
+                        <li value="50"><a href="#t50">Desarrollo de aplicaciones para móviles</a></li>
+                        <li value="51"><a href="#t51">La descripción e intercambio de datos e información</a></li>
+                    </ol>
+                </li>
+                <li><strong>Bloque DOS — Seguridad</strong>
+                    <ol>
+                        <li value="52"><a href="#t52">Amenazas: Tipos de malware</a></li>
+                        <li value="53"><a href="#t53">Criptografía: cifrado simétrico</a></li>
+                        <li value="54"><a href="#t54">Identificación y firma electrónica: passwords y passphrases</a></li>
+                        <li value="55"><a href="#t55">Protección de datos personales aplicada a las TIC</a></li>
+                    </ol>
+                </li>
+                <li><strong>Bloque DOS — Redes y Sistemas</strong>
+                    <ol>
+                        <li value="56"><a href="#t56">Almacenamiento</a></li>
+                        <li value="57"><a href="#t57">Bases de datos relacionales: modelo relacional</a></li>
+                        <li value="58"><a href="#t58">Oracle: instalación y configuración</a></li>
+                        <li value="59"><a href="#t59">PostgreSQL: instalación y configuración</a></li>
+                        <li value="60"><a href="#t60">Servicios de directorio</a></li>
+                        <li value="61"><a href="#t61">Interoperabilidad: RD 4/2010 - Esquema Nacional de Interoperabilidad (ENI)</a></li>
+                        <li value="62"><a href="#t62">Redes: clasificación según área</a></li>
+                        <li value="63"><a href="#t63">Cableado: categorías ANSI/TIA 568 y clases ISO/IEC 11801</a></li>
+                        <li value="64"><a href="#t64">Redes Ethernet: principales estándares 802.3</a></li>
+                        <li value="65"><a href="#t65">Redes inalámbricas: WPAN</a></li>
+                        <li value="66"><a href="#t66">Capa de interred: IPv4: direccionamiento y subnetting</a></li>
+                        <li value="67"><a href="#t67">Capa de transporte: UDP, TCP y QUIC</a></li>
+                        <li value="68"><a href="#t68">Capa de aplicación: resolución de nombres</a></li>
+                        <li value="69"><a href="#t69">Gestión de redes: modelo FCAPS</a></li>
+                        <li value="70"><a href="#t70">Centros de proceso de datos (CPD): diseño, implantación y gestión</a></li>
+                        <li value="71"><a href="#t71">Virtualización: Virtualización de servidores</a></li>
+                        <li value="72"><a href="#t72">VMware y vSphere</a></li>
+                        <li value="73"><a href="#t73">Virtualización a nivel de sistema operativo mediante Docker: instalación</a></li>
+                        <li value="74"><a href="#t74">Cloud computing: cloud, edge y fog computing</a></li>
+                        <li value="75"><a href="#t75">Administración de sistemas: Proyecto Apache HTTP Server</a></li>
+                    </ol>
+                </li>
+                </ol>
+            </nav>
+
+            <h2 class="bloque">Bloque UNO</h2>
+
+            <section class="tema" id="t1">
+                <h3>Tema 1. La Constitución española de 1978</h3>
+                <p class="epigrafe">La Constitución española de 1978. Características generales. Los valores superiores y los principios inspiradores. Derechos fundamentales y libertades públicas. Garantías. Los deberes constitucionales.</p>
+                <!-- Contenido del tema 1 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t2">
+                <h3>Tema 2. Los órganos constitucionales</h3>
+                <p class="epigrafe">Los órganos constitucionales. La Corona. El Poder Legislativo. Las Cortes Generales. El Poder Ejecutivo. El Gobierno del Estado y la Administración General del Estado. El Poder Judicial. El Tribunal Constitucional. El Defensor del Pueblo. El Tribunal de Cuentas.</p>
+                <!-- Contenido del tema 2 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t3">
+                <h3>Tema 3. La organización territorial del Estado en la Constitución</h3>
+                <p class="epigrafe">La organización territorial del Estado en la Constitución. Las comunidades autónomas. El sistema de distribución de competencias entre el Estado y las comunidades autónomas. La Administración local: regulación constitucional.</p>
+                <!-- Contenido del tema 3 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t4">
+                <h3>Tema 4. La Unión Europea</h3>
+                <p class="epigrafe">La Unión Europea. Derecho originario. Los tratados originarios y modificativos de las Comunidades Europeas. Instituciones y órganos de la Unión Europea. Competencias de la Unión Europea. El derecho derivado.</p>
+                <!-- Contenido del tema 4 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t5">
+                <h3>Tema 5. La Comunidad Autónoma de Andalucía: antecedentes histórico-culturales</h3>
+                <p class="epigrafe">La Comunidad Autónoma de Andalucía: antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: fundamento, estructura y contenido básico. Reforma del Estatuto. Organización territorial de la Comunidad Autónoma de Andalucía. Las competencias de la Comunidad Autónoma de Andalucía. Derechos sociales, deberes y políticas públicas en el Estatuto de Autonomía.</p>
+                <!-- Contenido del tema 5 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t6">
+                <h3>Tema 6. Organización institucional de la Comunidad Autónoma de Andalucía (I)</h3>
+                <p class="epigrafe">Organización institucional de la Comunidad Autónoma de Andalucía (I). El Parlamento de Andalucía (I). Composición y elección: generalidades. Derechos de sufragio activo y pasivo. Prerrogativas de la Cámara. Especial referencia a la autonomía reglamentaria: el Reglamento del Parlamento de Andalucía. La legislatura y su prórroga. Constitución y disolución de la Cámara. Los periodos de sesiones y las sesiones extraordinarias. Las funciones parlamentarias: generalidades.</p>
+                <!-- Contenido del tema 6 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t7">
+                <h3>Tema 7. El Parlamento de Andalucía (II)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (II). El estatuto de los diputados. Adquisición, suspensión y pérdida de la condición de diputado o diputada. Derechos, deberes y prerrogativas. Los grupos parlamentarios: constitución y generalidades acerca de su participación en las actividades de la Cámara. El Grupo Parlamentario Mixto. El diputado o diputada no adscrito.</p>
+                <!-- Contenido del tema 7 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t8">
+                <h3>Tema 8. El Parlamento de Andalucía (III)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (III). Organización interna. La Presidencia. La Mesa del Parlamento de Andalucía. La Junta de Portavoces. Las comisiones. Los grupos de trabajo y ponencias de estudio. El Pleno. La Diputación Permanente.</p>
+                <!-- Contenido del tema 8 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t9">
+                <h3>Tema 9. El Parlamento de Andalucía (IV)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (IV). Funcionamiento general. Calendario de trabajo. El orden del día. Los debates. El quórum. Las votaciones. El cómputo de los plazos. La caducidad anual de iniciativas parlamentarias. Los asuntos en trámite a la terminación del mandato parlamentario. La disciplina parlamentaria.</p>
+                <!-- Contenido del tema 9 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t10">
+                <h3>Tema 10. El Parlamento de Andalucía (V)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (V). El procedimiento legislativo. La iniciativa legislativa. El procedimiento legislativo común. Especialidades en el procedimiento legislativo.</p>
+                <!-- Contenido del tema 10 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t11">
+                <h3>Tema 11. El Parlamento de Andalucía (VI)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (VI). La investidura del presidente o presidenta de la Junta de Andalucía. La cuestión de confianza. La moción de censura.</p>
+                <!-- Contenido del tema 11 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t12">
+                <h3>Tema 12. El Parlamento de Andalucía (VII)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (VII). Autorización para la celebración de convenios de colaboración y acuerdos de cooperación con otras comunidades autónomas. Debate sobre el estado de la Comunidad y examen de las comunicaciones, programas y planes del Consejo de Gobierno. Iniciativas de orientación e impulso de la acción del Consejo de Gobierno: interpelaciones, mociones y proposiciones no de ley. Elecciones, nombramientos o propuestas que efectúa el Parlamento de Andalucía.</p>
+                <!-- Contenido del tema 12 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t13">
+                <h3>Tema 13. El Parlamento de Andalucía (VIII)</h3>
+                <p class="epigrafe">El Parlamento de Andalucía (VIII). Instrumentos de información y de control político del Ejecutivo. Las solicitudes de información y documentación. Las preguntas parlamentarias. Las comisiones de investigación. Sesiones informativas en Pleno y en Comisión. El derecho de petición de los ciudadanos.</p>
+                <!-- Contenido del tema 13 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t14">
+                <h3>Tema 14. Organización institucional de la Comunidad Autónoma de Andalucía (II)</h3>
+                <p class="epigrafe">Organización institucional de la Comunidad Autónoma de Andalucía (II). El presidente de la Junta de Andalucía y el Consejo de Gobierno. El Poder Judicial en Andalucía. Otras instituciones de autogobierno: el Defensor del Pueblo Andaluz, el Consejo Consultivo, la Cámara de Cuentas, el Consejo Audiovisual de Andalucía y el Consejo Económico y Social. La Oficina Andaluza contra el Fraude y la Corrupción. Otros órganos de extracción parlamentaria.</p>
+                <!-- Contenido del tema 14 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t15">
+                <h3>Tema 15. Organización de la Administración de la Junta de Andalucía: principios de organización, actuación y atención ciudadana</h3>
+                <p class="epigrafe">Organización de la Administración de la Junta de Andalucía: principios de organización, actuación y atención ciudadana. Organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.</p>
+                <!-- Contenido del tema 15 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t16">
+                <h3>Tema 16. Fuentes del Derecho: clasificación</h3>
+                <p class="epigrafe">Fuentes del Derecho: clasificación. Jerarquía normativa. La ley: concepto y clases. Disposiciones del Ejecutivo con fuerza de ley. Convalidación de decretos leyes y control de decretos legislativos. El reglamento: concepto y clasificación. La potestad reglamentaria: fundamento, titularidad y límites. Procedimiento de elaboración de los reglamentos.</p>
+                <!-- Contenido del tema 16 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t17">
+                <h3>Tema 17. La Administración pública</h3>
+                <p class="epigrafe">La Administración pública. Concepto, caracteres y clasificación. La Administración y el Derecho: el principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración y sus límites. Los órganos administrativos: concepto y clases. La competencia administrativa. Delegación, sustitución, suplencia, avocación. Los principios de organización. Los conflictos de competencias entre órganos administrativos.</p>
+                <!-- Contenido del tema 17 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t18">
+                <h3>Tema 18. El acto administrativo: concepto, clases y elementos</h3>
+                <p class="epigrafe">El acto administrativo: concepto, clases y elementos. La forma de los actos administrativos: la motivación, la notificación y la publicación. La obligación de resolver. Régimen jurídico del silencio administrativo. Eficacia, validez y revisión de los actos administrativos.</p>
+                <!-- Contenido del tema 18 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t19">
+                <h3>Tema 19. El procedimiento administrativo: concepto y naturaleza</h3>
+                <p class="epigrafe">El procedimiento administrativo: concepto y naturaleza. Fases del procedimiento administrativo. Los recursos administrativos. Los derechos de las personas en la Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Abstención y recusación.</p>
+                <!-- Contenido del tema 19 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t20">
+                <h3>Tema 20. Los contratos de la Administración</h3>
+                <p class="epigrafe">Los contratos de la Administración. Objeto y finalidad. Ámbito subjetivo de aplicación. Clasificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Preparación de contratos por las Administraciones públicas. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos. Las normas de contratación del Parlamento de Andalucía.</p>
+                <!-- Contenido del tema 20 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t21">
+                <h3>Tema 21. La autonomía administrativa del Parlamento de Andalucía</h3>
+                <p class="epigrafe">La autonomía administrativa del Parlamento de Andalucía. Reconocimiento y desarrollo normativo. La organización administrativa del Parlamento de Andalucía. Competencias de la Mesa y del letrado o letrada mayor en la materia. Las funciones de los distintos servicios del Parlamento.</p>
+                <!-- Contenido del tema 21 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t22">
+                <h3>Tema 22. Régimen jurídico del personal al servicio del Parlamento de Andalucía: normativa aplicable</h3>
+                <p class="epigrafe">Régimen jurídico del personal al servicio del Parlamento de Andalucía: normativa aplicable. El Estatuto de Personal del Parlamento de Andalucía: naturaleza. Clases de personal. Ingreso y cese. Provisión de puestos de trabajo. Situaciones e incompatibilidades. Derechos y deberes. Régimen disciplinario. Representación y participación. Régimen de previsión social del personal al servicio del Parlamento de Andalucía: generalidades.</p>
+                <!-- Contenido del tema 22 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t23">
+                <h3>Tema 23. La Hacienda pública en la Constitución y en el Estatuto de Autonomía para Andalucía</h3>
+                <p class="epigrafe">La Hacienda pública en la Constitución y en el Estatuto de Autonomía para Andalucía. Los principios presupuestarios y la estabilidad presupuestaria en la Constitución. El presupuesto de la Comunidad Autónoma de Andalucía: concepto, contenido y estructura. La autonomía presupuestaria del Parlamento de Andalucía. El presupuesto del Parlamento de Andalucía: elaboración, aprobación, ejecución y control. Régimen presupuestario, contable y de control del gasto del Parlamento de Andalucía.</p>
+                <!-- Contenido del tema 23 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t24">
+                <h3>Tema 24. Normativa comunitaria, nacional y autonómica sobre igualdad de género</h3>
+                <p class="epigrafe">Normativa comunitaria, nacional y autonómica sobre igualdad de género. Criterios para evitar el uso sexista del lenguaje y su procedimiento de aplicación en los escritos y documentos oficiales de los órganos y servicios del Parlamento de Andalucía. Violencia de género. El Protocolo de prevención y actuación en los casos de acoso en el Parlamento de Andalucía.</p>
+                <!-- Contenido del tema 24 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t25">
+                <h3>Tema 25. Protección de datos de carácter personal</h3>
+                <p class="epigrafe">Protección de datos de carácter personal. Ámbito de aplicación. Definición. Agencia Española de Protección de Datos: órganos y competencias. Principios de protección. Derechos de los ciudadanos. Transparencia pública: normativa vigente, ámbito subjetivo de aplicación y publicidad activa. El derecho de acceso a la información pública. El Consejo de Transparencia y Buen Gobierno. El Consejo de Transparencia y Protección de Datos de Andalucía.</p>
+                <!-- Contenido del tema 25 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <h2 class="bloque">Bloque DOS — Informática Básica</h2>
+
+            <section class="tema" id="t26">
+                <h3>Tema 26. Formatos de imagen</h3>
+                <p class="epigrafe">Formatos de imagen. Contenedores y códecs de audio y vídeo. Técnicas de compresión. Protocolos de streaming de vídeo. Reproductores, codificadores y servidores de streaming.</p>
+                <!-- Contenido del tema 26 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t27">
+                <h3>Tema 27. Planificación y control de las TIC: gestión de servicios e infraestructuras TIC y gestión de valor de las TIC</h3>
+                <p class="epigrafe">Planificación y control de las TIC: gestión de servicios e infraestructuras TIC y gestión de valor de las TIC. Acuerdos de nivel de servicio. Gestión de incidencias y peticiones. Bases conceptuales de ITIL 4: cadena de valor de servicio, principios guía, dimensiones y prácticas.</p>
+                <!-- Contenido del tema 27 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t28">
+                <h3>Tema 28. Sistemas operativos: tipos de núcleo</h3>
+                <p class="epigrafe">Sistemas operativos: tipos de núcleo. Gestión de memoria, de procesos y de discos. Arranque remoto PXE.</p>
+                <!-- Contenido del tema 28 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t29">
+                <h3>Tema 29. Linux: principales distribuciones</h3>
+                <p class="epigrafe">Linux: principales distribuciones. Formatos y gestores de paquetes. Estructura de carpetas y de particiones. Gestión de permisos de acceso. Cron. Rocky Linux: administración; diagnóstico y resolución de problemas de software. Scripts bash.</p>
+                <!-- Contenido del tema 29 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t30">
+                <h3>Tema 30. Windows: versiones de escritorio y servidor</h3>
+                <p class="epigrafe">Windows: versiones de escritorio y servidor. Ediciones y licenciamiento. Componentes y funcionalidades. Directorio activo y controlador de dominio. Administración, gestión de usuarios y aplicaciones. Diagnóstico y resolución de problemas. Scripts PowerShell.</p>
+                <!-- Contenido del tema 30 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t31">
+                <h3>Tema 31. Sistemas operativos macOS: administración, gestión de usuarios y aplicaciones</h3>
+                <p class="epigrafe">Sistemas operativos macOS: administración, gestión de usuarios y aplicaciones. Diagnóstico y resolución de problemas. Actualización y reparación. Comandos.</p>
+                <!-- Contenido del tema 31 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t32">
+                <h3>Tema 32. Sistemas operativos de dispositivos móviles: Android e iOS</h3>
+                <p class="epigrafe">Sistemas operativos de dispositivos móviles: Android e iOS. Arquitectura, administración y aplicaciones. Diagnóstico y resolución de problemas.</p>
+                <!-- Contenido del tema 32 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t33">
+                <h3>Tema 33. Ofimática: procesadores de texto</h3>
+                <p class="epigrafe">Ofimática: procesadores de texto. Hojas de cálculo. Presentaciones. Calendarios. Comunicaciones unificadas: Microsoft Teams. Espacios colaborativos: Sharepoint. Suite ofimática en la nube Microsoft 365.</p>
+                <!-- Contenido del tema 33 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t34">
+                <h3>Tema 34. Gestión de dispositivos: automatización de instalaciones</h3>
+                <p class="epigrafe">Gestión de dispositivos: automatización de instalaciones. Maquetación y clonación. Distribución de actualizaciones. Gestión de inventario y licencias. Virtualización del puesto de trabajo. Modelos de movilidad.</p>
+                <!-- Contenido del tema 34 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t35">
+                <h3>Tema 35. Gestión de proyectos: tiempo, coste y alcance</h3>
+                <p class="epigrafe">Gestión de proyectos: tiempo, coste y alcance. Incertidumbre. Estudio de viabilidad. Planificación: PDM y Gantt. Organización del trabajo. Gestión del cambio. Plan de comunicación: difusión y formación, segmentación por grupos y fases. PMBOK: principios, dominios de desempeño y oficina de dirección de proyectos (PMO). Herramientas de apoyo.</p>
+                <!-- Contenido del tema 35 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <h2 class="bloque">Bloque DOS — Desarrollo de Sistemas</h2>
+
+            <section class="tema" id="t36">
+                <h3>Tema 36. Ciclos de vida y metodologías de desarrollo de software</h3>
+                <p class="epigrafe">Ciclos de vida y metodologías de desarrollo de software. Ciclos de vida: code and fix, cascada, V, espiral, iterativo, incremental. Metodologías ágiles. Scrum. Extremme Programming. Escalado ágil: SAFe, LeSS, SoS. Lean IT: principios, reglas y prácticas. Mejora del proceso: ISO 15504 (SPICE).</p>
+                <!-- Contenido del tema 36 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t37">
+                <h3>Tema 37. Análisis de requisitos del software: requisitos funcionales y no funcionales</h3>
+                <p class="epigrafe">Análisis de requisitos del software: requisitos funcionales y no funcionales. Gestión de entrevistas y reuniones. Brainstorming. Casos de uso. Historias de usuario/a, técnicas de estimación de puntos de historia y características INVEST. Prototipado de interfaces de usuario/a. Priorización. Estándar ISO 29148. Herramientas de gestión de requisitos.</p>
+                <!-- Contenido del tema 37 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t38">
+                <h3>Tema 38. Diseño de software: principios SOLID y GRASP</h3>
+                <p class="epigrafe">Diseño de software: principios SOLID y GRASP. Cohesión y acoplamiento. Niveles de arquitectura física. Capas de arquitectura lógica. Contenedores IoC. Arquitectura monolítica orientada a servicios (SOA) y de microservicios (MSA). Patrones de diseño y antipatrones. Patrones de diseño de microservicios: Backend for frontend, CQRS, Sidecar y Gateway Aggregation. Event Sourcing. Domain-Driven Design.</p>
+                <!-- Contenido del tema 38 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t39">
+                <h3>Tema 39. Servicios web</h3>
+                <p class="epigrafe">Servicios web. Coreografía y orquestación. WSDL 2, SOAP, WS-Security. Gobierno SOA y ESB. Servicios REST: arquitectura RESTful, OpenAPI y Swagger. Apificación. Herramientas de testing: SoapUI y Postman. Microservicios. Mallas de servicios. Gestor de API Kong.</p>
+                <!-- Contenido del tema 39 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t40">
+                <h3>Tema 40. Lenguajes de modelado: UML 2.5</h3>
+                <p class="epigrafe">Lenguajes de modelado: UML 2.5. Diagramas de clases, interacción (secuencia y comunicación), máquina de estados y paquetes. BPMN 2. Motores de ejecución de BPMN.</p>
+                <!-- Contenido del tema 40 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t41">
+                <h3>Tema 41. Construcción de software: código limpio</h3>
+                <p class="epigrafe">Construcción de software: código limpio. Refactorización. Peer reviews, pair programming y mob programming. Mecanismos de depuración y repositorios de artefactos. Generación automática de código.</p>
+                <!-- Contenido del tema 41 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t42">
+                <h3>Tema 42. Control de versiones</h3>
+                <p class="epigrafe">Control de versiones. DVCS vs CVCS. Control de versiones distribuido con Git: comandos. Plataformas: Gitlab, Github, Bitbucket. Flujos de trabajo. GitOps. Versionado semántico.</p>
+                <!-- Contenido del tema 42 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t43">
+                <h3>Tema 43. Implantación y mantenimiento de software: tipos de entornos</h3>
+                <p class="epigrafe">Implantación y mantenimiento de software: tipos de entornos. Estrategias de despliegue. Integración continua, entrega y despliegue continuos (CI/CD). Motores de integración continua. DevOps y DevSecOps. Generación automática de documentación a partir del código. Tipos de mantenimiento: correctivo, evolutivo, preventivo, adaptativo y perfectivo. ISO 14764. Escalabilidad. Reingeniería e ingeniería inversa. Herramientas para seguimiento de errores.</p>
+                <!-- Contenido del tema 43 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t44">
+                <h3>Tema 44. Calidad del software: factores</h3>
+                <p class="epigrafe">Calidad del software: factores. ISO 25000. Métricas. Tipos de pruebas. Ingeniería del caos. TDD y BDD. Mejora de la calidad en código legado. Herramientas de testing.</p>
+                <!-- Contenido del tema 44 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t45">
+                <h3>Tema 45. Usabilidad y experiencia de usuario/s (UX): principios del diseño universal</h3>
+                <p class="epigrafe">Usabilidad y experiencia de usuario/s (UX): principios del diseño universal. Diseño web adaptativo. Diseño web responsive. Normas ISO 9241 e ISO 25010. Multilingüismo. Directrices de accesibilidad para el contenido web (WCAG) 2.1: principios y pautas.</p>
+                <!-- Contenido del tema 45 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t46">
+                <h3>Tema 46. Programación: fundamentos y evolución</h3>
+                <p class="epigrafe">Programación: fundamentos y evolución. Paradigmas de la programación. Programación estructurada. Orientación a objetos. Orientación a eventos. Orientación a aspectos. Vibe coding. Estado del arte y nuevas tendencias acerca de las técnicas, herramientas y entornos de desarrollo.</p>
+                <!-- Contenido del tema 46 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t47">
+                <h3>Tema 47. Introducción a los entornos Microsoft.NET, Java y Python: características principales</h3>
+                <p class="epigrafe">Introducción a los entornos Microsoft.NET, Java y Python: características principales. Librerías estándar: fechas, operaciones matemáticas, colecciones, acceso a ficheros, sockets, peticiones HTTP/HTTPS, serialización JSON y XML. Herramientas y frameworks.</p>
+                <!-- Contenido del tema 47 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t48">
+                <h3>Tema 48. Desarrollo web</h3>
+                <p class="epigrafe">Desarrollo web. Arquitectura de desarrollo en la web. Desarrollo front-end, back-end y full-stack. HTML 5, CSS 3 y Javascript. Aplicaciones web progresivas. Frameworks Angular, React y VUE: características principales. Generadores de sitios estáticos.</p>
+                <!-- Contenido del tema 48 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t49">
+                <h3>Tema 49. Gestión de contenidos y documentos: gestores de contenidos (CMS)</h3>
+                <p class="epigrafe">Gestión de contenidos y documentos: gestores de contenidos (CMS). Gestores documentales (DMS). Gestores de contenido empresarial (ECM). Motores de búsqueda.</p>
+                <!-- Contenido del tema 49 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t50">
+                <h3>Tema 50. Desarrollo de aplicaciones para móviles</h3>
+                <p class="epigrafe">Desarrollo de aplicaciones para móviles. Fundamentos de desarrollo de aplicaciones nativas para iOS y para Android. Desarrollo nativo unificado. Aplicaciones híbridas.</p>
+                <!-- Contenido del tema 50 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t51">
+                <h3>Tema 51. La descripción e intercambio de datos e información</h3>
+                <p class="epigrafe">La descripción e intercambio de datos e información. XML. Estructura de un documento. DTD y XSD. Lenguajes de operación sobre XML: XSLT, XQuery, XPointer, XPath y XLink. Formatos JSON, BSON y YAML.</p>
+                <!-- Contenido del tema 51 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <h2 class="bloque">Bloque DOS — Seguridad</h2>
+
+            <section class="tema" id="t52">
+                <h3>Tema 52. Amenazas: Tipos de malware</h3>
+                <p class="epigrafe">Amenazas: Tipos de malware. Amenazas persistentes avanzadas (APT). Ataques y medidas de prevención. Vulnerabilidades. Herramientas de hacking. Informe de panorama de amenazas de ciberseguridad de ENISA (ETL). Sistemas EDR, XDR y NDR.</p>
+                <!-- Contenido del tema 52 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t53">
+                <h3>Tema 53. Criptografía: cifrado simétrico</h3>
+                <p class="epigrafe">Criptografía: cifrado simétrico. AES y sus modos. Cifrado asimétrico: factorización de enteros (RSA), campos finitos (DSA) y curvas elípticas (ECDSA). Criptografía híbrida: SSL/TLS y PGP. Esteganografía. Hashing. CCN-STIC 807: criptología de empleo en el ENS.</p>
+                <!-- Contenido del tema 53 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t54">
+                <h3>Tema 54. Identificación y firma electrónica: passwords y passphrases</h3>
+                <p class="epigrafe">Identificación y firma electrónica: passwords y passphrases. Certificados digitales. Infraestructura de clave pública (PKI) X.509: componentes principales (RA, CA, VA) y PKCS. Reglamento eIDAS, Ley 6/2020 y Decisión UE 2015/1506. DNI electrónico. Firma electrónica: formatos. Prestadores de servicios de certificación. Sellado de tiempo. Herramientas: @firma, TS@, Cl@ve Firma, FIRe, Autofirma, Portafirmas, eVisor, VALIDe, nodo eIDAS, HCV, AutenticA y OpenSSL. Single sign-on. OpenID Connect, OAuth 2.0 y SAML 2.0. Gestor de identidades y accesos Keycloak.</p>
+                <!-- Contenido del tema 54 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t55">
+                <h3>Tema 55. Protección de datos personales aplicada a las TIC</h3>
+                <p class="epigrafe">Protección de datos personales aplicada a las TIC. Guías de AEPD: adaptación al RGPD. EIPD: evaluaciones de impacto. Protección por defecto y desde el diseño. Tecnologías PET. Herramientas de la AEPD: Facilita RGPD, Gestiona RGPD, Asesora Brecha, Comunica Brecha y Evalúa Riesgo. RD 1720/2007, medidas de seguridad en el tratamiento de datos de carácter personal. Directiva ePrivacy. Certificación Europrivacy.</p>
+                <!-- Contenido del tema 55 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <h2 class="bloque">Bloque DOS — Redes y Sistemas</h2>
+
+            <section class="tema" id="t56">
+                <h3>Tema 56. Almacenamiento</h3>
+                <p class="epigrafe">Almacenamiento. Unidades: del bit al quettabyte. Ficheros. Tipos de almacenamiento: DAS, NAS, SAN y cloud. Copias de seguridad. Protocolos de compartición de ficheros. Niveles RAID. Tecnologías SAN. Cabinas de discos. Librerías de cintas. Software Defined Storage (SDS).</p>
+                <!-- Contenido del tema 56 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t57">
+                <h3>Tema 57. Bases de datos relacionales: modelo relacional</h3>
+                <p class="epigrafe">Bases de datos relacionales: modelo relacional. Arquitectura ANSI/X3/SPARC. Reglas de Codd. Diagrama entidad/relación extendido y transformación a modelo relacional. Normalización y desnormalización. Lenguaje SQL. Interoperabilidad, federación y servicios ofrecidos por los SGBDR.</p>
+                <!-- Contenido del tema 57 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t58">
+                <h3>Tema 58. Oracle: instalación y configuración</h3>
+                <p class="epigrafe">Oracle: instalación y configuración. Inicio y parada. Interfaces de administración. Control de acceso. Copias de seguridad y restauración. Monitorización. Optimización de consultas. Clustering. PL/SQL.</p>
+                <!-- Contenido del tema 58 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t59">
+                <h3>Tema 59. PostgreSQL: instalación y configuración</h3>
+                <p class="epigrafe">PostgreSQL: instalación y configuración. Inicio y parada. Interfaces de administración. Control de acceso. Copias de seguridad y restauración. Monitorización. Optimización de consultas. Clustering. PL/pgSQL.</p>
+                <!-- Contenido del tema 59 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t60">
+                <h3>Tema 60. Servicios de directorio</h3>
+                <p class="epigrafe">Servicios de directorio. LDAP: operaciones y formato LDIF. OpenLDAP. Directorio activo: ámbitos de grupo, relaciones de confianza y directivas de grupo (GPO). Microsoft Entra ID.</p>
+                <!-- Contenido del tema 60 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t61">
+                <h3>Tema 61. Interoperabilidad: RD 4/2010 - Esquema Nacional de Interoperabilidad (ENI)</h3>
+                <p class="epigrafe">Interoperabilidad: RD 4/2010 - Esquema Nacional de Interoperabilidad (ENI). Dimensiones de la interoperabilidad. Normas técnicas de interoperabilidad y sus guías de aplicación: catálogo de estándares, expedientes electrónicos y normas para el intercambio de datos entre Administraciones públicas. El directorio común DIR3. Política de gestión de documentos electrónicos del Parlamento de Andalucía.</p>
+                <!-- Contenido del tema 61 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t62">
+                <h3>Tema 62. Redes: clasificación según área</h3>
+                <p class="epigrafe">Redes: clasificación según área. Métodos de conmutación. Topologías. Codificación de señales: analógicas y digitales, banda base y banda ancha, técnicas de modulación. Dispositivos de interconexión de redes. Técnicas de acceso al medio. Mecanismos de detección y corrección de errores. Modelos OSI (ISO 7498) y TCP/IP (RFC 1122).</p>
+                <!-- Contenido del tema 62 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t63">
+                <h3>Tema 63. Cableado: categorías ANSI/TIA 568 y clases ISO/IEC 11801</h3>
+                <p class="epigrafe">Cableado: categorías ANSI/TIA 568 y clases ISO/IEC 11801. Fibra óptica. Cableado estructurado: ANSI/TIA 568. Esquemas en CPD.</p>
+                <!-- Contenido del tema 63 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t64">
+                <h3>Tema 64. Redes Ethernet: principales estándares 802.3</h3>
+                <p class="epigrafe">Redes Ethernet: principales estándares 802.3. Formato de transceptores: de TX a ZR. Formatos de slots para transceptores: de SFP a QSFP-DD. Formato de mensajes. VLAN. Agregación de enlaces: LACP (802.1ax). Protección contra bucles: STP y variantes. Seguridad de capa 2.</p>
+                <!-- Contenido del tema 64 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t65">
+                <h3>Tema 65. Redes inalámbricas: WPAN</h3>
+                <p class="epigrafe">Redes inalámbricas: WPAN. Wi-Fi: estándares 802.11, CSMA/CA, SSID, formato de trama, potencias de transmisión, puntos de acceso, antenas, extensores de rango, estudio de cobertura y dimensionamiento. Gestión centralizada, normas y guías. Telefonía móvil: generaciones, tecnologías, componentes de red y modos de despliegue de 5G. Comunicaciones por satélite y sistemas de posicionamiento (GPS y Galileo). LoRaWAN.</p>
+                <!-- Contenido del tema 65 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t66">
+                <h3>Tema 66. Capa de interred: IPv4: direccionamiento y subnetting</h3>
+                <p class="epigrafe">Capa de interred: IPv4: direccionamiento y subnetting. Gestión de IP públicas, algoritmos de enrutamiento e intercambio de rutas. Formato de paquetes: ICMP, ARP, VRRP e IGMP. IPv6: cambios respecto a IPv4. DHCP y DHCPv6: mensajes y opciones. Medidas de seguridad, redes de distribución de contenidos (CDN) y sistemas autónomos (AS).</p>
+                <!-- Contenido del tema 66 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t67">
+                <h3>Tema 67. Capa de transporte: UDP, TCP y QUIC</h3>
+                <p class="epigrafe">Capa de transporte: UDP, TCP y QUIC. Puertos por defecto típicos. Traducción de direcciones y puertos (NAT/PAT). Listas de control de acceso (ACL). Seguridad: TLS.</p>
+                <!-- Contenido del tema 67 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t68">
+                <h3>Tema 68. Capa de aplicación: resolución de nombres</h3>
+                <p class="epigrafe">Capa de aplicación: resolución de nombres. DNS. Correo electrónico: arquitectura, protocolos (SMTP, POP, IMAP y MIME) y seguridad. Sincronización horaria: NTP. Mensajería instantánea: XMPP. Conexión remota: SSH.</p>
+                <!-- Contenido del tema 68 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t69">
+                <h3>Tema 69. Gestión de redes: modelo FCAPS</h3>
+                <p class="epigrafe">Gestión de redes: modelo FCAPS. Monitorización y control de tráfico. Cisco iOS y NX-OS, configuración básica. Diagnóstico y resolución de problemas. Calidad de servicio (QoS). Monitorización, control de tráfico y gestión remota. SNMP. Gestión centralizada.</p>
+                <!-- Contenido del tema 69 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t70">
+                <h3>Tema 70. Centros de proceso de datos (CPD): diseño, implantación y gestión</h3>
+                <p class="epigrafe">Centros de proceso de datos (CPD): diseño, implantación y gestión. Estándar TIA/EIA 942: subsistemas y áreas. Clasificaciones: Tiers. Ubicación. Construcción. Alimentación eléctrica. Climatización (HVAC): pasillos fríos y calientes. Protección contra incendios. Seguridad y monitorización.</p>
+                <!-- Contenido del tema 70 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t71">
+                <h3>Tema 71. Virtualización: Virtualización de servidores</h3>
+                <p class="epigrafe">Virtualización: Virtualización de servidores. Virtualización de sistema operativo. Virtualización de red. Virtualización de escritorio: basada en host y en cliente. Virtualización de aplicaciones. Virtualización de proceso. Virtualización de datos. Hiperconvergencia.</p>
+                <!-- Contenido del tema 71 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t72">
+                <h3>Tema 72. VMware y vSphere</h3>
+                <p class="epigrafe">VMware y vSphere. Componentes: ESXi, vCenter, vSphere Client, PowerCLI y PSC. Máquinas virtuales y vApps. Ficheros, VMware Tools, vMotion y HA. Optimización de recursos. Comunicaciones y almacenamiento.</p>
+                <!-- Contenido del tema 72 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t73">
+                <h3>Tema 73. Virtualización a nivel de sistema operativo mediante Docker: instalación</h3>
+                <p class="epigrafe">Virtualización a nivel de sistema operativo mediante Docker: instalación. Comandos. Construcción de imágenes. Docker Swarm. Kubernetes. Contenedores OCI.</p>
+                <!-- Contenido del tema 73 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t74">
+                <h3>Tema 74. Cloud computing: cloud, edge y fog computing</h3>
+                <p class="epigrafe">Cloud computing: cloud, edge y fog computing. Ventajas e inconvenientes. Modelos: nube pública, privada, híbrida, comunitaria y multinube. Tipos de servicios: IaaS, PaaS, SaaS y subtipos. Centro de datos definido por software (SDDC). Uso de servicios en nube: guía CCN-STIC 823. Prestadores de servicios en nube: NubeSARA, AWS, Azure y GCP. OpenStack.</p>
+                <!-- Contenido del tema 74 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t75">
+                <h3>Tema 75. Administración de sistemas: Proyecto Apache HTTP Server</h3>
+                <p class="epigrafe">Administración de sistemas: Proyecto Apache HTTP Server. Servidores y servicios de red: Ansible, DNS BIND, Dhcpd, Nagios, OpenLDAP, samba, Dovecot, Gitlab, Nginx y Squid.</p>
+                <!-- Contenido del tema 75 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>

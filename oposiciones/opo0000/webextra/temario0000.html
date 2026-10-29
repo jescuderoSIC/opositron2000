@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0000 - Temario de prueba — Cultura general</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma del jardín y de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;
+            --barra: #dddddd;
+            --papel: #ffffff;
+            --linea: #000000;
+            --linea-suave: #e4e4e4;
+            --resalte: #ffe6e6;
+            --rojo: #cc0000;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .temario {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 14px 16px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .contenido { padding: 8px 16px 24px; }
+
+        a { color: inherit; }
+        a:hover { color: var(--rojo); }
+
+        /* Índice */
+        .indice {
+            border-bottom: 1px solid var(--linea);
+            padding-bottom: 12px;
+        }
+
+        .indice h2 { font-size: 18px; }
+
+        .indice > ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        .indice > ol > li { margin-bottom: 12px; }
+
+        .indice ol ol { margin: 6px 0 0; }
+
+        .indice ol ol li { margin: 3px 0; }
+
+        /* Bloques y temas */
+        .bloque {
+            margin: 28px -16px 0;
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: var(--barra);
+            border-top: 1px solid var(--linea);
+            border-bottom: 1px solid var(--linea);
+        }
+
+        .tema {
+            padding: 4px 0 8px;
+            border-bottom: 1px solid var(--linea-suave);
+            scroll-margin-top: 8px;
+        }
+
+        .tema:target { background-color: var(--resalte); }
+
+        .tema h3 { font-size: 18px; margin: 16px 0 8px; }
+
+        .epigrafe {
+            margin: 0 0 8px;
+            padding: 10px 12px;
+            background-color: var(--fondo);
+            border-left: 4px solid var(--rojo);
+            font-size: 15px;
+            color: #222;
+        }
+
+        .volver {
+            margin: 0;
+            text-align: right;
+            font-size: 13px;
+        }
+
+        .volver a { color: var(--texto-suave); }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 860px) {
+            body { padding: 28px 20px; }
+
+            .temario {
+                max-width: 1040px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+            }
+
+            .cabecera { padding: 16px 24px; }
+            .contenido { padding: 8px 24px 28px; }
+            .bloque { margin: 28px -24px 0; padding: 8px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="temario">
+        <header class="cabecera">
+            <h1>Temario de prueba — Cultura general</h1>
+        </header>
+
+        <div class="contenido">
+            <nav class="indice" id="indice" aria-label="Índice del temario">
+                <h2>Índice</h2>
+                <ol>
+                <li><strong>Bloque I — Humanidades</strong>
+                    <ol>
+                        <li value="1"><a href="#t1">Historia</a></li>
+                        <li value="2"><a href="#t2">Geografía</a></li>
+                        <li value="3"><a href="#t3">Arte y literatura</a></li>
+                    </ol>
+                </li>
+                <li><strong>Bloque II — Ciencia y ocio</strong>
+                    <ol>
+                        <li value="4"><a href="#t4">Ciencia</a></li>
+                        <li value="5"><a href="#t5">Deportes y juegos</a></li>
+                    </ol>
+                </li>
+                </ol>
+            </nav>
+
+            <h2 class="bloque">Bloque I — Humanidades</h2>
+
+            <section class="tema" id="t1">
+                <h3>Tema 1. Historia</h3>
+                <p class="epigrafe">Historia. Grandes civilizaciones de la Antigüedad. El Imperio romano. La Edad Moderna y los descubrimientos geográficos. El siglo XX: la Guerra Fría y la caída del Muro de Berlín. La Transición española y la Constitución de 1978.</p>
+                <!-- Contenido del tema 1 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t2">
+                <h3>Tema 2. Geografía</h3>
+                <p class="epigrafe">Geografía. Continentes, océanos y grandes ríos del mundo. Capitales de los países. El relieve de España: montañas y ríos principales. La organización territorial de España: comunidades autónomas.</p>
+                <!-- Contenido del tema 2 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t3">
+                <h3>Tema 3. Arte y literatura</h3>
+                <p class="epigrafe">Arte y literatura. El Siglo de Oro español. La pintura española: de Velázquez a Picasso. La arquitectura modernista: Gaudí. La literatura hispanoamericana del siglo XX.</p>
+                <!-- Contenido del tema 3 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <h2 class="bloque">Bloque II — Ciencia y ocio</h2>
+
+            <section class="tema" id="t4">
+                <h3>Tema 4. Ciencia</h3>
+                <p class="epigrafe">Ciencia. La tabla periódica y los elementos químicos. El sistema solar. Física moderna: la velocidad de la luz y la teoría de la relatividad. El cuerpo humano: el esqueleto.</p>
+                <!-- Contenido del tema 4 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+            <section class="tema" id="t5">
+                <h3>Tema 5. Deportes y juegos</h3>
+                <p class="epigrafe">Deportes y juegos. Los Juegos Olímpicos y Barcelona 1992. Reglas básicas del fútbol. Los torneos de Grand Slam de tenis. El ajedrez: piezas y movimientos.</p>
+                <!-- Contenido del tema 5 -->
+                <p class="volver"><a href="#indice">↑ Índice</a></p>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>

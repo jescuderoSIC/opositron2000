@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿En qué año llegó Cristóbal Colón por primera vez a América?",
+    "opciones": {
+      "A": "1492",
+      "B": "1512",
+      "C": "1453",
+      "D": "1498"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué civilización construyó Machu Picchu?",
+    "opciones": {
+      "A": "Los mayas",
+      "B": "Los aztecas",
+      "C": "Los incas",
+      "D": "Los olmecas"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿En qué año cayó el Muro de Berlín?",
+    "opciones": {
+      "A": "1991",
+      "B": "1989",
+      "C": "1985",
+      "D": "1961"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Quién fue el primer emperador romano?",
+    "opciones": {
+      "A": "Julio César",
+      "B": "Augusto",
+      "C": "Nerón",
+      "D": "Trajano"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿En qué año se aprobó la Constitución española vigente?",
+    "opciones": {
+      "A": "1975",
+      "B": "1977",
+      "C": "1978",
+      "D": "1982"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuál es el río más largo de la península ibérica?",
+    "opciones": {
+      "A": "El Ebro",
+      "B": "El Tajo",
+      "C": "El Duero",
+      "D": "El Guadalquivir"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": {
+      "A": "Sídney",
+      "B": "Melbourne",
+      "C": "Canberra",
+      "D": "Perth"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cuál es la montaña más alta de España?",
+    "opciones": {
+      "A": "El Teide",
+      "B": "El Mulhacén",
+      "C": "El Aneto",
+      "D": "El Veleta"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cuál es el océano más grande de la Tierra?",
+    "opciones": {
+      "A": "El Atlántico",
+      "B": "El Índico",
+      "C": "El Ártico",
+      "D": "El Pacífico"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuántas comunidades autónomas tiene España?",
+    "opciones": {
+      "A": "15",
+      "B": "17",
+      "C": "19",
+      "D": "16"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Quién escribió «Don Quijote de la Mancha»?",
+    "opciones": {
+      "A": "Lope de Vega",
+      "B": "Miguel de Cervantes",
+      "C": "Francisco de Quevedo",
+      "D": "Luis de Góngora"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Quién pintó «Las Meninas»?",
+    "opciones": {
+      "A": "Francisco de Goya",
+      "B": "El Greco",
+      "C": "Diego Velázquez",
+      "D": "Bartolomé Esteban Murillo"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué pintor es el autor del «Guernica»?",
+    "opciones": {
+      "A": "Pablo Picasso",
+      "B": "Salvador Dalí",
+      "C": "Joan Miró",
+      "D": "Joaquín Sorolla"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Quién escribió «Cien años de soledad»?",
+    "opciones": {
+      "A": "Mario Vargas Llosa",
+      "B": "Julio Cortázar",
+      "C": "Jorge Luis Borges",
+      "D": "Gabriel García Márquez"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿En qué ciudad se encuentra la basílica de la Sagrada Familia?",
+    "opciones": {
+      "A": "Madrid",
+      "B": "Barcelona",
+      "C": "Valencia",
+      "D": "Bilbao"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": {
+      "A": "Ag",
+      "B": "Au",
+      "C": "Or",
+      "D": "Go"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+    "opciones": {
+      "A": "Saturno",
+      "B": "Neptuno",
+      "C": "La Tierra",
+      "D": "Júpiter"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Cuál es, aproximadamente, la velocidad de la luz en el vacío?",
+    "opciones": {
+      "A": "300.000 km/s",
+      "B": "150.000 km/s",
+      "C": "30.000 km/s",
+      "D": "3.000.000 km/s"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Quién formuló la teoría de la relatividad?",
+    "opciones": {
+      "A": "Isaac Newton",
+      "B": "Albert Einstein",
+      "C": "Niels Bohr",
+      "D": "Galileo Galilei"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cuántos huesos tiene el esqueleto de una persona adulta?",
+    "opciones": {
+      "A": "206",
+      "B": "186",
+      "C": "226",
+      "D": "306"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+    "opciones": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cuántos jugadores de cada equipo hay en el campo en un partido de fútbol?",
+    "opciones": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "11"
+    },
+    "respuesta_correcta": "D"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué torneo de Grand Slam de tenis se juega sobre tierra batida?",
+    "opciones": {
+      "A": "Wimbledon",
+      "B": "US Open",
+      "C": "Roland Garros",
+      "D": "Open de Australia"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué ciudad española organizó los Juegos Olímpicos de 1992?",
+    "opciones": {
+      "A": "Madrid",
+      "B": "Sevilla",
+      "C": "Barcelona",
+      "D": "Valencia"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 25,
+    "pregunta": "En ajedrez, ¿qué pieza se mueve solo en diagonal?",
+    "opciones": {
+      "A": "La torre",
+      "B": "El alfil",
+      "C": "El caballo",
+      "D": "El rey"
+    },
+    "respuesta_correcta": "B"
+  }
+]

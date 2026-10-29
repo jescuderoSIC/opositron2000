@@ -1,17 +1,41 @@
-// ===== preguntas-plus.json =====
-// Un único archivo con todo lo que se añade a cada pregunta:
+// ===== pregNNNN-plus.json =====
+// Un único archivo por oposición con todo lo que se añade a cada pregunta:
 //   { "28": { "nota": "texto en Markdown", "temas": ["22"],
 //             "tags": ["#procedimiento", "#plazos"], "dificultad": "Medio",
 //             "enlaces": ["[Ley 39/2015](https://www.boe.es/...)"] }, ... }
 // "dificultad" es "Básico", "Medio", "Difícil" o null si no se ha indicado.
 // En el navegador se sigue guardando por separado: las notas (pregunta → texto)
 // y las fichas (pregunta → tags, dificultad y enlaces) las usa el test, y las asociaciones
-// (tema → preguntas) las usa el temario.
+// (tema → preguntas) solo se conservan para que no se pierdan al exportar.
 // Aquí se convierte de un formato a otro para cargar, exportar e importar.
 
-const CLAVE_NOTAS = 'notas-oposicion-ati';
-const CLAVE_ASOCIACIONES = 'data/temario-asociaciones-ati';
-const CLAVE_FICHAS = 'fichas-oposicion-ati';
+// ===== Oposición activa =====
+// Cada oposición tiene su carpeta en oposiciones/ con sus preguntas (opo0001 → preg0001.json),
+// lo añadido a ellas (preg0001-plus.json), images/... Las oposiciones disponibles están
+// en oposiciones/oposiciones.json.
+// Se elige con ?opo=opo0000 en la URL; si no se indica, la app muestra la lista para elegir.
+const OPO = (new URLSearchParams(location.search).get('opo') || '').replace(/[^\w-]/g, '');
+const CARPETA_OPO = 'oposiciones/' + OPO + '/';
+const NOMBRE_PREGUNTAS = 'preg' + OPO.replace(/^opo/, '');
+const ARCHIVO_PREGUNTAS = NOMBRE_PREGUNTAS + '.json';
+const ARCHIVO_PLUS = NOMBRE_PREGUNTAS + '-plus.json';
+
+// Lo guardado en el navegador va por separado para cada oposición: clave@opoXXXX
+function claveDeOpo(clave) {
+    const claveOpo = clave + '@' + OPO;
+    // opo0001 usaba antes la clave sin sufijo: se copia una sola vez a la nueva
+    try {
+        const antigua = localStorage.getItem(clave);
+        if (OPO === 'opo0001' && antigua !== null && localStorage.getItem(claveOpo) === null) {
+            localStorage.setItem(claveOpo, antigua);
+        }
+    } catch (e) {}
+    return claveOpo;
+}
+
+const CLAVE_NOTAS = claveDeOpo('notas-oposicion-ati');
+const CLAVE_ASOCIACIONES = claveDeOpo('data/temario-asociaciones-ati');
+const CLAVE_FICHAS = claveDeOpo('fichas-oposicion-ati');
 
 const DIFICULTADES = ['Básico', 'Medio', 'Difícil'];
 
@@ -134,15 +158,15 @@ function normalizarPreguntasPlus(datos) {
     return unirPreguntasPlus(s.notas, s.asociaciones, s.fichas);
 }
 
-// Última versión de data/preguntas-plus.json que se aplicó en este navegador
-const CLAVE_ARCHIVO = 'preguntas-plus-archivo';
+// Última versión del pregNNNN-plus.json de la oposición que se aplicó en este navegador
+const CLAVE_ARCHIVO = claveDeOpo('preguntas-plus-archivo');
 
-// Cada vez que se abre la app se compara data/preguntas-plus.json con la última
+// Cada vez que se abre la app se compara el pregNNNN-plus.json de la oposición con la última
 // versión aplicada. Las preguntas que han cambiado en el archivo (por ejemplo,
 // editadas a mano) se copian al navegador; el resto no se toca.
 // La primera vez solo se rellena lo que falte, sin pisar lo ya guardado.
 function cargarPreguntasPlus(raiz) {
-    return fetch(raiz + 'data/preguntas-plus.json', { cache: 'no-cache' })
+    return fetch(raiz + CARPETA_OPO + ARCHIVO_PLUS, { cache: 'no-cache' })
         .then(r => {
             if (!r.ok) throw new Error(r.status);
             return r.json();
@@ -212,7 +236,7 @@ function exportarPreguntasPlus() {
     const blob = new Blob([JSON.stringify(plus, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'preguntas-plus.json';
+    a.download = ARCHIVO_PLUS;
     a.click();
     URL.revokeObjectURL(a.href);
 }
