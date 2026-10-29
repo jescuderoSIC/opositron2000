@@ -176,6 +176,75 @@ body {
     flex-grow: 1;
 }
 
+/* Dificultad y tags (modo Estudio) */
+.ficha-area {
+    margin-top: 20px;
+    border-top: 1px solid #bbb;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.ficha-fila {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.ficha-etiqueta {
+    font-weight: bold;
+    min-width: 80px;
+}
+
+.selector-dificultad button {
+    padding: 3px 12px;
+    font-size: 13px;
+}
+
+.selector-dificultad button.activo[data-dificultad="Básico"] { background-color: #008000; }
+.selector-dificultad button.activo[data-dificultad="Medio"] { background-color: #b36b00; }
+.selector-dificultad button.activo[data-dificultad="Difícil"] { background-color: #c00000; }
+
+.lista-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    padding: 2px 2px 2px 8px;
+    border: 1px solid #000;
+    background-color: #fffef5;
+    font-size: 13px;
+}
+
+.tag button {
+    padding: 0 4px;
+    font-size: 14px;
+    line-height: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tag a {
+    color: #0645ad;
+}
+
+#nuevo-tag,
+#nuevo-enlace {
+    width: 140px;
+    padding: 3px 6px;
+    font-size: 13px;
+    border: 1px solid #000;
+}
+
 .notas-area {
     margin-top: 20px;
     border-top: 1px solid #bbb;

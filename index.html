@@ -32,6 +32,28 @@
                         <!-- Las opciones se inyectan desde JS -->
                     </div>
 
+                    <!-- Dificultad, tags y enlaces (solo modo Estudio) -->
+                    <div class="ficha-area solo-estudio">
+                        <div class="ficha-fila">
+                            <span class="ficha-etiqueta">Dificultad</span>
+                            <div class="selector-modo selector-dificultad" id="selector-dificultad" role="group" aria-label="Dificultad de la pregunta">
+                                <button type="button" data-dificultad="Básico" onclick="cambiarDificultad('Básico')">Básico</button>
+                                <button type="button" data-dificultad="Medio" onclick="cambiarDificultad('Medio')">Medio</button>
+                                <button type="button" data-dificultad="Difícil" onclick="cambiarDificultad('Difícil')">Difícil</button>
+                            </div>
+                        </div>
+                        <div class="ficha-fila">
+                            <span class="ficha-etiqueta">Tags</span>
+                            <div id="lista-tags" class="lista-tags"></div>
+                            <input type="text" id="nuevo-tag" placeholder="#tag + Intro" aria-label="Añadir tag">
+                        </div>
+                        <div class="ficha-fila">
+                            <span class="ficha-etiqueta">Enlaces</span>
+                            <div id="lista-enlaces" class="lista-tags"></div>
+                            <input type="text" id="nuevo-enlace" placeholder="[texto](url) + Intro" aria-label="Añadir enlace en formato Markdown o URL">
+                        </div>
+                    </div>
+
                     <!-- Notas (solo modo Estudio) -->
                     <div class="notas-area solo-estudio">
                         <div class="notas-header">
@@ -57,7 +79,7 @@
                 <!-- Botones modo Estudio -->
                 <div class="bottom-bar solo-estudio">
                     <button type="button" onclick="cargarPregunta(indiceActual - 1)" title="Pregunta anterior">◀</button>
-                    <button type="button" onclick="exportarNotas()">Exportar notas</button>
+                    <button type="button" onclick="exportarNotas()" title="Guardar en preguntas-plus.json las notas, temas, tags, dificultad y enlaces de cada pregunta">Exportar notas</button>
                     <button type="button" onclick="document.getElementById('importar-notas').click()">Importar notas</button>
                     <input type="file" id="importar-notas" accept=".json" hidden onchange="importarNotas(event)">
                     <button type="button" onclick="cargarPregunta(indiceActual + 1)" title="Pregunta siguiente">▶</button>
@@ -99,6 +121,7 @@
     <!-- Librerías para Markdown (si no cargan, las notas se muestran en texto plano) -->
     <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script src="js/preguntas-plus.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

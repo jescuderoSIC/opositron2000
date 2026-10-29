@@ -6,17 +6,9 @@ let aciertos = 0;
 let fallos = 0;
 
 // ===== NOTAS =====
-const CLAVE_NOTAS = 'notas-oposicion-ati';
-let notas = cargarNotasGuardadas();
+// (CLAVE_NOTAS y la carga/exportación del archivo están en preguntas-plus.js)
+let notas = leerDelNavegador(CLAVE_NOTAS);
 let temporizadorGuardado = null;
-
-function cargarNotasGuardadas() {
-    try {
-        return JSON.parse(localStorage.getItem(CLAVE_NOTAS)) || {};
-    } catch (e) {
-        return {};
-    }
-}
 
 function guardarNotas() {
     try {
@@ -38,6 +30,93 @@ function mostrarEstadoNota(texto) {
     el.innerText = texto;
     clearTimeout(el._t);
     el._t = setTimeout(() => el.innerText = '', 1500);
+}
+
+// ===== DIFICULTAD, TAGS Y ENLACES =====
+// Por pregunta: { "28": { "tags": ["#plazos"], "dificultad": "Medio", "enlaces": ["https://..."] } }
+let fichas = leerDelNavegador(CLAVE_FICHAS);
+
+function guardarFichas() {
+    try {
+        localStorage.setItem(CLAVE_FICHAS, JSON.stringify(fichas));
+        mostrarEstadoNota('Guardado');
+    } catch (e) {
+        mostrarEstadoNota('Error al guardar');
+    }
+}
+
+function fichaActual() {
+    return fichas[claveNota(indiceActual)] || {};
+}
+
+function actualizarFicha(cambios) {
+    const clave = claveNota(indiceActual);
+    const ficha = { ...fichaActual(), ...cambios };
+    for (const campo in LISTAS_FICHA) {
+        if (!ficha[campo] || !ficha[campo].length) delete ficha[campo];
+    }
+    if (!ficha.dificultad) delete ficha.dificultad;
+    if (Object.keys(ficha).length) {
+        fichas[clave] = ficha;
+    } else {
+        delete fichas[clave];
+    }
+    guardarFichas();
+    renderizarFicha();
+}
+
+// Pulsar el nivel que ya está marcado lo desmarca
+function cambiarDificultad(nivel) {
+    actualizarFicha({ dificultad: fichaActual().dificultad === nivel ? null : nivel });
+}
+
+// campo: 'tags' o 'enlaces' (ver LISTAS_FICHA)
+function anadirALista(campo, texto) {
+    const actuales = fichaActual()[campo] || [];
+    actualizarFicha({ [campo]: [...new Set([...actuales, ...LISTAS_FICHA[campo](texto)])] });
+}
+
+function quitarDeLista(campo, valor) {
+    actualizarFicha({ [campo]: (fichaActual()[campo] || []).filter(v => v !== valor) });
+}
+
+// Pinta cada valor de la lista como una etiqueta con su botón × para quitarlo
+function pintarLista(campo, idContenedor, crearContenido) {
+    const lista = document.getElementById(idContenedor);
+    lista.innerHTML = '';
+    (fichaActual()[campo] || []).forEach(valor => {
+        const chip = document.createElement('span');
+        chip.className = 'tag';
+        chip.appendChild(crearContenido(valor));
+        const quitar = document.createElement('button');
+        quitar.type = 'button';
+        quitar.textContent = '×';
+        quitar.title = `Quitar ${chip.textContent}`;
+        quitar.onclick = () => quitarDeLista(campo, valor);
+        chip.appendChild(quitar);
+        lista.appendChild(chip);
+    });
+}
+
+function renderizarFicha() {
+    const { dificultad } = fichaActual();
+    document.querySelectorAll('#selector-dificultad button').forEach(b =>
+        b.classList.toggle('activo', b.dataset.dificultad === dificultad));
+
+    // La almohadilla del tag no se muestra
+    pintarLista('tags', 'lista-tags', tag => document.createTextNode(tag.slice(1)));
+
+    // Los enlaces se guardan en Markdown "[texto](url)" y se muestra el texto
+    pintarLista('enlaces', 'lista-enlaces', enlace => {
+        const { texto, url } = leerEnlace(enlace);
+        const a = document.createElement('a');
+        a.href = url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.title = url;
+        a.textContent = texto;
+        return a;
+    });
 }
 
 // ===== MARKDOWN =====
@@ -111,15 +190,34 @@ document.addEventListener('DOMContentLoaded', () => {
         clearTimeout(temporizadorGuardado);
         temporizadorGuardado = setTimeout(guardarNotas, 500);
     });
+
+    // Casillas de tags y enlaces: Intro añade lo escrito.
+    // Si no hay nada válido (p. ej. una URL mal escrita) el texto se deja para corregirlo.
+    [['nuevo-tag', 'tags'], ['nuevo-enlace', 'enlaces']].forEach(([id, campo]) => {
+        const casilla = document.getElementById(id);
+        casilla.addEventListener('keydown', event => {
+            if (event.key !== 'Enter') return;
+            event.preventDefault();
+            if (!LISTAS_FICHA[campo](casilla.value).length) {
+                mostrarEstadoNota(campo === 'enlaces' ? 'Enlace no válido' : 'Tag vacío');
+                return;
+            }
+            anadirALista(campo, casilla.value);
+            casilla.value = '';
+        });
+    });
 });
 
+// Guarda ya la nota que se esté escribiendo, sin esperar al temporizador
+function guardarNotasPendientes() {
+    clearTimeout(temporizadorGuardado);
+    guardarNotas();
+}
+
+// Exporta preguntas-plus.json: notas y también temas asociados a cada pregunta
 function exportarNotas() {
-    const blob = new Blob([JSON.stringify(notas, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'mis-notas-ati.json';
-    a.click();
-    URL.revokeObjectURL(a.href);
+    guardarNotasPendientes();
+    exportarPreguntasPlus();
 }
 
 function importarNotas(event) {
@@ -128,9 +226,10 @@ function importarNotas(event) {
     const lector = new FileReader();
     lector.onload = () => {
         try {
-            const importadas = JSON.parse(lector.result);
-            notas = { ...notas, ...importadas };
-            guardarNotas();
+            guardarNotasPendientes();
+            importarPreguntasPlus(JSON.parse(lector.result));
+            notas = leerDelNavegador(CLAVE_NOTAS);
+            fichas = leerDelNavegador(CLAVE_FICHAS);
             cargarPregunta(indiceActual);
             alert('Notas importadas correctamente.');
         } catch (e) {
@@ -141,30 +240,13 @@ function importarNotas(event) {
     event.target.value = '';
 }
 
-// Primera vez que se abre la app en este navegador (no hay notas guardadas):
-// se cargan automáticamente las de data/mis-notas-ati.json, si existe.
-function cargarNotasIniciales() {
-    let yaHayNotas = true;
-    try { yaHayNotas = localStorage.getItem(CLAVE_NOTAS) !== null; } catch (e) {}
-    if (yaHayNotas) return Promise.resolve();
-
-    return fetch('data/mis-notas-ati.json')
-        .then(r => {
-            if (!r.ok) throw new Error(r.status);
-            return r.json();
-        })
-        .then(iniciales => {
-            notas = iniciales;
-            localStorage.setItem(CLAVE_NOTAS, JSON.stringify(notas));
-        })
-        .catch(() => {});   // Si el archivo no existe, se empieza sin notas
-}
-
 Promise.all([
     fetch('data/preguntas.json').then(response => response.json()),
-    cargarNotasIniciales()
+    cargarPreguntasPlus('')
 ])
     .then(([data]) => {
+        notas = leerDelNavegador(CLAVE_NOTAS);
+        fichas = leerDelNavegador(CLAVE_FICHAS);
         preguntas = data;
         estadoRespuestas = new Array(preguntas.length).fill(null);
         renderizarSidebar();
@@ -214,6 +296,7 @@ function cargarPregunta(index) {
     const textoNota = notas[claveNota(index)] || '';
     document.getElementById('nota-texto').value = textoNota;
     renderizarNota(textoNota);
+    renderizarFicha();
 
     actualizarSidebarVisual();
 }

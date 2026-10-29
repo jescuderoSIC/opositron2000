@@ -1,7 +1,7 @@
 const markdownDisponible = typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined';
 
 // Asociaciones guardadas en el navegador: { "21": ["7", "15"], ... } (tema → preguntas)
-const CLAVE_ASOCIACIONES = 'data/temario-asociaciones-ati';
+// (CLAVE_ASOCIACIONES y la carga/exportación del archivo están en preguntas-plus.js)
 
 let temas = [];        // Lista plana de todos los temas, en orden
 let bloques = [];
@@ -20,31 +20,13 @@ function rutaDesdeRaiz(ruta) {
     return RAIZ + ruta;
 }
 
-// Primera vez que se abre el temario en este navegador (no hay asociaciones guardadas):
-// se cargan automáticamente las de data/asociaciones-temario-ati.json, si existe.
-function cargarAsociacionesIniciales() {
-    let yaHayAsociaciones = true;
-    try { yaHayAsociaciones = localStorage.getItem(CLAVE_ASOCIACIONES) !== null; } catch (e) {}
-    if (yaHayAsociaciones) return Promise.resolve();
-
-    return fetch(RAIZ + 'data/asociaciones-temario-ati.json')
-        .then(r => {
-            if (!r.ok) throw new Error(r.status);
-            return r.json();
-        })
-        .then(iniciales => {
-            asociaciones = iniciales;
-            guardarAsociaciones();
-        })
-        .catch(() => {});   // Si el archivo no existe, se empieza sin asociaciones
-}
-
 Promise.all([
     fetch(RAIZ + 'data/temario.json').then(r => r.json()),
     fetch(RAIZ + 'data/preguntas.json').then(r => r.json()).catch(() => []),
-    cargarAsociacionesIniciales()
+    cargarPreguntasPlus(RAIZ)
 ])
     .then(([data, listaPreguntas]) => {
+        asociaciones = cargarAsociaciones();
         preguntas = listaPreguntas;
         document.getElementById('titulo-temario').textContent = data.titulo || 'Temario';
         document.title = data.titulo || 'Temario';
@@ -72,8 +54,7 @@ function abrirDesdeHash() {
 
 // ===== Asociaciones pregunta ↔ tema =====
 function cargarAsociaciones() {
-    try { return JSON.parse(localStorage.getItem(CLAVE_ASOCIACIONES)) || {}; }
-    catch (e) { return {}; }
+    return leerDelNavegador(CLAVE_ASOCIACIONES);
 }
 
 function guardarAsociaciones() {
@@ -397,15 +378,8 @@ function mostrarContenido(cuerpo, texto) {
     }
 }
 
-// ===== Exportar / importar asociaciones =====
-document.getElementById('btn-exportar').onclick = () => {
-    const blob = new Blob([JSON.stringify(asociaciones, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'asociaciones-temario-ati.json';
-    a.click();
-    URL.revokeObjectURL(a.href);
-};
+// ===== Exportar / importar preguntas-plus.json (asociaciones y notas) =====
+document.getElementById('btn-exportar').onclick = exportarPreguntasPlus;
 
 document.getElementById('btn-importar').onclick = () =>
     document.getElementById('archivo-importar').click();
@@ -416,13 +390,8 @@ document.getElementById('archivo-importar').onchange = event => {
     const lector = new FileReader();
     lector.onload = () => {
         try {
-            const importadas = JSON.parse(lector.result);
-            // Se combinan con las existentes, sin duplicar preguntas
-            for (const [tema, lista] of Object.entries(importadas)) {
-                const union = new Set([...(asociaciones[tema] || []), ...lista.map(String)]);
-                asociaciones[tema] = [...union].sort((a, b) => Number(a) - Number(b) || a.localeCompare(b));
-            }
-            guardarAsociaciones();
+            importarPreguntasPlus(JSON.parse(lector.result));
+            asociaciones = cargarAsociaciones();
             refrescarTrasCambio();
             alert('Asociaciones importadas correctamente.');
         } catch (e) {
