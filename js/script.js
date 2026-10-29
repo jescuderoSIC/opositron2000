@@ -263,9 +263,35 @@ function mostrarSelectorOposicion(oposiciones) {
         nombre.textContent = opo.nombre;
         const descripcion = document.createElement('span');
         descripcion.textContent = opo.descripcion || '';
-        a.append(nombre, descripcion);
+        a.append(nombre, descripcion, crearEtiquetasOposicion(opo));
         lista.appendChild(a);
     });
+}
+
+// Administración, grupo y fecha en una línea, como etiquetas (solo las que tenga la oposición)
+function crearEtiquetasOposicion(opo) {
+    const fila = document.createElement('div');
+    fila.className = 'opo-etiquetas';
+    const anadir = (texto, titulo, etiqueta = 'span') => {
+        const el = document.createElement(etiqueta);
+        el.className = 'opo-etiqueta';
+        el.title = titulo;
+        el.textContent = texto;
+        fila.appendChild(el);
+        return el;
+    };
+    if (opo.administracion) anadir(opo.administracion, 'Administración');
+    if (opo.grupo) anadir(opo.grupo, 'Grupo');
+    if (opo.fecha) {
+        // "2026-10-16" → "16 oct 2026" (sin pasar por UTC para no cambiar de día)
+        const [anio, mes, dia] = opo.fecha.split('-').map(Number);
+        const fecha = new Date(anio, mes - 1, dia);
+        const texto = isNaN(fecha) ? opo.fecha :
+            fecha.toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+        anadir(texto, 'Fecha', 'time').dateTime = opo.fecha;
+    }
+    fila.hidden = !fila.children.length;
+    return fila;
 }
 
 fetch('oposiciones/oposiciones.json', { cache: 'no-cache' })

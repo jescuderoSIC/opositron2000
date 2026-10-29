@@ -477,6 +477,26 @@ body.eligiendo-opo .selector-opo {
     color: #555;
 }
 
+/* Administración, grupo y fecha: etiquetas en una sola línea */
+.opo-etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.opo-etiquetas[hidden] {
+    display: none;
+}
+
+.opo-item .opo-etiqueta {
+    font-size: 12px;
+    color: #333;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    padding: 1px 6px;
+}
+
 /* Nombre de la oposición en la barra superior: enlace para cambiar */
 .opo-actual {
     font-weight: bold;

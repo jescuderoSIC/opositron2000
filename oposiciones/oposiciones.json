@@ -2,16 +2,22 @@
   {
     "id": "opo0000",
     "nombre": "Cultura general (prueba)",
-    "descripcion": "Oposición de prueba: 25 preguntas en 5 temas (historia, geografía, arte y literatura, ciencia y deportes)."
+    "descripcion": "Exámen/Oposición de prueba: 25 preguntas en 5 temas (historia, geografía, arte y literatura, ciencia y deportes). Esta entrada intenta explorar todas las posibilidades del formato."
   },
   {
     "id": "opo0001",
-    "nombre": "ATI 2025",
-    "descripcion": "131 preguntas tipo test y temario de 44 temas."
+    "nombre": "ATI 2025 1",
+    "descripcion": "Primer exámen de Ayudante Técnico Informático: 125 preguntas tipo test + 6 de Reserva y Temario de 44 temas.",
+    "administracion": "Parlamento de Andalucia",
+    "grupo": "C1",
+    "fecha": "2026-10-16"
   },
   {
     "id": "opo0002",
-    "nombre": "TI 2026",
-    "descripcion": "125 preguntas tipo test + 6 de Reserva y temario de 75 temas."
+    "nombre": "TI 2026 1",
+    "descripcion": "Primer exámen de Técnico Informático: 125 preguntas tipo test + 6 de Reserva y Temario de 75 temas.",
+    "administracion": "Parlamento de Andalucia",
+    "grupo": "A2",
+    "fecha": "2026-10-28"
   }
 ]
