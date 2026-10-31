@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué red de comunicaciones interconecta las Administraciones Públicas españolas y da acceso a los servicios comunes de la AGE?",
+    "opciones": {
+      "A": "RedIRIS",
+      "B": "Red SARA",
+      "C": "Red TESTA",
+      "D": "Red NEREA"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué plataforma de la AGE permite a la ciudadanía identificarse electrónicamente con certificado, DNIe o sistemas de clave concertada?",
+    "opciones": {
+      "A": "@firma",
+      "B": "Notific@",
+      "C": "Cl@ve",
+      "D": "ORVE"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué plataforma de la AGE ofrece servicios de validación de certificados y de firmas electrónicas?",
+    "opciones": {
+      "A": "@firma",
+      "B": "Cl@ve",
+      "C": "SIR",
+      "D": "FACe"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué sistema permite el intercambio electrónico de asientos registrales entre las oficinas de registro de distintas Administraciones Públicas?",
+    "opciones": {
+      "A": "DEHú",
+      "B": "SIR (Sistema de Interconexión de Registros)",
+      "C": "BDNS",
+      "D": "Carpeta Ciudadana"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 5,
+    "pregunta": "Para no pedir al solicitante documentos que ya obran en poder de otras Administraciones (art. 28 de la Ley 39/2015), ¿qué servicio de la AGE integraría SICOPA?",
+    "opciones": {
+      "A": "La Plataforma de Intermediación de Datos (SVD)",
+      "B": "El Punto General de Entrada de Facturas",
+      "C": "El Inventario de Información Administrativa (SIA)",
+      "D": "La Red SARA exclusivamente"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué punto de acceso de la AGE permite a los interesados consultar en un único lugar sus notificaciones electrónicas?",
+    "opciones": {
+      "A": "FACe",
+      "B": "SIR",
+      "C": "DEHú (Dirección Electrónica Habilitada única)",
+      "D": "Cl@ve"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 7,
+    "pregunta": "Según la Ley 38/2003, General de Subvenciones, ¿a qué sistema debe comunicarse la información de las convocatorias y concesiones de subvenciones?",
+    "opciones": {
+      "A": "Al Registro Electrónico de Apoderamientos",
+      "B": "A la Base de Datos Nacional de Subvenciones (BDNS)",
+      "C": "Al Sistema de Interconexión de Registros",
+      "D": "A la Plataforma de Contratación del Sector Público"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué componente de integración centraliza la mediación, transformación y enrutamiento de mensajes entre aplicaciones heterogéneas?",
+    "opciones": {
+      "A": "Un balanceador de carga",
+      "B": "Un bus de servicios empresarial (ESB)",
+      "C": "Un servidor DNS",
+      "D": "Un sistema gestor de bases de datos"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 9,
+    "pregunta": "Para poner en marcha SICOPA en 6 meses como producto mínimo viable, ¿qué funcionalidad es prioritaria?",
+    "opciones": {
+      "A": "Un cuadro de mando con análisis avanzado de datos",
+      "B": "Una aplicación móvil nativa",
+      "C": "La presentación electrónica de solicitudes con su asiento en el Registro Electrónico",
+      "D": "Un chatbot de atención a la ciudadanía"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 10,
+    "pregunta": "Según la Ley 40/2015, ¿cómo se denomina la dirección electrónica, disponible para la ciudadanía a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública?",
+    "opciones": {
+      "A": "Portal de transparencia",
+      "B": "Sede electrónica",
+      "C": "Punto de acceso general",
+      "D": "Registro electrónico"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 11,
+    "pregunta": "Según la Ley 9/2017, de Contratos del Sector Público, el contrato de desarrollo de programas de ordenador a medida se considera:",
+    "opciones": {
+      "A": "Contrato de suministro",
+      "B": "Contrato de servicios",
+      "C": "Contrato de obras",
+      "D": "Contrato de concesión de servicios"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 12,
+    "pregunta": "Según la Ley 9/2017, la adquisición de servidores y de licencias de software estándar es un contrato de:",
+    "opciones": {
+      "A": "Servicios",
+      "B": "Obras",
+      "C": "Suministro",
+      "D": "Concesión de obras"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿En qué documento del expediente de contratación se definen las características técnicas que debe reunir la prestación?",
+    "opciones": {
+      "A": "En el pliego de prescripciones técnicas",
+      "B": "En el pliego de cláusulas administrativas particulares",
+      "C": "En el documento de formalización",
+      "D": "En el anuncio de licitación"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿En qué documento se recogen los criterios de solvencia y de adjudicación del contrato?",
+    "opciones": {
+      "A": "En el pliego de prescripciones técnicas",
+      "B": "En la memoria justificativa",
+      "C": "En el pliego de cláusulas administrativas particulares",
+      "D": "En el acta de recepción"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 15,
+    "pregunta": "Según la Ley 9/2017, ¿por debajo de qué valor estimado un contrato de servicios se considera contrato menor?",
+    "opciones": {
+      "A": "15.000 euros",
+      "B": "40.000 euros",
+      "C": "60.000 euros",
+      "D": "100.000 euros"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué representación gráfica muestra las tareas de un proyecto como barras horizontales sobre un eje temporal?",
+    "opciones": {
+      "A": "Diagrama de Ishikawa",
+      "B": "Diagrama de Pareto",
+      "C": "Diagrama de Gantt",
+      "D": "Diagrama de casos de uso"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 17,
+    "pregunta": "En la gestión del equipo de trabajo, ¿para qué sirve una matriz RACI?",
+    "opciones": {
+      "A": "Para estimar el coste de cada tarea",
+      "B": "Para asignar a cada tarea quién la realiza, quién responde, a quién se consulta y a quién se informa",
+      "C": "Para calcular el camino crítico del proyecto",
+      "D": "Para priorizar los requisitos del producto"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 18,
+    "pregunta": "En la metodología Métrica versión 3, ¿qué proceso corresponde al análisis del sistema de información?",
+    "opciones": {
+      "A": "EVS",
+      "B": "ASI",
+      "C": "DSI",
+      "D": "IAS"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 19,
+    "pregunta": "En Scrum, ¿quién es responsable de maximizar el valor del producto y de gestionar el Product Backlog?",
+    "opciones": {
+      "A": "El Scrum Master",
+      "B": "El equipo de desarrollo",
+      "C": "El Product Owner",
+      "D": "El jefe de proyecto"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cuál de estas herramientas se usa principalmente para integración continua?",
+    "opciones": {
+      "A": "Jenkins",
+      "B": "Wireshark",
+      "C": "Nagios",
+      "D": "KeePass"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿En qué consiste el escalado horizontal de un sistema?",
+    "opciones": {
+      "A": "En añadir más CPU y memoria a un único servidor",
+      "B": "En añadir más nodos que se reparten la carga",
+      "C": "En reducir el número de usuarios concurrentes",
+      "D": "En migrar la base de datos a otro motor"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cuál es la función principal de un balanceador de carga delante de los servidores web?",
+    "opciones": {
+      "A": "Cifrar las copias de seguridad",
+      "B": "Repartir las peticiones entre varios servidores y retirar los que fallan",
+      "C": "Sustituir al cortafuegos perimetral",
+      "D": "Replicar la base de datos"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 23,
+    "pregunta": "En continuidad de negocio, ¿qué indica el RPO (Recovery Point Objective)?",
+    "opciones": {
+      "A": "El tiempo máximo para restablecer el servicio",
+      "B": "La cantidad máxima de datos, medida en tiempo, que se puede perder",
+      "C": "El número de copias de seguridad necesarias",
+      "D": "El porcentaje de disponibilidad anual"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 24,
+    "pregunta": "En continuidad de negocio, ¿qué indica el RTO (Recovery Time Objective)?",
+    "opciones": {
+      "A": "El tiempo máximo admisible para restablecer el servicio tras una interrupción",
+      "B": "La antigüedad máxima de la última copia de seguridad",
+      "C": "El tiempo medio entre fallos",
+      "D": "El tiempo de respuesta de la aplicación"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué establece la regla 3-2-1 de copias de seguridad?",
+    "opciones": {
+      "A": "3 copias diarias, 2 semanales y 1 mensual",
+      "B": "3 copias de los datos, en 2 soportes distintos y 1 de ellas fuera de las instalaciones",
+      "C": "3 servidores, 2 centros de datos y 1 nube",
+      "D": "3 días de retención, 2 copias completas y 1 incremental"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué nivel de RAID duplica los datos en espejo en dos discos?",
+    "opciones": {
+      "A": "RAID 0",
+      "B": "RAID 1",
+      "C": "RAID 5",
+      "D": "RAID 6"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cómo se denomina la técnica por la que el balanceador envía siempre las peticiones de un mismo usuario al mismo servidor de aplicaciones?",
+    "opciones": {
+      "A": "Afinidad de sesión (sticky sessions)",
+      "B": "Round robin",
+      "C": "Failover",
+      "D": "Sharding"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 28,
+    "pregunta": "Una disponibilidad del 99,9 % anual permite una indisponibilidad aproximada de:",
+    "opciones": {
+      "A": "52 minutos al año",
+      "B": "8,76 horas al año",
+      "C": "3,65 días al año",
+      "D": "36,5 días al año"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 29,
+    "pregunta": "En un clúster activo-pasivo de bases de datos:",
+    "opciones": {
+      "A": "Todos los nodos atienden peticiones a la vez",
+      "B": "Un nodo atiende las peticiones y otro queda en espera para tomar el control si falla",
+      "C": "Cada nodo guarda una parte distinta de los datos",
+      "D": "No es posible la conmutación automática"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 30,
+    "pregunta": "Ante picos de carga en la presentación de solicitudes, ¿qué aporta una cola de mensajes en el middleware?",
+    "opciones": {
+      "A": "Desacopla la recepción del procesamiento y permite procesar de forma asíncrona",
+      "B": "Aumenta la capacidad de almacenamiento de la base de datos",
+      "C": "Sustituye al balanceador de carga",
+      "D": "Elimina la necesidad de copias de seguridad"
+    },
+    "respuesta_correcta": "A"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué norma regula actualmente el Esquema Nacional de Seguridad?",
+    "opciones": {
+      "A": "Real Decreto 3/2010",
+      "B": "Real Decreto 311/2022",
+      "C": "Real Decreto 4/2010",
+      "D": "Real Decreto 203/2021"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué categorías de seguridad establece el Esquema Nacional de Seguridad para los sistemas de información?",
+    "opciones": {
+      "A": "Baja, media y alta",
+      "B": "Básica, media y alta",
+      "C": "Pública, interna y confidencial",
+      "D": "Nivel 1, nivel 2 y nivel 3"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cuál de las siguientes NO es una dimensión de seguridad del Esquema Nacional de Seguridad?",
+    "opciones": {
+      "A": "Confidencialidad",
+      "B": "Trazabilidad",
+      "C": "Escalabilidad",
+      "D": "Autenticidad"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 34,
+    "pregunta": "Según el Esquema Nacional de Seguridad, si alguna de las dimensiones de seguridad de un sistema alcanza el nivel ALTO, la categoría del sistema es:",
+    "opciones": {
+      "A": "BÁSICA",
+      "B": "MEDIA",
+      "C": "ALTA",
+      "D": "La media de los niveles de todas las dimensiones"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué modelo de control de acceso asigna los permisos a roles (gestor, supervisor, administrador…) y los roles a los usuarios?",
+    "opciones": {
+      "A": "DAC",
+      "B": "MAC",
+      "C": "RBAC",
+      "D": "ACL de red"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Cuál de estos es un ejemplo de autenticación multifactor para los gestores internos?",
+    "opciones": {
+      "A": "Usuario y contraseña larga",
+      "B": "Contraseña y una pregunta de seguridad",
+      "C": "Contraseña y un código de un solo uso enviado al móvil",
+      "D": "Dos contraseñas distintas"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué ley orgánica adapta el ordenamiento español al Reglamento General de Protección de Datos?",
+    "opciones": {
+      "A": "Ley Orgánica 15/1999",
+      "B": "Ley Orgánica 3/2018",
+      "C": "Ley Orgánica 7/2021",
+      "D": "Ley Orgánica 1/1982"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 38,
+    "pregunta": "Si la empresa adjudicataria va a tratar datos personales por cuenta del Parlamento, ¿qué artículo del RGPD regula el contrato de encargo de tratamiento que debe preverse en los pliegos?",
+    "opciones": {
+      "A": "Artículo 6",
+      "B": "Artículo 28",
+      "C": "Artículo 35",
+      "D": "Artículo 83"
+    },
+    "respuesta_correcta": "B"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué artículo del RGPD regula la evaluación de impacto relativa a la protección de datos?",
+    "opciones": {
+      "A": "Artículo 25",
+      "B": "Artículo 30",
+      "C": "Artículo 35",
+      "D": "Artículo 37"
+    },
+    "respuesta_correcta": "C"
+  },
+  {
+    "id": 40,
+    "pregunta": "El artículo 25 del RGPD obliga a aplicar medidas técnicas y organizativas desde la concepción del sistema. ¿Cómo se denomina este principio?",
+    "opciones": {
+      "A": "Responsabilidad proactiva",
+      "B": "Protección de datos desde el diseño y por defecto",
+      "C": "Minimización de datos",
+      "D": "Limitación del plazo de conservación"
+    },
+    "respuesta_correcta": "B"
+  }
+]

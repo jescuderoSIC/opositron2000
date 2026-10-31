@@ -260,7 +260,7 @@ function mostrarSelectorOposicion(oposiciones) {
         a.className = 'opo-item';
         a.href = '?opo=' + encodeURIComponent(opo.id);
         const nombre = document.createElement('strong');
-        nombre.textContent = opo.nombre;
+        nombre.textContent = tituloOposicion(opo);
         const descripcion = document.createElement('span');
         descripcion.textContent = opo.descripcion || '';
         a.append(nombre, descripcion, crearEtiquetasOposicion(opo));
@@ -294,6 +294,18 @@ function crearEtiquetasOposicion(opo) {
     return fila;
 }
 
+// Nombre, ejercicio y tipo de ejercicio: "ATI 2025 · 1º · test" (solo las partes que tenga)
+function tituloOposicion(opo) {
+    return [opo.nombre, opo.ejercicio, opo.tipoejercicio].filter(Boolean).join(' · ');
+}
+
+// Muestra webextra/supuestoNNNN.html en una ventana dentro de la app (se carga la primera vez)
+function abrirSupuesto() {
+    const marco = document.getElementById('marco-supuesto');
+    if (!marco.src) marco.src = CARPETA_OPO + 'webextra/supuesto' + OPO.replace(/^opo/, '') + '.html';
+    document.getElementById('dialogo-supuesto').showModal();
+}
+
 fetch('oposiciones/oposiciones.json', { cache: 'no-cache' })
     .then(response => response.json())
     .then(oposiciones => {
@@ -302,9 +314,16 @@ fetch('oposiciones/oposiciones.json', { cache: 'no-cache' })
             mostrarSelectorOposicion(oposiciones);
             return;
         }
-        nombreOpo = opo.nombre;
-        document.title = opo.nombre + ' - opositron2000';
+        nombreOpo = tituloOposicion(opo);
+        document.title = nombreOpo + ' - opositron2000';
+        // Solo el nombre es enlace a la lista; el ejercicio y el tipo van detrás como texto
         document.getElementById('opo-nombre').textContent = opo.nombre;
+        // En los supuestos, el tipo es un botón que abre el enunciado
+        const esSupuesto = opo.tipoejercicio === 'supuesto';
+        document.getElementById('opo-ejercicio').textContent =
+            [opo.ejercicio, opo.tipoejercicio && !esSupuesto && opo.tipoejercicio]
+                .filter(Boolean).map(t => ' · ' + t).join('') + (esSupuesto ? ' ·' : '');
+        document.getElementById('btn-supuesto').hidden = !esSupuesto;
         return Promise.all([
             fetch(CARPETA_OPO + ARCHIVO_PREGUNTAS).then(response => response.json()),
             cargarPreguntasPlus('')

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0003 - Criterios de las preguntas del supuesto</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma del jardín y de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;
+            --barra: #dddddd;
+            --papel: #ffffff;
+            --linea: #000000;
+            --linea-suave: #e4e4e4;
+            --resalte: #ffe6e6;
+            --rojo: #cc0000;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .criterios {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 14px 16px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .cabecera p {
+            margin: 4px 0 0;
+            font-size: 14px;
+            color: var(--texto-suave);
+        }
+
+        .contenido { padding: 8px 16px 24px; }
+
+        a { color: inherit; }
+        a:hover { color: var(--rojo); }
+
+        /* Apartados */
+        .apartado {
+            margin: 28px -16px 0;
+            padding: 8px 16px;
+            font-size: 18px;
+            background-color: var(--barra);
+            border-top: 1px solid var(--linea);
+            border-bottom: 1px solid var(--linea);
+        }
+
+        ul, ol { padding-left: 24px; }
+
+        li { margin: 6px 0; }
+
+        /* Tablas */
+        .tabla {
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+        }
+
+        th, td {
+            padding: 8px 10px;
+            border: 1px solid var(--linea);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th { background-color: var(--fondo); }
+
+        td.num { white-space: nowrap; font-weight: bold; }
+
+        .aviso {
+            margin: 16px 0 0;
+            padding: 10px 12px;
+            background-color: var(--resalte);
+            border-left: 4px solid var(--rojo);
+        }
+
+        .nota {
+            margin: 16px 0 0;
+            padding: 10px 12px;
+            background-color: var(--fondo);
+            border-left: 4px solid var(--linea);
+        }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 860px) {
+            body { padding: 28px 20px; }
+
+            .criterios {
+                max-width: 1040px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+            }
+
+            .cabecera { padding: 16px 24px; }
+            .contenido { padding: 8px 24px 28px; }
+            .apartado { margin: 28px -24px 0; padding: 8px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="criterios">
+        <header class="cabecera">
+            <h1>Criterios de las preguntas del supuesto</h1>
+            <p>TSI 2023 · 3º ejercicio · Sistema de Cooperación del Parlamento de Andalucía (SICOPA)</p>
+        </header>
+
+        <div class="contenido">
+            <h2 class="apartado">Para qué sirven estas preguntas</h2>
+
+            <p>El <a href="supuesto0003.html" target="_blank">supuesto práctico</a> no se responde con un test: pide redactar una propuesta completa de solución en cuatro apartados de 25 puntos cada uno. Las 40 preguntas de <code>preg0003.json</code> no simulan ese examen. Sirven de <strong>lista de comprobación</strong>: cada una recuerda un concepto, una norma o una plataforma que conviene nombrar y justificar al redactar la respuesta.</p>
+
+            <p>Si una pregunta se falla, es señal de que ese aspecto puede faltar o quedar flojo en la redacción del supuesto.</p>
+
+            <h2 class="apartado">Reparto por tareas</h2>
+
+            <p>Se han hecho <strong>10 preguntas por cada una de las 4 tareas</strong> del enunciado, en el mismo orden. Así el peso de cada tarea en el test es el mismo que en la calificación del supuesto (25 puntos cada una).</p>
+
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Preguntas</th>
+                            <th>Tarea</th>
+                            <th>Qué repasan</th>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="num">1–10</td>
+                            <td>1. Diseño de la solución</td>
+                            <td>Red SARA, Cl@ve, @firma, SIR, Plataforma de Intermediación de Datos, DEHú, BDNS (obligatoria en subvenciones), bus de integración (ESB), producto mínimo viable, sede electrónica</td>
+                            <td>22, 45, 47, 49, 66, 78, 79, 80</td>
+                        </tr>
+                        <tr>
+                            <td class="num">11–20</td>
+                            <td>2. Planificación</td>
+                            <td>Tipos de contrato según la Ley 9/2017 (el software a medida es servicio y el hardware o las licencias son suministro), los dos pliegos, contrato menor, Gantt, matriz RACI, Métrica v3, Scrum, Jenkins</td>
+                            <td>23, 40, 44, 45, 46, 53</td>
+                        </tr>
+                        <tr>
+                            <td class="num">21–30</td>
+                            <td>3. Alta disponibilidad</td>
+                            <td>Escalado horizontal, balanceadores, RPO y RTO, regla 3-2-1, RAID 1, afinidad de sesión, 99,9 % de disponibilidad, clúster activo-pasivo, colas de mensajes</td>
+                            <td>42, 48, 49, 53, 64, 68, 71, 73, 74</td>
+                        </tr>
+                        <tr>
+                            <td class="num">31–40</td>
+                            <td>4. Seguridad y protección de datos</td>
+                            <td>ENS (Real Decreto 311/2022, categorías, dimensiones, regla de la categoría ALTA), control de acceso por roles (RBAC), autenticación multifactor, Ley Orgánica 3/2018, artículos 28, 35 y 25 del RGPD</td>
+                            <td>29, 66, 67, 69, 76</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>En <code>preg0003-plus.json</code>, el campo <code>temas</code> de cada pregunta tiene el número de su tarea (1 a 4), para poder agruparlas o filtrarlas.</p>
+
+            <h2 class="apartado">Temas del temario por pregunta</h2>
+
+            <p>Relación de cada pregunta con los temas del <a href="temario0003.html" target="_blank">temario TSI 2023</a> (Anexo I de la convocatoria) en los que se estudia. Casi todas caen en el bloque B; del bloque A solo aparecen contratación (23), procedimiento (22) y protección de datos (29).</p>
+
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pregunta</th>
+                            <th>Concepto</th>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="num">1</td><td>Red SARA</td><td><a href="temario0003.html#t79" target="_blank">79</a></td></tr>
+                        <tr><td class="num">2</td><td>Cl@ve</td><td><a href="temario0003.html#t66" target="_blank">66</a></td></tr>
+                        <tr><td class="num">3</td><td>@firma</td><td><a href="temario0003.html#t66" target="_blank">66</a></td></tr>
+                        <tr><td class="num">4</td><td>SIR</td><td><a href="temario0003.html#t78" target="_blank">78</a></td></tr>
+                        <tr><td class="num">5</td><td>Plataforma de Intermediación de Datos</td><td><a href="temario0003.html#t22" target="_blank">22</a>, <a href="temario0003.html#t80" target="_blank">80</a></td></tr>
+                        <tr><td class="num">6</td><td>DEHú y notificaciones electrónicas</td><td><a href="temario0003.html#t78" target="_blank">78</a></td></tr>
+                        <tr><td class="num">7</td><td>BDNS (Ley 38/2003)</td><td>Ninguno: la Ley General de Subvenciones no está en el temario</td></tr>
+                        <tr><td class="num">8</td><td>Bus de servicios (ESB)</td><td><a href="temario0003.html#t49" target="_blank">49</a></td></tr>
+                        <tr><td class="num">9</td><td>Producto mínimo viable</td><td><a href="temario0003.html#t45" target="_blank">45</a>, <a href="temario0003.html#t47" target="_blank">47</a></td></tr>
+                        <tr><td class="num">10</td><td>Sede electrónica</td><td><a href="temario0003.html#t78" target="_blank">78</a></td></tr>
+                        <tr><td class="num">11</td><td>Software a medida: contrato de servicios</td><td><a href="temario0003.html#t23" target="_blank">23</a>, <a href="temario0003.html#t44" target="_blank">44</a></td></tr>
+                        <tr><td class="num">12</td><td>Hardware y licencias: contrato de suministro</td><td><a href="temario0003.html#t23" target="_blank">23</a>, <a href="temario0003.html#t44" target="_blank">44</a></td></tr>
+                        <tr><td class="num">13</td><td>Pliego de prescripciones técnicas</td><td><a href="temario0003.html#t44" target="_blank">44</a></td></tr>
+                        <tr><td class="num">14</td><td>Pliego de cláusulas administrativas particulares</td><td><a href="temario0003.html#t23" target="_blank">23</a>, <a href="temario0003.html#t44" target="_blank">44</a></td></tr>
+                        <tr><td class="num">15</td><td>Contrato menor</td><td><a href="temario0003.html#t23" target="_blank">23</a></td></tr>
+                        <tr><td class="num">16</td><td>Diagrama de Gantt</td><td><a href="temario0003.html#t45" target="_blank">45</a></td></tr>
+                        <tr><td class="num">17</td><td>Matriz RACI</td><td><a href="temario0003.html#t40" target="_blank">40</a>, <a href="temario0003.html#t45" target="_blank">45</a></td></tr>
+                        <tr><td class="num">18</td><td>Métrica v3</td><td><a href="temario0003.html#t46" target="_blank">46</a></td></tr>
+                        <tr><td class="num">19</td><td>Scrum</td><td><a href="temario0003.html#t46" target="_blank">46</a></td></tr>
+                        <tr><td class="num">20</td><td>Integración continua (Jenkins)</td><td><a href="temario0003.html#t53" target="_blank">53</a></td></tr>
+                        <tr><td class="num">21</td><td>Escalado horizontal</td><td><a href="temario0003.html#t53" target="_blank">53</a>, <a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">22</td><td>Balanceador de carga</td><td><a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">23</td><td>RPO</td><td><a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">24</td><td>RTO</td><td><a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">25</td><td>Regla 3-2-1 de copias</td><td><a href="temario0003.html#t64" target="_blank">64</a>, <a href="temario0003.html#t71" target="_blank">71</a></td></tr>
+                        <tr><td class="num">26</td><td>RAID 1</td><td><a href="temario0003.html#t71" target="_blank">71</a></td></tr>
+                        <tr><td class="num">27</td><td>Afinidad de sesión</td><td><a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">28</td><td>Disponibilidad del 99,9 %</td><td><a href="temario0003.html#t42" target="_blank">42</a>, <a href="temario0003.html#t68" target="_blank">68</a></td></tr>
+                        <tr><td class="num">29</td><td>Clúster activo-pasivo</td><td><a href="temario0003.html#t68" target="_blank">68</a>, <a href="temario0003.html#t73" target="_blank">73</a>, <a href="temario0003.html#t74" target="_blank">74</a></td></tr>
+                        <tr><td class="num">30</td><td>Colas de mensajes</td><td><a href="temario0003.html#t48" target="_blank">48</a>, <a href="temario0003.html#t49" target="_blank">49</a></td></tr>
+                        <tr><td class="num">31</td><td>Real Decreto 311/2022 (ENS)</td><td><a href="temario0003.html#t67" target="_blank">67</a></td></tr>
+                        <tr><td class="num">32</td><td>Categorías del ENS</td><td><a href="temario0003.html#t67" target="_blank">67</a></td></tr>
+                        <tr><td class="num">33</td><td>Dimensiones de seguridad</td><td><a href="temario0003.html#t67" target="_blank">67</a></td></tr>
+                        <tr><td class="num">34</td><td>Regla de la categoría ALTA</td><td><a href="temario0003.html#t67" target="_blank">67</a></td></tr>
+                        <tr><td class="num">35</td><td>Control de acceso por roles (RBAC)</td><td><a href="temario0003.html#t66" target="_blank">66</a>, <a href="temario0003.html#t76" target="_blank">76</a></td></tr>
+                        <tr><td class="num">36</td><td>Autenticación multifactor</td><td><a href="temario0003.html#t66" target="_blank">66</a></td></tr>
+                        <tr><td class="num">37</td><td>Ley Orgánica 3/2018</td><td><a href="temario0003.html#t29" target="_blank">29</a>, <a href="temario0003.html#t69" target="_blank">69</a></td></tr>
+                        <tr><td class="num">38</td><td>Encargado del tratamiento (art. 28 RGPD)</td><td><a href="temario0003.html#t29" target="_blank">29</a>, <a href="temario0003.html#t69" target="_blank">69</a></td></tr>
+                        <tr><td class="num">39</td><td>Evaluación de impacto (art. 35 RGPD)</td><td><a href="temario0003.html#t69" target="_blank">69</a></td></tr>
+                        <tr><td class="num">40</td><td>Protección desde el diseño (art. 25 RGPD)</td><td><a href="temario0003.html#t69" target="_blank">69</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="nota">Temas del bloque B muy relacionados con el supuesto que estas preguntas apenas tocan: <a href="temario0003.html#t55" target="_blank">55</a> (accesibilidad, obligatoria en un servicio público en Internet), <a href="temario0003.html#t65" target="_blank">65</a> (criptografía), <a href="temario0003.html#t72" target="_blank">72</a> (bases de datos relacionales), <a href="temario0003.html#t92" target="_blank">92</a>–<a href="temario0003.html#t95" target="_blank">95</a> (virtualización, contenedores y nube) y <a href="temario0003.html#t60" target="_blank">60</a> (gestión documental).</p>
+
+            <h2 class="apartado">Criterios para elegir los contenidos</h2>
+
+            <ul>
+                <li><strong>Pegados al enunciado.</strong> Cada pregunta responde a algo que el supuesto pide de forma expresa o da por supuesto. Por ejemplo, el enunciado exige el asiento en el Registro Electrónico General y la presentación en cualquier oficina de registro: de ahí las preguntas sobre SIR y sobre el producto mínimo viable.</li>
+                <li><strong>Lo que da puntos al redactar.</strong> El enunciado valora «la correcta referencia a la normativa aplicable». Por eso abundan las preguntas que obligan a recordar el nombre exacto de una norma o un artículo: Ley 39/2015, Ley 40/2015, Ley 38/2003, Ley 9/2017, Real Decreto 311/2022, Ley Orgánica 3/2018 y RGPD.</li>
+                <li><strong>Lo propio de una subvención.</strong> Además de la administración electrónica general, se incluye lo específico de este procedimiento: la comunicación a la Base de Datos Nacional de Subvenciones y la consulta de datos de otras administraciones en lugar de pedir documentos al solicitante.</li>
+                <li><strong>Datos del enunciado que condicionan la solución.</strong> El volumen (50.000 solicitudes por convocatoria, 25–30 gestores concurrentes), el plazo (MVP en 6 meses), el equipo (6 personas) y el presupuesto (800.000 €) justifican las preguntas sobre escalado, colas de mensajes, priorización del MVP, reparto de roles y tipos de contrato.</li>
+                <li><strong>Conceptos, no solo siglas.</strong> En alta disponibilidad y planificación se pregunta por qué es o para qué sirve cada cosa (RPO frente a RTO, activo-pasivo, matriz RACI), porque en la redacción hay que justificar las decisiones, no solo nombrarlas.</li>
+            </ul>
+
+            <h2 class="apartado">Criterios para redactar las preguntas</h2>
+
+            <ul>
+                <li><strong>Mismo formato que el resto de la aplicación:</strong> cuatro opciones y una sola correcta.</li>
+                <li><strong>Distractores del mismo terreno.</strong> Las opciones incorrectas son plataformas, normas o conceptos reales y cercanos (por ejemplo, @firma, Notific@ y ORVE junto a Cl@ve), para que acertar exija distinguirlos y no solo reconocer un nombre.</li>
+                <li><strong>Enunciados autosuficientes.</strong> Cada pregunta se entiende sin leer el supuesto, para poder usarla suelta en el bingo o en modo estudio.</li>
+                <li><strong>Respuestas comprobables.</strong> Se ha preferido lo que puede verificarse en una norma o en documentación oficial frente a opiniones de diseño discutibles. La pregunta 9 (prioridad del MVP) es la única de criterio y su respuesta se apoya directamente en lo que exige el enunciado.</li>
+                <li><strong>Posición de la respuesta correcta sin equilibrar.</strong> Ahora la correcta es B en 20 preguntas, C en 12, A en 8 y nunca D. Conviene no fiarse de la letra al contestar; queda pendiente reordenar las opciones.</li>
+            </ul>
+
+            <h2 class="apartado">Qué falta revisar</h2>
+
+            <p class="aviso">Las preguntas se han escrito de memoria, sin consultar las normas. Antes de estudiar con ellas conviene comprobar las que citan artículos o cifras: <strong>7, 11, 15, 31, 38, 39 y 40</strong>.</p>
+
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pregunta</th>
+                            <th>Qué comprobar</th>
+                            <th>Dónde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="num">7</td><td>Obligación de comunicar convocatorias y concesiones a la BDNS</td><td>Ley 38/2003, General de Subvenciones (art. 20)</td></tr>
+                        <tr><td class="num">11</td><td>El software a medida como contrato de servicios</td><td>Ley 9/2017 (art. 16.3.b)</td></tr>
+                        <tr><td class="num">15</td><td>Límite del contrato menor de servicios</td><td>Ley 9/2017 (art. 118)</td></tr>
+                        <tr><td class="num">31</td><td>Norma vigente del ENS</td><td>Real Decreto 311/2022</td></tr>
+                        <tr><td class="num">38</td><td>Contrato de encargo del tratamiento</td><td>RGPD (art. 28)</td></tr>
+                        <tr><td class="num">39</td><td>Evaluación de impacto</td><td>RGPD (art. 35)</td></tr>
+                        <tr><td class="num">40</td><td>Protección de datos desde el diseño y por defecto</td><td>RGPD (art. 25)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="apartado">Cómo usarlas al preparar el supuesto</h2>
+
+            <ol>
+                <li>Haz el test completo en <strong>modo Examen</strong> para ver qué tareas dominas menos.</li>
+                <li>En <strong>modo Estudio</strong>, añade a cada pregunta una nota con la frase que usarías en la redacción del supuesto y la referencia normativa exacta.</li>
+                <li>Usa el <a href="bingoAzar75.html" target="_blank">bingo</a> para sacar preguntas al azar y explicar en voz alta cómo aplicarías ese concepto a SICOPA.</li>
+                <li>Al terminar un borrador del supuesto, repasa la tabla de reparto: cada fila debería tener su reflejo en el apartado correspondiente de la respuesta.</li>
+            </ol>
+
+            <p class="nota">Las preguntas no cubren todo lo que puede incluirse en la respuesta: arquitectura detallada, cronograma concreto o presupuesto por contrato dependen de las decisiones de cada aspirante y no se prestan a un test.</p>
+        </div>
+    </main>
+</body>
+</html>

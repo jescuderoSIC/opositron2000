@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>opositron2000 - 0003 - Supuesto práctico — Tercer ejercicio</title>
+    <link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
+    <style>
+        /* ===== Paleta (la misma del jardín y de Opositrón 2000) ===== */
+        :root {
+            --fondo: #efefef;
+            --barra: #dddddd;
+            --papel: #ffffff;
+            --linea: #000000;
+            --linea-suave: #e4e4e4;
+            --resalte: #ffe6e6;
+            --rojo: #cc0000;
+            --texto-suave: #555555;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background-color: var(--fondo);
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .supuesto {
+            background-color: var(--papel);
+            min-height: 100vh;
+        }
+
+        .cabecera {
+            background-color: var(--barra);
+            border-bottom: 1px solid var(--linea);
+            padding: 14px 16px;
+        }
+
+        .cabecera h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .cabecera p {
+            margin: 4px 0 0;
+            font-size: 14px;
+            color: var(--texto-suave);
+        }
+
+        .contenido { padding: 8px 16px 24px; }
+
+        /* Portada */
+        .portada {
+            margin: 16px 0 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .fecha {
+            margin: 4px 0 0;
+            text-align: center;
+            color: var(--texto-suave);
+        }
+
+        /* Apartados */
+        .apartado {
+            margin: 28px -16px 0;
+            padding: 8px 16px;
+            font-size: 18px;
+            background-color: var(--barra);
+            border-top: 1px solid var(--linea);
+            border-bottom: 1px solid var(--linea);
+        }
+
+        h3 {
+            font-size: 17px;
+            margin: 24px 0 8px;
+            padding-top: 12px;
+            border-top: 1px solid var(--linea-suave);
+        }
+
+        h4 { font-size: 16px; margin: 16px 0 6px; }
+
+        ul { padding-left: 24px; }
+
+        li { margin: 6px 0; }
+
+        .valoracion {
+            margin: 28px 0 0;
+            padding: 10px 12px;
+            background-color: var(--fondo);
+            border-left: 4px solid var(--rojo);
+        }
+
+        /* ===== Pantallas grandes ===== */
+        @media (min-width: 860px) {
+            body { padding: 28px 20px; }
+
+            .supuesto {
+                max-width: 1040px;
+                margin: 0 auto;
+                min-height: 0;
+                border: 1px solid var(--linea);
+            }
+
+            .cabecera { padding: 16px 24px; }
+            .contenido { padding: 8px 24px 28px; }
+            .apartado { margin: 28px -24px 0; padding: 8px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="supuesto">
+        <header class="cabecera">
+            <h1>Supuesto práctico — Tercer ejercicio</h1>
+            <p>TSI 2023 · 3º ejercicio · Sistema de Cooperación del Parlamento de Andalucía (SICOPA)</p>
+        </header>
+
+        <div class="contenido">
+            <p class="portada">Pruebas selectivas para el ingreso, por el sistema de oposición libre, en el Cuerpo Técnico, Escala de Técnicos Superiores, Especialidad Informática, del Parlamento de Andalucía</p>
+            <p class="fecha">Sevilla, 30 de septiembre de 2025</p>
+
+            <h2 class="apartado">Supuesto práctico</h2>
+
+            <p>El Parlamento de Andalucía ha aprobado la concesión de <strong>ayudas de cooperación internacional</strong>, destinando un porcentaje de su presupuesto anual a proyectos de ámbito andaluz.</p>
+
+            <p>Con este fin, está prevista la publicación, en el próximo ejercicio, de una <strong>convocatoria de subvenciones</strong> dirigida a:</p>
+            <ul>
+                <li>Personas físicas</li>
+                <li>Entidades privadas sin ánimo de lucro</li>
+                <li>Asociaciones radicadas en Andalucía</li>
+            </ul>
+            <p>cuyo objeto o fin social esté orientado a <strong>mitigar la emergencia social</strong> derivada de los efectos de la pandemia y de la situación geopolítica internacional sobre el coste de vida de la población andaluza.</p>
+
+            <p>Como responsable del <strong>Servicio de Desarrollo de Sistemas de Información</strong>, se le encomienda el diseño y desarrollo del <strong>Sistema de Cooperación del Parlamento de Andalucía (SICOPA)</strong>, que dará soporte integral a la gestión de este procedimiento administrativo, en cumplimiento de la normativa vigente en materia de procedimiento administrativo común, administración electrónica, seguridad de la información y protección de datos personales. En el supuesto práctico suponga que la normativa interna del Parlamento de Andalucía se basa en el cumplimiento de las normativas anteriormente indicadas.</p>
+
+            <h2 class="apartado">Contexto y requisitos generales</h2>
+
+            <ul>
+                <li><strong>Plazo de inicio:</strong> El período de presentación de solicitudes comenzará dentro de <strong>12 meses</strong> y la convocatoria tendrá carácter <strong>anual</strong>.</li>
+                <li><strong>Volumen previsto:</strong> Se estima la recepción de aproximadamente <strong>50.000 solicitudes por convocatoria</strong>.</li>
+                <li><strong>Usuarios internos:</strong> Se prevé que entre <strong>25 y 30 gestores</strong> utilicen la aplicación de forma concurrente.</li>
+                <li><strong>Acceso ciudadano:</strong>
+                    <ul>
+                        <li>SICOPA deberá estar disponible en Internet, accesible por titulares, representantes y apoderados de las entidades solicitantes.</li>
+                        <li>Cada solicitud deberá generar automáticamente un <strong>asiento en el Registro Electrónico General</strong> del Parlamento de Andalucía.</li>
+                        <li>Las personas físicas deberán poder <strong>descargar un formulario PDF rellenable</strong>, para su presentación presencial en cualquier oficina de registro de cualquier Administración Pública.</li>
+                    </ul>
+                </li>
+                <li><strong>Integraciones necesarias:</strong>
+                    <ul>
+                        <li>Con las <strong>aplicaciones internas</strong> del Parlamento de Andalucía: Registro Electrónico de Parlamento, Aplicación de Gestión Económica.</li>
+                        <li>Con las <strong>plataformas y servicios de Administración Electrónica de la AGE</strong> que se consideren necesarias o adecuadas.</li>
+                    </ul>
+                </li>
+                <li><strong>Recursos humanos disponibles:</strong> El Servicio de Desarrollo de Sistemas de Información cuenta en su RPT con 6 personas funcionarias TIC: 1 jefe de servicio del subgrupo A1, 2 del subgrupo A1 y 3 del subgrupo A2.</li>
+                <li><strong>Recursos económicos:</strong> Se dispone de un <strong>presupuesto de 800.000 €</strong> en la presente anualidad para cubrir el desarrollo, implantación y puesta en marcha de SICOPA. Se supone que los contratos necesarios para su ejecución se encuentran ya adjudicados y en fase de ejecución.</li>
+            </ul>
+
+            <h2 class="apartado">Tarea a desarrollar</h2>
+
+            <p>Se le solicita <strong>la elaboración de una propuesta completa de solución</strong> que contemple todos los aspectos organizativos, técnicos y económicos necesarios para garantizar el éxito del proyecto, su viabilidad y cumplimiento normativo.</p>
+
+            <p>En su respuesta, desarrolle los siguientes apartados:</p>
+
+            <h3>1. Diseño de la Solución (25 puntos)</h3>
+            <ul>
+                <li>Defina la <strong>arquitectura técnica y funcional</strong> del sistema, identificando los subsistemas que lo compondrán.</li>
+                <li>Describa qué integraciones con las diferentes herramientas de la <strong>plataforma de Administración Electrónica del Estado</strong> plantearía y a través de qué redes.</li>
+                <li>Describa qué <strong>mecanismos de integración</strong> plantearía en su solución, teniendo en cuenta las integraciones internas y externas.</li>
+                <li>Identifique <strong>qué funcionalidades incluiría el producto mínimo viable</strong>, justificando su selección para garantizar la puesta en marcha del sistema en un plazo máximo de <strong>6 meses</strong>.</li>
+            </ul>
+
+            <h3>2. Planificación (25 puntos)</h3>
+
+            <h4>a) Contratos necesarios</h4>
+            <ul>
+                <li>Indique qué <strong>contratos</strong> considera precisos para el desarrollo, implantación y soporte de la solución y la <strong>tipología de cada uno de ellos.</strong></li>
+                <li>Realice un esbozo de qué incluiría en la <strong>memoria justificativa y en el pliego de prescripciones técnicas</strong> en al menos <strong>uno</strong> de los contratos que considere de interés.</li>
+            </ul>
+
+            <h4>b) Cronograma del proyecto</h4>
+            <ul>
+                <li>Presente un cronograma de alto nivel que muestre las <strong>fases de ejecución</strong>, los <strong>hitos principales</strong> y las <strong>actuaciones previstas</strong> en cada fase.</li>
+            </ul>
+
+            <h4>c) Metodologías y herramientas</h4>
+            <ul>
+                <li>Defina y justifique las <strong>metodologías de análisis, diseño, desarrollo y despliegue</strong> que emplearía.</li>
+                <li>Describa las <strong>herramientas de gestión de configuración, integración continua, pruebas y documentación</strong> que utilizaría.</li>
+            </ul>
+
+            <h4>d) Equipo de trabajo</h4>
+            <ul>
+                <li>Plantee el reparto de <strong>roles y tareas básicas</strong> que aplicaría al equipo de trabajo de 6 personas propuesto</li>
+            </ul>
+
+            <h3>3. Alta Disponibilidad (25 puntos)</h3>
+            <ul>
+                <li>Diseñe una propuesta para garantizar la <strong>escalabilidad</strong> del sistema y la <strong>continuidad del servicio</strong> ante picos de carga, considerando, entre otros:
+                    <ul>
+                        <li>Servidores web</li>
+                        <li>Servidores de aplicaciones</li>
+                        <li>Servidores de bases de datos</li>
+                        <li>Middleware</li>
+                        <li>Sistemas de almacenamiento y copias de seguridad</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>4. Seguridad y Protección de Datos (25 puntos)</h3>
+            <ul>
+                <li><strong>Categorice</strong> este sistema de información según el <strong>Esquema Nacional de Seguridad</strong> e indique las <strong>principales medidas</strong> de seguridad a implantar.</li>
+                <li>Detalle la solución <strong>propuesta para la autenticación y autorización de los usuarios</strong>, teniendo en cuenta los distintos perfiles de estos.</li>
+                <li>En relación con las normativas de <strong>protección de datos</strong>, indique qué elementos obligatorios tendría en cuenta a la hora de confeccionar los pliegos.</li>
+            </ul>
+
+            <p class="valoracion"><strong>Se valorará</strong> que el planteamiento de la solución sea <strong>integral, realista y técnicamente sólido</strong>, así como la correcta referencia a la normativa aplicable y la justificación de todas las decisiones adoptadas.</p>
+        </div>
+    </main>
+</body>
+</html>

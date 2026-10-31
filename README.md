@@ -2,6 +2,8 @@
 
 Aplicación web para preparar oposiciones con exámenes tipo test de respuesta múltiple (cuatro opciones, una correcta). Admite varias oposiciones: al abrirla se elige con cuál trabajar.
 
+El ejercicio de una oposición es tipo supuesto se generarán preguntas Fake pero orientativas sobre el supuesto.
+
 Es una web estática (HTML, CSS y JavaScript, sin compilación ni base de datos): las preguntas están en ficheros JSON y lo que añade cada usuario se guarda en el navegador.
 
 ## Despliegue
@@ -64,7 +66,8 @@ opositron2000/
     ├── oposiciones.json    ← lista de oposiciones disponibles
     ├── opo0000/            ← oposición de prueba (cultura general)
     ├── opo0001/            ← ATI 2025
-    └── opo0002/            ← TI 2026
+    ├── opo0002/            ← TI 2026
+    └── opo0003/            ← oposición genérica de ejemplo
 ```
 
 Cada oposición tiene su carpeta `oposiciones/opoNNNN/` con:
@@ -134,11 +137,13 @@ Lo guardado en el navegador solo existe en ese navegador: para conservarlo o pas
    {
      "id": "opo0003",
      "nombre": "Nombre corto de la oposición",
+     "ejercicio": "1º",
+     "tipoejercicio": "test",
      "descripcion": "Una línea que aparece bajo el nombre en la lista."
    }
    ```
 
-   El `id` tiene que ser igual que el nombre de la carpeta.
+   El `id` tiene que ser igual que el nombre de la carpeta. En la lista de oposiciones y en la barra superior se muestran juntos el nombre, el ejercicio y el tipo de ejercicio, por ejemplo `ATI 2025 · 1º · test`.
 
 4. **Opcional: extras**. Copia la carpeta `webextra/` de otra oposición y adáptala:
    - Renombra el temario a `temario0003.html`, cambia su contenido y actualiza el enlace en `webextra/index.html`.
